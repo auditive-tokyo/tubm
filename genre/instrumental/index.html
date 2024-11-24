@@ -44,8 +44,8 @@
         href="/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=6.5.5" media="all">
     <link rel="stylesheet" id="cssmobmenu-css"
         href="/wp-content/plugins/mobile-menu/includes/css/mobmenu.css?ver=2.8.4.4" media="all">
-    <script src="/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
-    <script src="/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
     <script src="/wp-content/plugins/wp-video-lightbox/js/jquery.prettyPhoto.js?ver=3.1.6"
         id="jquery.prettyphoto-js"></script>
     <script
@@ -66,188 +66,460 @@
     <link rel="preconnect dns-prefetch" href="//www.gstatic.com">
     <link rel="preconnect dns-prefetch" href="//www.doubleclickbygoogle.com">
     <link rel="icon"
-        href="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-32x32.webp"
+        href="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=32%2C32&#038;ssl=1"
+        sizes="32x32">
+    <link rel="icon"
+        href="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=192%2C192&#038;ssl=1"
         sizes="192x192">
     <link rel="apple-touch-icon"
-        href="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-192x192.webp">
+        href="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=180%2C180&#038;ssl=1">
     <meta name="msapplication-TileImage"
-        content="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-270x270.webp">
+        content="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=270%2C270&#038;ssl=1">
 </head>
 
 
-<body class="archive tax-genre term-instrumental term-77 custom-background wp-custom-logo wp-embed-responsive mob-menu-slideout-over" ontouchstart="">
-<p> </p>
-<div id="chat-container" class="chat-container">
-<div id="chat-window" class="chat-window" style="display:none;">
-<div id="chat-messages" class="chat-messages"></div>
-<div id="chat-input-area" class="chat-input-area">
-<form id="mcc_line_bot-form" action="" method="post" style="display: flex; position: relative;">
-<textarea name="user_message" class="user_message" required></textarea>
-<input type="hidden" name="user_id" id="user_id">
-<input type="hidden" name="session_id" id="session_id">
-<button type="submit" name="submit" class="submit_button">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Send" class="send_icon" data-lazy-src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/paper-plane-svgrepo-com.svg"><noscript><img src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/paper-plane-svgrepo-com.svg" alt="Send" class="send_icon"></noscript>
-</button>
-</form>
-</div>
-</div>
-<div class="chat-button-wrapper">
-<button id="chat-toggle" class="chat-button">
-<span class="chat-help-text">
-TUBM BOT </span>
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="bot" data-lazy-src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/icons8-bot-64.png"><noscript><img src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/icons8-bot-64.png" alt="bot"></noscript>
-</button>
-</div>
-</div>
+<body
+    class="archive tax-genre term-instrumental term-77 custom-background wp-custom-logo wp-embed-responsive mob-menu-slideout-over"
+    ontouchstart="">
+    <p> </p>
+    <div id="chat-container" class="chat-container">
+        <div id="chat-window" class="chat-window" style="display:none;">
+            <div id="chat-messages" class="chat-messages"></div>
+            <div id="chat-input-area" class="chat-input-area">
+                <form id="mcc_line_bot-form" action="" method="post" style="display: flex; position: relative;">
+                    <textarea name="user_message" class="user_message" required></textarea>
+                    <input type="hidden" name="user_id" id="user_id">
+                    <input type="hidden" name="session_id" id="session_id">
+                    <button type="submit" name="submit" class="submit_button">
+                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                            alt="Send" class="send_icon"
+                            data-lazy-src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/paper-plane-svgrepo-com.svg"><noscript><img
+                                src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/paper-plane-svgrepo-com.svg"
+                                alt="Send" class="send_icon"></noscript>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="chat-button-wrapper">
+            <button id="chat-toggle" class="chat-button">
+                <span class="chat-help-text">
+                    TUBM BOT </span>
+                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                    alt="bot"
+                    data-lazy-src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/icons8-bot-64.png"><noscript><img
+                        src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/icons8-bot-64.png" alt="bot"></noscript>
+            </button>
+        </div>
+    </div>
 
 
 
 
 
-<!-- Twitter conversion tracking event code -->
-<script type="text/javascript">// Insert Twitter Event ID
-  twq('event', 'tw-obg3f-od2gb', {
-  });</script>
-<!-- End Twitter conversion tracking event code -->	<a class="skip-link screen-reader-text" href="#main_wrap">Skip to content</a>
-<input id="t_menu" class="dn" type="checkbox">
-<header id="h_wrap" class="f_box f_col shadow_box h_sticky">
-<div id="h_flex" class="wrap_frame f_box f_col110 w100">
-<div id="site_h" class="site_h f_box" role="banner">
-<div class="title_wrap f_box ai_c relative">
-<div class="title_tag f_box ai_c f_col">
-<div class="site_title f_box ai_c f_col100"><h1 class="" style="line-height:1;"><a href="/" class="dib" rel="home"><img layout="intrinsic" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20240'%3E%3C/svg%3E" class="header_logo" width="1200" height="240" alt="Tokyo Underground Beatz Massive" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/09/web-header-1200x240-1.jpg?fit=1200%2C240&#038;ssl=1"><noscript><img layout="intrinsic" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/09/web-header-1200x240-1.jpg?fit=1200%2C240&#038;ssl=1" class="header_logo" width="1200" height="240" alt="Tokyo Underground Beatz Massive"></noscript></a></h1></div>
-</div>
-</div>
-</div>
-<div id="nav_h" class="f_box">
-<nav class="wrap_frame nav_base nh_con">
-</nav>
-</div>
-</div>
-</header>
-<div id="main_wrap" class="wrap_frame m_con f_box f_col110 jc_c001">
-<main class="contents index_contents f_box f_wrap flat_list">
-<header class="archive_header shadow_box">
-<h1 class="archive_title fs18">Genre: <span>Instrumental</span>
-</h1> </header>
-<article class="post_card f_box f_col100 list_card w100 shadow_box relative post-2462 release type-release status-publish has-post-thumbnail record_label-tubm genre-chill genre-hip-hop genre-instrumental genre-lo-fi">
-<div class="post_card_thum">
-<a href="/release/chill-intense-2020/" class="fit_box_img_wrap post_card_thum_img">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20924%20924'%3E%3C/svg%3E" width="924" height="924" class="scale_13 trans_10" alt="Chill Intense 2020ish (Instrumental)" title="Chill Intense 2020ish (Instrumental)" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Chill-Intense-2020ish-scaled.jpg?fit=924%2C924&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Chill-Intense-2020ish-scaled.jpg?fit=924%2C924&#038;ssl=1" width="924" height="924" class="scale_13 trans_10" alt="Chill Intense 2020ish (Instrumental)" title="Chill Intense 2020ish (Instrumental)"></noscript>	</a>
-<div class="post_date_circle fs16 absolute ta_c">
-<span class="day db fs15">10</span>
-<span class="month db fs14">Dec</span>
-<span class="year db fs10">2022</span>
-</div>
-</div>
-<div class="post_card_meta w100 f_box f_col jc_sa">
-<h2 class="post_card_title"><a href="/release/chill-intense-2020/" class="entry_title" title="Chill Intense 2020ish (Instrumental)">Chill Intense 2020ish (Instrumental)</a></h2>
-<div class="summary">
-…
-</div>
-<div class="read_more_box">
-<a href="/release/chill-intense-2020/" class="more_read fs14 dib non_hover trans_10">	Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i>	</a>
-</div>
-</div>
-</article>
-</main>
-<div id="sidebar_right" class="sidebar f_box f_col101 f_wrap jc_sa">
-<aside id="cool_tag_cloud-5" class="widget s_widget sr_widget widget_cool_tag_cloud shadow_box"><h3 class="widget_title sw_title">Search tunes by genre</h3>
-<div class="cool-tag-cloud"><div class="cloudbold"><div class="ctclime"><div class="ctcright"><div class="opensans" style="text-transform:none!important;">
-<a href="/genre/chill/" class="tag-cloud-link tag-link-12 tag-link-position-1" style="font-size: 10px;" aria-label="Chill (2 items)">Chill<span class="tag-link-count"> (2)</span></a><a href="/genre/dancehall/" class="tag-cloud-link tag-link-8 tag-link-position-2" style="font-size: 10px;" aria-label="Dancehall (2 items)">Dancehall<span class="tag-link-count"> (2)</span></a><a href="/genre/drill/" class="tag-cloud-link tag-link-10 tag-link-position-3" style="font-size: 10px;" aria-label="Drill (3 items)">Drill<span class="tag-link-count"> (3)</span></a><a href="/genre/drumbass/" class="tag-cloud-link tag-link-91 tag-link-position-4" style="font-size: 10px;" aria-label="Drum&amp;Bass (2 items)">Drum&amp;Bass<span class="tag-link-count"> (2)</span></a><a href="/genre/dub/" class="tag-cloud-link tag-link-83 tag-link-position-5" style="font-size: 10px;" aria-label="Dub (3 items)">Dub<span class="tag-link-count"> (3)</span></a><a href="/genre/future-jungle/" class="tag-cloud-link tag-link-111 tag-link-position-6" style="font-size: 10px;" aria-label="Future Jungle (1 item)">Future Jungle<span class="tag-link-count"> (1)</span></a><a href="/genre/grime/" class="tag-cloud-link tag-link-9 tag-link-position-7" style="font-size: 10px;" aria-label="Grime (1 item)">Grime<span class="tag-link-count"> (1)</span></a><a href="/genre/hip-hop/" class="tag-cloud-link tag-link-7 tag-link-position-8" style="font-size: 10px;" aria-label="Hip-Hop (6 items)">Hip-Hop<span class="tag-link-count"> (6)</span></a><a href="/genre/instrumental/" class="tag-cloud-link tag-link-77 tag-link-position-9" style="font-size: 10px;" aria-label="Instrumental (1 item)">Instrumental<span class="tag-link-count"> (1)</span></a><a href="/genre/lo-fi/" class="tag-cloud-link tag-link-76 tag-link-position-10" style="font-size: 10px;" aria-label="Lo-Fi (1 item)">Lo-Fi<span class="tag-link-count"> (1)</span></a><a href="/genre/reggae/" class="tag-cloud-link tag-link-18 tag-link-position-11" style="font-size: 10px;" aria-label="Reggae (7 items)">Reggae<span class="tag-link-count"> (7)</span></a><a href="/genre/trap/" class="tag-cloud-link tag-link-11 tag-link-position-12" style="font-size: 10px;" aria-label="Trap (1 item)">Trap<span class="tag-link-count"> (1)</span></a>
-</div></div></div></div></div></aside><aside id="cool_tag_cloud-4" class="widget s_widget sr_widget widget_cool_tag_cloud shadow_box"><h3 class="widget_title sw_title">Blog is mainly in Japanese only</h3>
-<div class="cool-tag-cloud"><div class="cloudbold"><div class="ctclime"><div class="ctcright"><div class="opensans" style="text-transform:none!important;">
-<a href="/category/mixingmastering/" class="tag-cloud-link tag-link-19 tag-link-position-1" style="font-size: 10px;" aria-label="Mixing&amp;Mastering (7 items)">Mixing&amp;Mastering<span class="tag-link-count"> (7)</span></a><a href="/category/tubm-nfts/" class="tag-cloud-link tag-link-92 tag-link-position-2" style="font-size: 10px;" aria-label="Our NFTs (1 item)">Our NFTs<span class="tag-link-count"> (1)</span></a><a href="/category/pickout/" class="tag-cloud-link tag-link-16 tag-link-position-3" style="font-size: 10px;" aria-label="Pickout Info (4 items)">Pickout Info<span class="tag-link-count"> (4)</span></a><a href="/category/web3/" class="tag-cloud-link tag-link-54 tag-link-position-4" style="font-size: 10px;" aria-label="Web3 (1 item)">Web3<span class="tag-link-count"> (1)</span></a><a href="/category/recommended/" class="tag-cloud-link tag-link-17 tag-link-position-5" style="font-size: 10px;" aria-label="おすすめの楽曲 (5 items)">おすすめの楽曲<span class="tag-link-count"> (5)</span></a>
-</div></div></div></div></div></aside><aside id="ya_social_links-3" class="widget s_widget sr_widget widget_ya_social_links shadow_box"><h3 class="widget_title sw_title">Please follow &amp; like us :)</h3>
-<div class="social_list"><ul class="sns_link_icon f_box f_wrap sns_opacity jc_fs m0 p0" style="list-style:none;">
-<li><a href="https://www.instagram.com/tubm_official" target="_blank" rel="noopener noreferrer" class="sns_instagram sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no" title="Instagram"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><radialgradient id="instagram" r="150%" cx="30%" cy="107%"><stop stop-color="#fdf497" offset="0"></stop><stop stop-color="#ffe52a" offset="0.05"></stop><stop stop-color="#fd5949" offset="0.45"></stop><stop stop-color="#d6249f" offset="0.6"></stop><stop stop-color="#285AEB" offset="0.9"></stop></radialgradient><path class="sns_icon_1" d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path></svg></a></li>
-<li><a href="https://www.youtube.com/@TUBM" target="_blank" rel="noopener noreferrer" class="sns_youtube sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no" title="Youtube"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="sns_icon_2" d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"></path></svg></a></li>
-<li><a href="https://soundcloud.com/underground-beatz-massive" target="_blank" rel="noopener noreferrer" class="sns_soundcloud sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no" title="Soundcloud"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="sns_icon_3" d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c0-.057-.045-.1-.09-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.165 1.308c0 .055.045.094.09.094s.089-.045.104-.104l.21-1.319-.21-1.334c0-.061-.044-.09-.09-.09m1.83-1.229c-.061 0-.12.045-.12.104l-.21 2.563.225 2.458c0 .06.045.12.119.12.061 0 .105-.061.121-.12l.254-2.474-.254-2.548c-.016-.06-.061-.12-.121-.12m.945-.089c-.075 0-.135.06-.15.135l-.193 2.64.21 2.544c.016.077.075.138.149.138.075 0 .135-.061.15-.15l.24-2.532-.24-2.623c0-.075-.06-.135-.135-.135l-.031-.017zm1.155.36c-.005-.09-.075-.149-.159-.149-.09 0-.158.06-.164.149l-.217 2.43.2 2.563c0 .09.075.157.159.157.074 0 .148-.068.148-.158l.227-2.563-.227-2.444.033.015zm.809-1.709c-.101 0-.18.09-.18.181l-.21 3.957.187 2.563c0 .09.08.164.18.164.094 0 .174-.09.18-.18l.209-2.563-.209-3.972c-.008-.104-.088-.18-.18-.18m.959-.914c-.105 0-.195.09-.203.194l-.18 4.872.165 2.548c0 .12.09.209.195.209.104 0 .194-.089.21-.209l.193-2.548-.192-4.856c-.016-.12-.105-.21-.21-.21m.989-.449c-.121 0-.211.089-.225.209l-.165 5.275.165 2.52c.014.119.104.225.225.225.119 0 .225-.105.225-.225l.195-2.52-.196-5.275c0-.12-.105-.225-.225-.225m1.245.045c0-.135-.105-.24-.24-.24-.119 0-.24.105-.24.24l-.149 5.441.149 2.503c.016.135.121.24.256.24s.24-.105.24-.24l.164-2.503-.164-5.456-.016.015zm.749-.134c-.135 0-.255.119-.255.254l-.15 5.322.15 2.473c0 .15.12.255.255.255s.255-.12.255-.27l.15-2.474-.165-5.307c0-.148-.12-.27-.271-.27m1.005.166c-.164 0-.284.135-.284.285l-.103 5.143.135 2.474c0 .149.119.277.284.277.149 0 .271-.12.284-.285l.121-2.443-.135-5.112c-.012-.164-.135-.285-.285-.285m1.184-.945c-.045-.029-.105-.044-.165-.044s-.119.015-.165.044c-.09.054-.149.15-.149.255v.061l-.104 6.048.115 2.449v.008c.008.06.03.135.074.18.058.061.142.104.234.104.08 0 .158-.044.209-.09.058-.06.091-.135.091-.225l.015-.24.117-2.203-.135-6.086c0-.104-.061-.193-.135-.239l-.002-.022zm1.006-.547c-.045-.045-.09-.061-.15-.061-.074 0-.149.016-.209.061-.075.061-.119.15-.119.24v.029l-.137 6.609.076 1.215.061 1.185c0 .164.148.314.328.314.181 0 .33-.15.33-.329l.15-2.414-.15-6.637c0-.12-.074-.221-.165-.277m8.934 3.777c-.405 0-.795.086-1.139.232-.24-2.654-2.46-4.736-5.188-4.736-.659 0-1.305.135-1.889.359-.225.09-.27.18-.285.359v9.368c.016.18.15.33.33.345h8.185C22.681 17.218 24 15.914 24 14.28s-1.319-2.952-2.938-2.952"></path></svg></a></li>
-<li><a href="https://twitter.com/tubm_official" target="_blank" rel="noopener noreferrer" class="sns_twitter sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no" title="Twitter"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="sns_icon_4" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path></svg></a></li>
-</ul></div></aside><aside id="ya_pl_pp-2" class="widget s_widget sr_widget widget_ya_pl_pp shadow_box"><h3 class="widget_title sw_title">Popular Posts</h3>
-<div class="post_list_box"><ul class="post_list_ul m0" style="list-style:none;">
-<li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/options-txt-list/" class="f_box w100 opa7"><div class="pl_rank f0030px ta_c fw8 fc_fff f_box ai_c jc_c">1</div>
-<div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20165'%3E%3C/svg%3E" class="scale_13 trans_10" width="300" height="165" alt="List of Options.txt settings for Ableton Live ver.11 (all list)" title="List of Options.txt settings for Ableton Live ver.11 (all list)" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1" class="scale_13 trans_10" width="300" height="165" alt="List of Options.txt settings for Ableton Live ver.11 (all list)" title="List of Options.txt settings for Ableton Live ver.11 (all list)"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">List of Options.txt settings for Ableton Live ver.11 (all list)</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/freeze-aux/" class="f_box w100 opa7"><div class="pl_rank f0030px ta_c fw8 fc_fff f_box ai_c jc_c">2</div>
-<div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20175'%3E%3C/svg%3E" class="scale_13 trans_10" width="300" height="175" alt="(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can freeze &#8217;em!)" title="(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can freeze &#8217;em!)" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-18.16.02.png?fit=300%2C175&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-18.16.02.png?fit=300%2C175&#038;ssl=1" class="scale_13 trans_10" width="300" height="175" alt="(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can freeze &#8217;em!)" title="(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can freeze &#8217;em!)"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group T...</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/463/" class="f_box w100 opa7"><div class="pl_rank f0030px ta_c fw8 fc_fff f_box ai_c jc_c">3</div>
-<div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E" class="scale_13 trans_10" width="300" height="169" alt="Loudness Normalizationとは???" title="Loudness Normalizationとは???" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?fit=300%2C169&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?fit=300%2C169&#038;ssl=1" class="scale_13 trans_10" width="300" height="169" alt="Loudness Normalizationとは???" title="Loudness Normalizationとは???"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">Loudness Normalizationとは???</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/web3/samurai-switch/" class="f_box w100 opa7"><div class="pl_rank f0030px ta_c fw8 fc_fff f_box ai_c jc_c">4</div>
-<div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20480'%3E%3C/svg%3E" class="scale_13 trans_10" width="640" height="480" alt="[NFT] &#8211; Samurai Switch" title="[NFT] &#8211; Samurai Switch" data-lazy-src="http://tubm.tokyo/wp-content/uploads/2022/12/Artwork-2000x2000-1.jpg"><noscript><img src="http://tubm.tokyo/wp-content/uploads/2022/12/Artwork-2000x2000-1.jpg" class="scale_13 trans_10" width="640" height="480" alt="[NFT] &#8211; Samurai Switch" title="[NFT] &#8211; Samurai Switch"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">[NFT] &#8211; Samurai Switch</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/575/" class="f_box w100 opa7"><div class="pl_rank f0030px ta_c fw8 fc_fff f_box ai_c jc_c">5</div>
-<div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20112'%3E%3C/svg%3E" class="scale_13 trans_10" width="300" height="112" alt="音階と周波数" title="音階と周波数" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?fit=300%2C112&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?fit=300%2C112&#038;ssl=1" class="scale_13 trans_10" width="300" height="112" alt="音階と周波数" title="音階と周波数"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">音階と周波数</div></div></a></li>
-</ul></div>
-</aside>
-<aside id="ya_recent_posts-2" class="widget s_widget sr_widget widget_ya_recent_posts shadow_box"><h3 class="widget_title sw_title">Recent Posts</h3>
-<div class="post_list_box"><ul class="post_list_ul m0" style="list-style:none;">
-<li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/options-txt-list/" class="f_box w100 opa7"><div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20165'%3E%3C/svg%3E" class="scale_13 trans_10" width="300" height="165" alt="List of Options.txt settings for Ableton Live ver.11 (all list)" title="List of Options.txt settings for Ableton Live ver.11 (all list)" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1" class="scale_13 trans_10" width="300" height="165" alt="List of Options.txt settings for Ableton Live ver.11 (all list)" title="List of Options.txt settings for Ableton Live ver.11 (all list)"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">List of Options.txt settings for Ableton Live ver.11 (all list)</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/pickout/chartedin-itunes-hiphop-chart/" class="f_box w100 opa7"><div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%20300'%3E%3C/svg%3E" class="scale_13 trans_10" width="169" height="300" alt="Hip Hop Chart #34!" title="Hip Hop Chart #34!" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?fit=169%2C300&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?fit=169%2C300&#038;ssl=1" class="scale_13 trans_10" width="169" height="300" alt="Hip Hop Chart #34!" title="Hip Hop Chart #34!"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">Hip Hop Chart #34!</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/pickout/dubble-up-charted/" class="f_box w100 opa7"><div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%20300'%3E%3C/svg%3E" class="scale_13 trans_10" width="169" height="300" alt="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!" title="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?fit=169%2C300&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?fit=169%2C300&#038;ssl=1" class="scale_13 trans_10" width="169" height="300" alt="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!" title="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/web3/samurai-switch/" class="f_box w100 opa7"><div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20480'%3E%3C/svg%3E" class="scale_13 trans_10" width="640" height="480" alt="[NFT] &#8211; Samurai Switch" title="[NFT] &#8211; Samurai Switch" data-lazy-src="http://tubm.tokyo/wp-content/uploads/2022/12/Artwork-2000x2000-1.jpg"><noscript><img src="http://tubm.tokyo/wp-content/uploads/2022/12/Artwork-2000x2000-1.jpg" class="scale_13 trans_10" width="640" height="480" alt="[NFT] &#8211; Samurai Switch" title="[NFT] &#8211; Samurai Switch"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">[NFT] &#8211; Samurai Switch</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/recommended/2592/" class="f_box w100 opa7"><div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E" class="scale_13 trans_10" width="300" height="169" alt="Visages &#8211; Lunar Eclipse Feat. Strategy" title="Visages &#8211; Lunar Eclipse Feat. Strategy" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Screen-Shot-2022-12-27-at-0.14.08.png?fit=300%2C169&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Screen-Shot-2022-12-27-at-0.14.08.png?fit=300%2C169&#038;ssl=1" class="scale_13 trans_10" width="300" height="169" alt="Visages &#8211; Lunar Eclipse Feat. Strategy" title="Visages &#8211; Lunar Eclipse Feat. Strategy"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">Visages &#8211; Lunar Eclipse Feat. Strategy</div></div></a></li>
-</ul></div>
-</aside>
-</div>
-</div>
-<footer id="site_f">
-<div class="no_bg">
-<div class="wrap_frame fw_con f_box jc_sb f_wrap f_col100">
-<div class="f_widget_L"></div>
-<div class="f_widget_C"></div>
-<div class="f_widget_R"></div>
-</div>
-<a class="to_top non_hover tap_no" href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
-</div>
-<div class="credit_wrap">
-<div class="wrap_frame credit f_box f_col100 jc_c ai_c">
-<div class="copyright_left">
-<div class="copyright_info f_box jc_c f_wrap jc_fs011">
-<div class="dn"></div>	</div>
-<div class="copyright_wordpress f_box f_wrap jc_fs011">
-<div class="dn">Powered by <a href="https://wordpress.org/">WordPress</a>
-</div>
-<div class="dn">Theme by <a href="https://dev.back2nature.jp/en/simple-days/">Simple Days</a>
-</div>
-<div class="dn"></div>	</div>
-</div>
-<div class="copyright_right">
-<div class="description f_box jc_c f_wrap jc_fe011">Real Tokyo Underground Hip-Hop Label</div>	<div class="copyright f_wrap f_box jc_c jc_fe011">
-&copy;2024&nbsp; <a href="/">Tokyo Underground Beatz Massive</a>	</div>
-</div>
-</div>
-</div>
-</footer>
-<script type="text/javascript">document.addEventListener("DOMContentLoaded", function () {
+    <!-- Twitter conversion tracking event code -->
+    <script type="text/javascript">// Insert Twitter Event ID
+        twq('event', 'tw-obg3f-od2gb', {
+        });</script>
+    <!-- End Twitter conversion tracking event code --> <a class="skip-link screen-reader-text" href="#main_wrap">Skip
+        to content</a>
+    <input id="t_menu" class="dn" type="checkbox">
+    <header id="h_wrap" class="f_box f_col shadow_box h_sticky">
+        <div id="h_flex" class="wrap_frame f_box f_col110 w100">
+            <div id="site_h" class="site_h f_box" role="banner">
+                <div class="title_wrap f_box ai_c relative">
+                    <div class="title_tag f_box ai_c f_col">
+                        <div class="site_title f_box ai_c f_col100">
+                            <h1 class="" style="line-height:1;"><a href="/" class="dib" rel="home"><img
+                                        layout="intrinsic"
+                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20240'%3E%3C/svg%3E"
+                                        class="header_logo" width="1200" height="240"
+                                        alt="Tokyo Underground Beatz Massive"
+                                        data-lazy-src="/assets/images/web-header-1200x240-1.jpg.webp?fit=1200%2C240&#038;ssl=1"><noscript><img
+                                            layout="intrinsic"
+                                            src="/assets/images/web-header-1200x240-1.jpg.webp?fit=1200%2C240&#038;ssl=1"
+                                            class="header_logo" width="1200" height="240"
+                                            alt="Tokyo Underground Beatz Massive"></noscript></a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="nav_h" class="f_box">
+                <nav class="wrap_frame nav_base nh_con">
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="main_wrap" class="wrap_frame m_con f_box f_col110 jc_c001">
+        <main class="contents index_contents f_box f_wrap flat_list">
+            <header class="archive_header shadow_box">
+                <h1 class="archive_title fs18">Genre: <span>Instrumental</span>
+                </h1>
+            </header>
+            <article
+                class="post_card f_box f_col100 list_card w100 shadow_box relative post-2462 release type-release status-publish has-post-thumbnail record_label-tubm genre-chill genre-hip-hop genre-instrumental genre-lo-fi">
+                <div class="post_card_thum">
+                    <a href="/release/chill-intense-2020/" class="fit_box_img_wrap post_card_thum_img">
+                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20924%20924'%3E%3C/svg%3E"
+                            width="924" height="924" class="scale_13 trans_10"
+                            alt="Chill Intense 2020ish (Instrumental)" title="Chill Intense 2020ish (Instrumental)"
+                            data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Chill-Intense-2020ish-scaled.jpg?fit=924%2C924&#038;ssl=1"><noscript><img
+                                src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Chill-Intense-2020ish-scaled.jpg?fit=924%2C924&#038;ssl=1"
+                                width="924" height="924" class="scale_13 trans_10"
+                                alt="Chill Intense 2020ish (Instrumental)"
+                                title="Chill Intense 2020ish (Instrumental)"></noscript> </a>
+                    <div class="post_date_circle fs16 absolute ta_c">
+                        <span class="day db fs15">10</span>
+                        <span class="month db fs14">Dec</span>
+                        <span class="year db fs10">2022</span>
+                    </div>
+                </div>
+                <div class="post_card_meta w100 f_box f_col jc_sa">
+                    <h2 class="post_card_title"><a href="/release/chill-intense-2020/" class="entry_title"
+                            title="Chill Intense 2020ish (Instrumental)">Chill Intense 2020ish (Instrumental)</a></h2>
+                    <div class="summary">
+                        …
+                    </div>
+                    <div class="read_more_box">
+                        <a href="/release/chill-intense-2020/" class="more_read fs14 dib non_hover trans_10"> Read More
+                            <i class="fa fa-angle-double-right" aria-hidden="true"></i> </a>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <div id="sidebar_right" class="sidebar f_box f_col101 f_wrap jc_sa">
+            <aside id="cool_tag_cloud-5" class="widget s_widget sr_widget widget_cool_tag_cloud shadow_box">
+                <h3 class="widget_title sw_title">Search tunes by genre</h3>
+                <div class="cool-tag-cloud">
+                    <div class="cloudbold">
+                        <div class="ctclime">
+                            <div class="ctcright">
+                                <div class="opensans" style="text-transform:none!important;">
+                                    <a href="/genre/chill/" class="tag-cloud-link tag-link-12 tag-link-position-1"
+                                        style="font-size: 10px;" aria-label="Chill (2 items)">Chill<span
+                                            class="tag-link-count"> (2)</span></a><a href="/genre/dancehall/"
+                                        class="tag-cloud-link tag-link-8 tag-link-position-2" style="font-size: 10px;"
+                                        aria-label="Dancehall (2 items)">Dancehall<span class="tag-link-count">
+                                            (2)</span></a><a href="/genre/drill/"
+                                        class="tag-cloud-link tag-link-10 tag-link-position-3" style="font-size: 10px;"
+                                        aria-label="Drill (3 items)">Drill<span class="tag-link-count"> (3)</span></a><a
+                                        href="/genre/drumbass/" class="tag-cloud-link tag-link-91 tag-link-position-4"
+                                        style="font-size: 10px;" aria-label="Drum&amp;Bass (2 items)">Drum&amp;Bass<span
+                                            class="tag-link-count"> (2)</span></a><a href="/genre/dub/"
+                                        class="tag-cloud-link tag-link-83 tag-link-position-5" style="font-size: 10px;"
+                                        aria-label="Dub (3 items)">Dub<span class="tag-link-count"> (3)</span></a><a
+                                        href="/genre/future-jungle/"
+                                        class="tag-cloud-link tag-link-111 tag-link-position-6" style="font-size: 10px;"
+                                        aria-label="Future Jungle (1 item)">Future Jungle<span class="tag-link-count">
+                                            (1)</span></a><a href="/genre/grime/"
+                                        class="tag-cloud-link tag-link-9 tag-link-position-7" style="font-size: 10px;"
+                                        aria-label="Grime (1 item)">Grime<span class="tag-link-count"> (1)</span></a><a
+                                        href="/genre/hip-hop/" class="tag-cloud-link tag-link-7 tag-link-position-8"
+                                        style="font-size: 10px;" aria-label="Hip-Hop (6 items)">Hip-Hop<span
+                                            class="tag-link-count"> (6)</span></a><a href="/genre/instrumental/"
+                                        class="tag-cloud-link tag-link-77 tag-link-position-9" style="font-size: 10px;"
+                                        aria-label="Instrumental (1 item)">Instrumental<span class="tag-link-count">
+                                            (1)</span></a><a href="/genre/lo-fi/"
+                                        class="tag-cloud-link tag-link-76 tag-link-position-10" style="font-size: 10px;"
+                                        aria-label="Lo-Fi (1 item)">Lo-Fi<span class="tag-link-count"> (1)</span></a><a
+                                        href="/genre/reggae/" class="tag-cloud-link tag-link-18 tag-link-position-11"
+                                        style="font-size: 10px;" aria-label="Reggae (7 items)">Reggae<span
+                                            class="tag-link-count"> (7)</span></a><a href="/genre/trap/"
+                                        class="tag-cloud-link tag-link-11 tag-link-position-12" style="font-size: 10px;"
+                                        aria-label="Trap (1 item)">Trap<span class="tag-link-count"> (1)</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside id="cool_tag_cloud-4" class="widget s_widget sr_widget widget_cool_tag_cloud shadow_box">
+                <h3 class="widget_title sw_title">Blog is mainly in Japanese only</h3>
+                <div class="cool-tag-cloud">
+                    <div class="cloudbold">
+                        <div class="ctclime">
+                            <div class="ctcright">
+                                <div class="opensans" style="text-transform:none!important;">
+                                    <a href="/category/mixingmastering/"
+                                        class="tag-cloud-link tag-link-19 tag-link-position-1" style="font-size: 10px;"
+                                        aria-label="Mixing&amp;Mastering (7 items)">Mixing&amp;Mastering<span
+                                            class="tag-link-count"> (7)</span></a><a href="/category/tubm-nfts/"
+                                        class="tag-cloud-link tag-link-92 tag-link-position-2" style="font-size: 10px;"
+                                        aria-label="Our NFTs (1 item)">Our NFTs<span class="tag-link-count">
+                                            (1)</span></a><a href="/category/pickout/"
+                                        class="tag-cloud-link tag-link-16 tag-link-position-3" style="font-size: 10px;"
+                                        aria-label="Pickout Info (4 items)">Pickout Info<span class="tag-link-count">
+                                            (4)</span></a><a href="/category/web3/"
+                                        class="tag-cloud-link tag-link-54 tag-link-position-4" style="font-size: 10px;"
+                                        aria-label="Web3 (1 item)">Web3<span class="tag-link-count"> (1)</span></a><a
+                                        href="/category/recommended/"
+                                        class="tag-cloud-link tag-link-17 tag-link-position-5" style="font-size: 10px;"
+                                        aria-label="おすすめの楽曲 (5 items)">おすすめの楽曲<span class="tag-link-count">
+                                            (5)</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside id="ya_social_links-3" class="widget s_widget sr_widget widget_ya_social_links shadow_box">
+                <h3 class="widget_title sw_title">Please follow &amp; like us :)</h3>
+                <div class="social_list">
+                    <ul class="sns_link_icon f_box f_wrap sns_opacity jc_fs m0 p0" style="list-style:none;">
+                        <li><a href="https://www.instagram.com/tubm_official" target="_blank" rel="noopener noreferrer"
+                                class="sns_instagram sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no"
+                                title="Instagram"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <radialgradient id="instagram" r="150%" cx="30%" cy="107%">
+                                        <stop stop-color="#fdf497" offset="0"></stop>
+                                        <stop stop-color="#ffe52a" offset="0.05"></stop>
+                                        <stop stop-color="#fd5949" offset="0.45"></stop>
+                                        <stop stop-color="#d6249f" offset="0.6"></stop>
+                                        <stop stop-color="#285AEB" offset="0.9"></stop>
+                                    </radialgradient>
+                                    <path class="sns_icon_1"
+                                        d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z">
+                                    </path>
+                                </svg></a></li>
+                        <li><a href="https://www.youtube.com/@TUBM" target="_blank" rel="noopener noreferrer"
+                                class="sns_youtube sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no"
+                                title="Youtube"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="sns_icon_2"
+                                        d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z">
+                                    </path>
+                                </svg></a></li>
+                        <li><a href="https://soundcloud.com/underground-beatz-massive" target="_blank"
+                                rel="noopener noreferrer"
+                                class="sns_soundcloud sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no"
+                                title="Soundcloud"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="sns_icon_3"
+                                        d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c0-.057-.045-.1-.09-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.165 1.308c0 .055.045.094.09.094s.089-.045.104-.104l.21-1.319-.21-1.334c0-.061-.044-.09-.09-.09m1.83-1.229c-.061 0-.12.045-.12.104l-.21 2.563.225 2.458c0 .06.045.12.119.12.061 0 .105-.061.121-.12l.254-2.474-.254-2.548c-.016-.06-.061-.12-.121-.12m.945-.089c-.075 0-.135.06-.15.135l-.193 2.64.21 2.544c.016.077.075.138.149.138.075 0 .135-.061.15-.15l.24-2.532-.24-2.623c0-.075-.06-.135-.135-.135l-.031-.017zm1.155.36c-.005-.09-.075-.149-.159-.149-.09 0-.158.06-.164.149l-.217 2.43.2 2.563c0 .09.075.157.159.157.074 0 .148-.068.148-.158l.227-2.563-.227-2.444.033.015zm.809-1.709c-.101 0-.18.09-.18.181l-.21 3.957.187 2.563c0 .09.08.164.18.164.094 0 .174-.09.18-.18l.209-2.563-.209-3.972c-.008-.104-.088-.18-.18-.18m.959-.914c-.105 0-.195.09-.203.194l-.18 4.872.165 2.548c0 .12.09.209.195.209.104 0 .194-.089.21-.209l.193-2.548-.192-4.856c-.016-.12-.105-.21-.21-.21m.989-.449c-.121 0-.211.089-.225.209l-.165 5.275.165 2.52c.014.119.104.225.225.225.119 0 .225-.105.225-.225l.195-2.52-.196-5.275c0-.12-.105-.225-.225-.225m1.245.045c0-.135-.105-.24-.24-.24-.119 0-.24.105-.24.24l-.149 5.441.149 2.503c.016.135.121.24.256.24s.24-.105.24-.24l.164-2.503-.164-5.456-.016.015zm.749-.134c-.135 0-.255.119-.255.254l-.15 5.322.15 2.473c0 .15.12.255.255.255s.255-.12.255-.27l.15-2.474-.165-5.307c0-.148-.12-.27-.271-.27m1.005.166c-.164 0-.284.135-.284.285l-.103 5.143.135 2.474c0 .149.119.277.284.277.149 0 .271-.12.284-.285l.121-2.443-.135-5.112c-.012-.164-.135-.285-.285-.285m1.184-.945c-.045-.029-.105-.044-.165-.044s-.119.015-.165.044c-.09.054-.149.15-.149.255v.061l-.104 6.048.115 2.449v.008c.008.06.03.135.074.18.058.061.142.104.234.104.08 0 .158-.044.209-.09.058-.06.091-.135.091-.225l.015-.24.117-2.203-.135-6.086c0-.104-.061-.193-.135-.239l-.002-.022zm1.006-.547c-.045-.045-.09-.061-.15-.061-.074 0-.149.016-.209.061-.075.061-.119.15-.119.24v.029l-.137 6.609.076 1.215.061 1.185c0 .164.148.314.328.314.181 0 .33-.15.33-.329l.15-2.414-.15-6.637c0-.12-.074-.221-.165-.277m8.934 3.777c-.405 0-.795.086-1.139.232-.24-2.654-2.46-4.736-5.188-4.736-.659 0-1.305.135-1.889.359-.225.09-.27.18-.285.359v9.368c.016.18.15.33.33.345h8.185C22.681 17.218 24 15.914 24 14.28s-1.319-2.952-2.938-2.952">
+                                    </path>
+                                </svg></a></li>
+                        <li><a href="https://twitter.com/tubm_official" target="_blank" rel="noopener noreferrer"
+                                class="sns_twitter sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no"
+                                title="Twitter"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="sns_icon_4"
+                                        d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z">
+                                    </path>
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </aside>
+            <aside id="ya_pl_pp-2" class="widget s_widget sr_widget widget_ya_pl_pp shadow_box">
+                <h3 class="widget_title sw_title">Popular Posts</h3>
+                <div class="post_list_box">
+                    <ul class="post_list_ul m0" style="list-style:none;">
+                        <li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/options-txt-list/"
+                                class="f_box w100 opa7">
+                                <div class="pl_rank f0030px ta_c fw8 fc_fff f_box ai_c jc_c">1</div>
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20165'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="300" height="165"
+                                        alt="List of Options.txt settings for Ableton Live ver.11 (all list)"
+                                        title="List of Options.txt settings for Ableton Live ver.11 (all list)"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1"
+                                            class="scale_13 trans_10" width="300" height="165"
+                                            alt="List of Options.txt settings for Ableton Live ver.11 (all list)"
+                                            title="List of Options.txt settings for Ableton Live ver.11 (all list)"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">List of Options.txt settings for Ableton Live
+                                        ver.11 (all list)</div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/freeze-aux/"
+                                class="f_box w100 opa7">
+                                <div class="pl_rank f0030px ta_c fw8 fc_fff f_box ai_c jc_c">2</div>
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20175'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="300" height="175"
+                                        alt="(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can freeze &#8217;em!)"
+                                        title="(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can freeze &#8217;em!)"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-18.16.02.png?fit=300%2C175&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-18.16.02.png?fit=300%2C175&#038;ssl=1"
+                                            class="scale_13 trans_10" width="300" height="175"
+                                            alt="(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can freeze &#8217;em!)"
+                                            title="(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can freeze &#8217;em!)"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">(Hack for Apple Logic/Ableton Live) How to Freeze
+                                        AUX/Group T...</div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/463/" class="f_box w100 opa7">
+                                <div class="pl_rank f0030px ta_c fw8 fc_fff f_box ai_c jc_c">3</div>
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="300" height="169"
+                                        alt="Loudness Normalizationとは???" title="Loudness Normalizationとは???"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?fit=300%2C169&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?fit=300%2C169&#038;ssl=1"
+                                            class="scale_13 trans_10" width="300" height="169"
+                                            alt="Loudness Normalizationとは???"
+                                            title="Loudness Normalizationとは???"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">Loudness Normalizationとは???</div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/web3/samurai-switch/" class="f_box w100 opa7">
+                                <div class="pl_rank f0030px ta_c fw8 fc_fff f_box ai_c jc_c">4</div>
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20480'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="640" height="480"
+                                        alt="[NFT] &#8211; Samurai Switch" title="[NFT] &#8211; Samurai Switch"
+                                        data-lazy-src="/assets/images/Artwork-2000x2000-1.jpg"><noscript><img
+                                            src="/assets/images/Artwork-2000x2000-1.jpg" class="scale_13 trans_10"
+                                            width="640" height="480" alt="[NFT] &#8211; Samurai Switch"
+                                            title="[NFT] &#8211; Samurai Switch"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">[NFT] &#8211; Samurai Switch</div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/575/" class="f_box w100 opa7">
+                                <div class="pl_rank f0030px ta_c fw8 fc_fff f_box ai_c jc_c">5</div>
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20112'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="300" height="112" alt="音階と周波数" title="音階と周波数"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?fit=300%2C112&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?fit=300%2C112&#038;ssl=1"
+                                            class="scale_13 trans_10" width="300" height="112" alt="音階と周波数"
+                                            title="音階と周波数"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">音階と周波数</div>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </aside>
+            <aside id="ya_recent_posts-2" class="widget s_widget sr_widget widget_ya_recent_posts shadow_box">
+                <h3 class="widget_title sw_title">Recent Posts</h3>
+                <div class="post_list_box">
+                    <ul class="post_list_ul m0" style="list-style:none;">
+                        <li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/options-txt-list/"
+                                class="f_box w100 opa7">
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20165'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="300" height="165"
+                                        alt="List of Options.txt settings for Ableton Live ver.11 (all list)"
+                                        title="List of Options.txt settings for Ableton Live ver.11 (all list)"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1"
+                                            class="scale_13 trans_10" width="300" height="165"
+                                            alt="List of Options.txt settings for Ableton Live ver.11 (all list)"
+                                            title="List of Options.txt settings for Ableton Live ver.11 (all list)"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">List of Options.txt settings for Ableton Live
+                                        ver.11 (all list)</div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/pickout/chartedin-itunes-hiphop-chart/"
+                                class="f_box w100 opa7">
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%20300'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="169" height="300" alt="Hip Hop Chart #34!"
+                                        title="Hip Hop Chart #34!"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?fit=169%2C300&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?fit=169%2C300&#038;ssl=1"
+                                            class="scale_13 trans_10" width="169" height="300" alt="Hip Hop Chart #34!"
+                                            title="Hip Hop Chart #34!"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">Hip Hop Chart #34!</div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/pickout/dubble-up-charted/"
+                                class="f_box w100 opa7">
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%20300'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="169" height="300"
+                                        alt="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!"
+                                        title="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?fit=169%2C300&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?fit=169%2C300&#038;ssl=1"
+                                            class="scale_13 trans_10" width="169" height="300"
+                                            alt="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!"
+                                            title="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!
+                                    </div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/web3/samurai-switch/" class="f_box w100 opa7">
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20480'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="640" height="480"
+                                        alt="[NFT] &#8211; Samurai Switch" title="[NFT] &#8211; Samurai Switch"
+                                        data-lazy-src="/assets/images/Artwork-2000x2000-1.jpg"><noscript><img
+                                            src="/assets/images/Artwork-2000x2000-1.jpg" class="scale_13 trans_10"
+                                            width="640" height="480" alt="[NFT] &#8211; Samurai Switch"
+                                            title="[NFT] &#8211; Samurai Switch"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">[NFT] &#8211; Samurai Switch</div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/recommended/2592/" class="f_box w100 opa7">
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="300" height="169"
+                                        alt="Visages &#8211; Lunar Eclipse Feat. Strategy"
+                                        title="Visages &#8211; Lunar Eclipse Feat. Strategy"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Screen-Shot-2022-12-27-at-0.14.08.png?fit=300%2C169&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Screen-Shot-2022-12-27-at-0.14.08.png?fit=300%2C169&#038;ssl=1"
+                                            class="scale_13 trans_10" width="300" height="169"
+                                            alt="Visages &#8211; Lunar Eclipse Feat. Strategy"
+                                            title="Visages &#8211; Lunar Eclipse Feat. Strategy"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">Visages &#8211; Lunar Eclipse Feat. Strategy</div>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <footer id="site_f">
+        <div class="no_bg">
+            <div class="wrap_frame fw_con f_box jc_sb f_wrap f_col100">
+                <div class="f_widget_L"></div>
+                <div class="f_widget_C"></div>
+                <div class="f_widget_R"></div>
+            </div>
+            <a class="to_top non_hover tap_no" href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        </div>
+        <div class="credit_wrap">
+            <div class="wrap_frame credit f_box f_col100 jc_c ai_c">
+                <div class="copyright_left">
+                    <div class="copyright_info f_box jc_c f_wrap jc_fs011">
+                        <div class="dn"></div>
+                    </div>
+                    <div class="copyright_wordpress f_box f_wrap jc_fs011">
+                        <div class="dn">Powered by <a href="https://wordpress.org/">WordPress</a>
+                        </div>
+                        <div class="dn">Theme by <a href="https://dev.back2nature.jp/en/simple-days/">Simple Days</a>
+                        </div>
+                        <div class="dn"></div>
+                    </div>
+                </div>
+                <div class="copyright_right">
+                    <div class="description f_box jc_c f_wrap jc_fe011">Real Tokyo Underground Hip-Hop Label</div>
+                    <div class="copyright f_wrap f_box jc_c jc_fe011">
+                        &copy;2024&nbsp; <a href="/">Tokyo Underground Beatz Massive</a> </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">document.addEventListener("DOMContentLoaded", function () {
             // セレクタで要素を取得
             var nextHeadings = document.querySelectorAll("div.next_heading");
 
@@ -257,32 +529,54 @@ TUBM BOT </span>
                 element.innerHTML = element.textContent;
             });
         });</script>
-<div class="mobmenu-overlay"></div>
-<div class="mob-menu-header-holder mobmenu" data-menu-display="mob-menu-slideout-over" data-autoclose-submenus="1" data-open-icon="down-open" data-close-icon="up-open">
-<div class="mobmenul-container"><a href="#" class="mobmenu-left-bt mobmenu-trigger-action" data-panel-target="mobmenu-left-panel" aria-label="Left Menu Button"><i class="mob-icon-menu mob-menu-icon"></i><i class="mob-icon-cancel-1 mob-cancel-button"></i></a></div>
-<div class="mobmenur-container"></div>
-</div>
-<div class="mobmenu-left-alignment mobmenu-panel mobmenu-left-panel  ">
-<a href="#" class="mobmenu-left-bt" aria-label="Left Menu Button"><i class="mob-icon-cancel-1 mob-cancel-button"></i></a>
-<div class="mobmenu-content">
-<div class="menu-main-menu-container"><ul id="mobmenuleft" class="wp-mobile-menu" role="menubar" aria-label="Main navigation for mobile devices">
-<li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-324"><a href="/" role="menuitem" class="">Home</a></li>
-<li role="none" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-332"><a href="/blog/" role="menuitem" class="">Blog</a></li>
-<li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a href="/tunes/" role="menuitem" class="">Releases</a></li>
-<li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a href="/contact/" role="menuitem" class="">Contact</a></li>
-</ul></div>
-</div>
-<div class="mob-menu-left-bg-holder"></div>
-</div>
-<script id="mcc_line_bot_script-js-extra">var mcc_line_bot_script_vars = {"MY_PLUGIN_PATH":"\/wp-content\/plugins\/Me_Cool_Custom_Line_Bot\/","welcome_message":"Yo!","chat_button_text":"TUBM BOT","too_many_requests_message":"Too many requests. Please try again in 1 hour."};</script>
-<script src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/dummy.js?ver=1.0" id="mcc_line_bot_script-js"></script>
-<script src="/wp-content/plugins/Me_Cool_YTPlaylist/js/me_cool_ytplaylist.js" id="me_cool_ytplaylist_js-js"></script>
-<script src="/wp-content/plugins/label-grid-tools/public/js/json2.min.js?ver=1.3.58" id="labelgrid-tools-json2-js"></script>
-<script src="/wp-content/plugins/label-grid-tools/public/js/handlebars.min.js?ver=1.3.58" id="labelgrid-tools-handlebars-js"></script>
-<script src="/wp-content/plugins/label-grid-tools/vendor/bower-asset/moment/moment.js?ver=1.3.58" id="labelgrid-tools-moment-js"></script>
+    <div class="mobmenu-overlay"></div>
+    <div class="mob-menu-header-holder mobmenu" data-menu-display="mob-menu-slideout-over" data-autoclose-submenus="1"
+        data-open-icon="down-open" data-close-icon="up-open">
+        <div class="mobmenul-container"><a href="#" class="mobmenu-left-bt mobmenu-trigger-action"
+                data-panel-target="mobmenu-left-panel" aria-label="Left Menu Button"><i
+                    class="mob-icon-menu mob-menu-icon"></i><i class="mob-icon-cancel-1 mob-cancel-button"></i></a>
+        </div>
+        <div class="mobmenur-container"></div>
+    </div>
+    <div class="mobmenu-left-alignment mobmenu-panel mobmenu-left-panel  ">
+        <a href="#" class="mobmenu-left-bt" aria-label="Left Menu Button"><i
+                class="mob-icon-cancel-1 mob-cancel-button"></i></a>
+        <div class="mobmenu-content">
+            <div class="menu-main-menu-container">
+                <ul id="mobmenuleft" class="wp-mobile-menu" role="menubar"
+                    aria-label="Main navigation for mobile devices">
+                    <li role="none"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-324"><a
+                            href="/" role="menuitem" class="">Home</a></li>
+                    <li role="none"
+                        class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-332">
+                        <a href="/blog/" role="menuitem" class="">Blog</a>
+                    </li>
+                    <li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a
+                            href="/tunes/" role="menuitem" class="">Releases</a></li>
+                    <li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a
+                            href="/contact/" role="menuitem" class="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mob-menu-left-bg-holder"></div>
+    </div>
+    <script
+        id="mcc_line_bot_script-js-extra">var mcc_line_bot_script_vars = { "MY_PLUGIN_PATH": "\/wp-content\/plugins\/Me_Cool_Custom_Line_Bot\/", "welcome_message": "Yo!", "chat_button_text": "TUBM BOT", "too_many_requests_message": "Too many requests. Please try again in 1 hour." };</script>
+    <script src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/dummy.js?ver=1.0" id="mcc_line_bot_script-js"></script>
+    <script src="/wp-content/plugins/Me_Cool_YTPlaylist/js/me_cool_ytplaylist.js"
+        id="me_cool_ytplaylist_js-js"></script>
+    <script src="/wp-content/plugins/label-grid-tools/public/js/json2.min.js?ver=1.3.58"
+        id="labelgrid-tools-json2-js"></script>
+    <script src="/wp-content/plugins/label-grid-tools/public/js/handlebars.min.js?ver=1.3.58"
+        id="labelgrid-tools-handlebars-js"></script>
+    <script src="/wp-content/plugins/label-grid-tools/vendor/bower-asset/moment/moment.js?ver=1.3.58"
+        id="labelgrid-tools-moment-js"></script>
     <script data-no-minify="1" async src="/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script>
     <script>function lazyLoadThumb(e, alt) { var t = '<img loading="lazy" src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360">', a = '<button class="play" aria-label="play Youtube video"><\/button>'; t = t.replace('alt=""', 'alt="' + alt + '"'); return t.replace("ID", e) + a } function lazyLoadYoutubeIframe() { var e = document.createElement("iframe"), t = "ID?autoplay=1"; t += 0 === this.parentNode.dataset.query.length ? '' : '&' + this.parentNode.dataset.query; e.setAttribute("src", t.replace("ID", this.parentNode.dataset.src)), e.setAttribute("frameborder", "0"), e.setAttribute("allowfullscreen", "1"), e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"), this.parentNode.parentNode.replaceChild(e, this.parentNode) } document.addEventListener("DOMContentLoaded", function () { var e, t, p, a = document.getElementsByClassName("rll-youtube-player"); for (t = 0; t < a.length; t++)e = document.createElement("div"), e.setAttribute("data-id", a[t].dataset.id), e.setAttribute("data-query", a[t].dataset.query), e.setAttribute("data-src", a[t].dataset.src), e.innerHTML = lazyLoadThumb(a[t].dataset.id, a[t].dataset.alt), a[t].appendChild(e), p = e.querySelector('.play'), p.onclick = lazyLoadYoutubeIframe });</script>
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>    <script type="module" src="/static/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script type="module" src="/static/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    </body>
+</body>
+
 </html>

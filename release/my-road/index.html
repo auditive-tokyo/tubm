@@ -44,8 +44,8 @@
         href="/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=6.5.5" media="all">
     <link rel="stylesheet" id="cssmobmenu-css"
         href="/wp-content/plugins/mobile-menu/includes/css/mobmenu.css?ver=2.8.4.4" media="all">
-    <script src="/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
-    <script src="/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
     <script src="/wp-content/plugins/wp-video-lightbox/js/jquery.prettyPhoto.js?ver=3.1.6"
         id="jquery.prettyphoto-js"></script>
     <script
@@ -66,201 +66,423 @@
     <link rel="preconnect dns-prefetch" href="//www.gstatic.com">
     <link rel="preconnect dns-prefetch" href="//www.doubleclickbygoogle.com">
     <link rel="icon"
-        href="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-32x32.webp"
+        href="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=32%2C32&#038;ssl=1"
+        sizes="32x32">
+    <link rel="icon"
+        href="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=192%2C192&#038;ssl=1"
         sizes="192x192">
     <link rel="apple-touch-icon"
-        href="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-192x192.webp">
+        href="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=180%2C180&#038;ssl=1">
     <meta name="msapplication-TileImage"
-        content="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-270x270.webp">
+        content="/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=270%2C270&#038;ssl=1">
 </head>
 
 
-<body class="release-template-default single single-release postid-3304 custom-background wp-custom-logo wp-embed-responsive mob-menu-slideout-over" ontouchstart="">
-<p> </p>
-<div id="chat-container" class="chat-container">
-<div id="chat-window" class="chat-window" style="display:none;">
-<div id="chat-messages" class="chat-messages"></div>
-<div id="chat-input-area" class="chat-input-area">
-<form id="mcc_line_bot-form" action="" method="post" style="display: flex; position: relative;">
-<textarea name="user_message" class="user_message" required></textarea>
-<input type="hidden" name="user_id" id="user_id">
-<input type="hidden" name="session_id" id="session_id">
-<button type="submit" name="submit" class="submit_button">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Send" class="send_icon" data-lazy-src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/paper-plane-svgrepo-com.svg"><noscript><img src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/paper-plane-svgrepo-com.svg" alt="Send" class="send_icon"></noscript>
-</button>
-</form>
-</div>
-</div>
-<div class="chat-button-wrapper">
-<button id="chat-toggle" class="chat-button">
-<span class="chat-help-text">
-TUBM BOT </span>
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="bot" data-lazy-src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/icons8-bot-64.png"><noscript><img src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/icons8-bot-64.png" alt="bot"></noscript>
-</button>
-</div>
-</div>
+<body
+    class="release-template-default single single-release postid-3304 custom-background wp-custom-logo wp-embed-responsive mob-menu-slideout-over"
+    ontouchstart="">
+    <p> </p>
+    <div id="chat-container" class="chat-container">
+        <div id="chat-window" class="chat-window" style="display:none;">
+            <div id="chat-messages" class="chat-messages"></div>
+            <div id="chat-input-area" class="chat-input-area">
+                <form id="mcc_line_bot-form" action="" method="post" style="display: flex; position: relative;">
+                    <textarea name="user_message" class="user_message" required></textarea>
+                    <input type="hidden" name="user_id" id="user_id">
+                    <input type="hidden" name="session_id" id="session_id">
+                    <button type="submit" name="submit" class="submit_button">
+                        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                            alt="Send" class="send_icon"
+                            data-lazy-src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/paper-plane-svgrepo-com.svg"><noscript><img
+                                src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/paper-plane-svgrepo-com.svg"
+                                alt="Send" class="send_icon"></noscript>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="chat-button-wrapper">
+            <button id="chat-toggle" class="chat-button">
+                <span class="chat-help-text">
+                    TUBM BOT </span>
+                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                    alt="bot"
+                    data-lazy-src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/icons8-bot-64.png"><noscript><img
+                        src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/icons8-bot-64.png" alt="bot"></noscript>
+            </button>
+        </div>
+    </div>
 
 
 
 
 
-<!-- Twitter conversion tracking event code -->
-<script type="text/javascript">// Insert Twitter Event ID
-  twq('event', 'tw-obg3f-od2gb', {
-  });</script>
-<!-- End Twitter conversion tracking event code -->	<a class="skip-link screen-reader-text" href="#main_wrap">Skip to content</a>
-<input id="t_menu" class="dn" type="checkbox">
-<header id="h_wrap" class="f_box f_col shadow_box h_sticky">
-<div id="h_flex" class="wrap_frame f_box f_col110 w100">
-<div id="site_h" class="site_h f_box" role="banner">
-<div class="title_wrap f_box ai_c relative">
-<div class="title_tag f_box ai_c f_col">
-<div class="site_title f_box ai_c f_col100"><h1 class="" style="line-height:1;"><a href="/" class="dib" rel="home"><img layout="intrinsic" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20240'%3E%3C/svg%3E" class="header_logo" width="1200" height="240" alt="Tokyo Underground Beatz Massive" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/09/web-header-1200x240-1.jpg?fit=1200%2C240&#038;ssl=1"><noscript><img layout="intrinsic" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/09/web-header-1200x240-1.jpg?fit=1200%2C240&#038;ssl=1" class="header_logo" width="1200" height="240" alt="Tokyo Underground Beatz Massive"></noscript></a></h1></div>
-</div>
-</div>
-</div>
-<div id="nav_h" class="f_box">
-<nav class="wrap_frame nav_base nh_con">
-</nav>
-</div>
-<div class="hw_con f_box f_col110 ai_c jc_c f_wrap">
-<aside id="custom_html-3" class="widget_text widget h_widget widget_custom_html"><div class="textwidget custom-html-widget"><style class="wpcode-css-snippet">/*ブログページからカテゴリ、オーサーや時間、Breadcrumbを削除*/
-.fs14, .fsMS, .breadcrumb, .mr10, .ta_r {
-	display: none;
-}
+    <!-- Twitter conversion tracking event code -->
+    <script type="text/javascript">// Insert Twitter Event ID
+        twq('event', 'tw-obg3f-od2gb', {
+        });</script>
+    <!-- End Twitter conversion tracking event code --> <a class="skip-link screen-reader-text" href="#main_wrap">Skip
+        to content</a>
+    <input id="t_menu" class="dn" type="checkbox">
+    <header id="h_wrap" class="f_box f_col shadow_box h_sticky">
+        <div id="h_flex" class="wrap_frame f_box f_col110 w100">
+            <div id="site_h" class="site_h f_box" role="banner">
+                <div class="title_wrap f_box ai_c relative">
+                    <div class="title_tag f_box ai_c f_col">
+                        <div class="site_title f_box ai_c f_col100">
+                            <h1 class="" style="line-height:1;"><a href="/" class="dib" rel="home"><img
+                                        layout="intrinsic"
+                                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20240'%3E%3C/svg%3E"
+                                        class="header_logo" width="1200" height="240"
+                                        alt="Tokyo Underground Beatz Massive"
+                                        data-lazy-src="/assets/images/web-header-1200x240-1.jpg.webp?fit=1200%2C240&#038;ssl=1"><noscript><img
+                                            layout="intrinsic"
+                                            src="/assets/images/web-header-1200x240-1.jpg.webp?fit=1200%2C240&#038;ssl=1"
+                                            class="header_logo" width="1200" height="240"
+                                            alt="Tokyo Underground Beatz Massive"></noscript></a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="nav_h" class="f_box">
+                <nav class="wrap_frame nav_base nh_con">
+                </nav>
+            </div>
+            <div class="hw_con f_box f_col110 ai_c jc_c f_wrap">
+                <aside id="custom_html-3" class="widget_text widget h_widget widget_custom_html">
+                    <div class="textwidget custom-html-widget">
+                        <style class="wpcode-css-snippet">
+                            /*ブログページからカテゴリ、オーサーや時間、Breadcrumbを削除*/
+                            .fs14,
+                            .fsMS,
+                            .breadcrumb,
+                            .mr10,
+                            .ta_r {
+                                display: none;
+                            }
 
-/*ヘッダーを削除*/
-html body header div div div div div h1 a img.header_logo.lazyloaded, 
-html body div div a i.mob-icon-menu.mob-menu-icon, 
-html body div.mob-menu-header-holder.mobmenu:nth-child(14) {
-	display: none;
-}
+                            /*ヘッダーを削除*/
+                            html body header div div div div div h1 a img.header_logo.lazyloaded,
+                            html body div div a i.mob-icon-menu.mob-menu-icon,
+                            html body div.mob-menu-header-holder.mobmenu:nth-child(14) {
+                                display: none;
+                            }
 
-/*関連記事を削除*/
-#rp_wrap {
-	display: none;
-}</style></div></aside>	</div>
-</div>
-</header>
-<div id="main_wrap" class="wrap_frame m_con jc_c001">
-<main id="post-3304" class="contents post_content shadow_box single_post_content post-3304 release type-release status-publish has-post-thumbnail record_label-tubm genre-dub genre-future-jungle">
-<nav class="post_item mb_L"><ol id="breadcrumb" class="breadcrumb">
-<li>
-<i class="fa fa-home" aria-hidden="true"></i> <a href="/"><span class="breadcrumb_home">Home</span></a>
-</li> &raquo; <li>
-<i class="fa fa-folder-open-o" aria-hidden="true"></i> <a><span class="">Release</span></a>
-</li> &raquo; <li>
-<i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="current">My Road</span>
-</li>
-</ol></nav><!-- .breadcrumbs --><div class="post_item mb_L"><h1 class="post_title">My Road</h1></div>
-<div class="post_dates post_item f_box ai_c f_wrap mb_L fs14 jc_fe"><div><span class="post_date"><i class="fa fa-clock-o" aria-hidden="true"></i> 2023-10-27</span></div></div>
-<div class="post_author post_item mb_L ta_r">
-<i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;<a href="/author/tubm/">tubm</a>
-</div>
-<article id="post_body" class="post_body clearfix post_item mb_L" itemprop="articleBody"><div class="release_detail" id="lg_content_release">
-<div class="header_release">
-<div class="artwork">
-<a href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/10/myroad_artwork.jpg?resize=924%2C924&ssl=1"><img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="My Road Artwork" title="My Road Artwork" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/10/myroad_artwork.jpg?resize=500%2C500&ssl=1"><noscript><img decoding="async" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/10/myroad_artwork.jpg?resize=500%2C500&ssl=1" loading="lazy" alt="My Road Artwork" title="My Road Artwork"></noscript></a><div class="sub_artwork_details">
-<span class="catalog_number">Single</span><span class="release_date">2023-10-30</span>
-</div>
-</div>
-<div class="release_links">
-<script>var itunes_affiliate_token='1001l38Eo';</script><div id="releaselinks">
-<div class="linkTop spotify"><a data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_spotify.svg" class="rocket-lazyload" href="https://open.spotify.com/track/6i7qQIZ8YqU1KXlTMvBT2N" target="blank" data-service="spotify" title="Listen on Spotify" rel="nofollow">Listen on Spotify</a></div>
-<div class="linkTop applemusic"><a data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_applemusic.svg" class="rocket-lazyload" href="https://music.apple.com/album/my-road/1712954127?i=1712954129&app=music" target="blank" data-service="applemusic" title="Listen on Apple Music" rel="nofollow">Listen on Apple Music</a></div>
-<div class="linkTop itunes"><a data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_itunes.svg" class="rocket-lazyload" href="https://music.apple.com/album/my-road-single/1712954127?ls=1&app=itunes&app=itunes" target="blank" data-service="itunes" title="Download from iTunes" rel="nofollow">Download from iTunes</a></div>
-<div class="linkTop youtube"><a data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_youtube.svg" class="rocket-lazyload" href="https://youtu.be/wffdrzQ79ic" target="blank" data-service="youtube" title="Watch on YouTube" rel="nofollow">Watch on YouTube</a></div>
-<div class="linkTop deezer"><a data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_deezer.svg" class="rocket-lazyload" href="https://www.deezer.com/album/502780251" target="blank" data-service="deezer" title="Listen on Deezer" rel="nofollow">Listen on Deezer</a></div>
-<div class="linkTop amazon_custom"><a data-bg="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/ico_amazon.png?resize=125%2C40&#038;ssl=1" class="rocket-lazyload" href="https://music.amazon.co.jp/albums/B0CLHM78BZ?marketplaceId=A1VC38T7YXB528&musicTerritory=JP&ref=dm_sh_KmRs3EPrkjKrT55X6xGLFXgJj&trackAsin=B0CLHKF1HX" target="blank" data-service="amazon_custom" title="Listen on Amazon" rel="nofollow">Listen on Amazon</a></div>
-<div class="linkTop napster"><a data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_napster.svg" class="rocket-lazyload" href="https://play.napster.com/track/tra.791608041" target="blank" data-service="napster" title="Download from Napster" rel="nofollow">Download from Napster</a></div>
-</div>
-</div>
-</div>
-<div class="separator"></div>
-<div class="right_col"><div class="artists">
-<div class="titleartist">Features:</div>
-<div class="release_data totrel3"><a href="/artist/ragga-g/"><div class="image_release">
-<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="RAGGA-G" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Ragga-G-Profile-Pic.jpg?resize=80%2C80&ssl=1"><noscript><img decoding="async" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Ragga-G-Profile-Pic.jpg?resize=80%2C80&ssl=1" loading="lazy" alt="RAGGA-G"></noscript>
-</div>
-<div class="title_release">RAGGA-G</div></a></div>
-<div class="release_data totrel3"><a href="/artist/pazoodog/"><div class="image_release">
-<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="PAZOODOG" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/09/PAZOODOG-Profile-Pic.jpg?resize=80%2C80&ssl=1"><noscript><img decoding="async" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/09/PAZOODOG-Profile-Pic.jpg?resize=80%2C80&ssl=1" loading="lazy" alt="PAZOODOG"></noscript>
-</div>
-<div class="title_release">PAZOODOG</div></a></div>
-<div class="release_data totrel3"><a href="/artist/hummingbird/"><div class="image_release">
-<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Hummingbird" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/4566.jpg?resize=80%2C80&ssl=1"><noscript><img decoding="async" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/4566.jpg?resize=80%2C80&ssl=1" loading="lazy" alt="Hummingbird"></noscript>
-</div>
-<div class="title_release">Hummingbird</div></a></div>
-</div></div>
-</div></article><div class="post_category post_item mb_L f_box f_wrap ai_c">
-<i class="fa fa-folder-open-o mr10" aria-hidden="true"></i> </div>
-<div id="social_share" class="social_share_list post_item mb_L">
-<div class="item_title fw8 mb_S">Share this :)</div>
-<ul class="sns_link_icon f_box f_wrap sns_opacity sns_share_icon jc_fs m0 p0" style="list-style:none;">
-<li><a href="https://reddit.com/submit?url=/release/my-road/&#038;title=My%20Road" target="_blank" rel="noopener noreferrer" class="sns_reddit sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no" title="Reddit"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="sns_icon_1" d="M2.204 14.049c-.06.276-.091.56-.091.847 0 3.443 4.402 6.249 9.814 6.249 5.41 0 9.812-2.804 9.812-6.249 0-.274-.029-.546-.082-.809l-.015-.032c-.021-.055-.029-.11-.029-.165-.302-1.175-1.117-2.241-2.296-3.103-.045-.016-.088-.039-.126-.07-.026-.02-.045-.042-.067-.064-1.792-1.234-4.356-2.008-7.196-2.008-2.815 0-5.354.759-7.146 1.971-.014.018-.029.033-.049.049-.039.033-.084.06-.13.075-1.206.862-2.042 1.937-2.354 3.123 0 .058-.014.114-.037.171l-.008.015zm9.773 5.441c-1.794 0-3.057-.389-3.863-1.197-.173-.174-.173-.457 0-.632.176-.165.46-.165.635 0 .63.629 1.685.943 3.228.943 1.542 0 2.591-.3 3.219-.929.165-.164.45-.164.629 0 .165.18.165.465 0 .645-.809.808-2.065 1.198-3.862 1.198l.014-.028zm-3.606-7.573c-.914 0-1.677.765-1.677 1.677 0 .91.763 1.65 1.677 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm7.233 0c-.914 0-1.678.765-1.678 1.677 0 .91.764 1.65 1.678 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm4.548-1.595c1.037.833 1.8 1.821 2.189 2.904.45-.336.719-.864.719-1.449 0-1.002-.815-1.816-1.818-1.816-.399 0-.778.129-1.09.363v-.002zM2.711 9.963c-1.003 0-1.817.816-1.817 1.818 0 .543.239 1.048.644 1.389.401-1.079 1.172-2.053 2.213-2.876-.302-.21-.663-.329-1.039-.329v-.002zm9.217 12.079c-5.906 0-10.709-3.205-10.709-7.142 0-.275.023-.544.068-.809C.494 13.598 0 12.729 0 11.777c0-1.496 1.227-2.713 2.725-2.713.674 0 1.303.246 1.797.682 1.856-1.191 4.357-1.941 7.112-1.992l1.812-5.524.404.095s.016 0 .016.002l4.223.993c.344-.798 1.138-1.36 2.065-1.36 1.229 0 2.231 1.004 2.231 2.234 0 1.232-1.003 2.234-2.231 2.234s-2.23-1.004-2.23-2.23l-3.851-.912-1.467 4.477c2.65.105 5.047.854 6.844 2.021.494-.464 1.144-.719 1.833-.719 1.498 0 2.718 1.213 2.718 2.711 0 .987-.54 1.886-1.378 2.365.029.255.059.494.059.749-.015 3.938-4.806 7.143-10.72 7.143l-.034.009zm8.179-19.187c-.74 0-1.34.599-1.34 1.338 0 .738.6 1.34 1.34 1.34.732 0 1.33-.6 1.33-1.334 0-.733-.598-1.332-1.347-1.332l.017-.012z"></path></svg></a></li>
-<li><a href="https://x.com/share?url=/release/my-road/&#038;text=My%20Road" target="_blank" rel="noopener noreferrer" class="sns_twitter sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no" title="Twitter"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="sns_icon_2" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path></svg></a></li>
-<li><a href="https://lineit.line.me/share/ui?url=/release/my-road/" target="_blank" rel="noopener noreferrer" class="sns_line sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no" title="Line"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="sns_icon_3" d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"></path></svg></a></li>
-<li><a href="https://www.facebook.com/sharer/sharer.php?u=/release/my-road/" target="_blank" rel="noopener noreferrer" class="sns_facebook sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no" title="Facebook"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="sns_icon_4" d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"></path></svg></a></li>
-<li><a href="https://b.hatena.ne.jp/add?mode=confirm&#038;url=/release/my-road/&#038;title=My%20Road" target="_blank" rel="noopener noreferrer" class="sns_hatenabookmark sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no" title="Hatena"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path class="sns_icon_5" d="M20.47 0C22.42 0 24 1.58 24 3.53v16.94c0 1.95-1.58 3.53-3.53 3.53H3.53C1.58 24 0 22.42 0 20.47V3.53C0 1.58 1.58 0 3.53 0h16.94zm-3.705 14.47c-.78 0-1.41.63-1.41 1.41s.63 1.414 1.41 1.414 1.41-.645 1.41-1.425-.63-1.41-1.41-1.41zM8.61 17.247c1.2 0 2.056-.042 2.58-.12.526-.084.976-.222 1.32-.412.45-.232.78-.564 1.02-.99s.36-.915.36-1.48c0-.78-.21-1.403-.63-1.87-.42-.48-.99-.734-1.74-.794.66-.18 1.156-.45 1.456-.81.315-.344.465-.824.465-1.424 0-.48-.103-.885-.3-1.26-.21-.36-.493-.645-.883-.87-.345-.195-.735-.315-1.215-.405-.464-.074-1.29-.12-2.474-.12H5.654v10.486H8.61zm.736-4.185c.705 0 1.185.088 1.44.262.27.18.39.495.39.93 0 .405-.135.69-.42.855-.27.18-.765.254-1.44.254H8.31v-2.297h1.05zm8.656.706v-7.06h-2.46v7.06H18zM8.925 9.08c.71 0 1.185.08 1.432.24.245.16.367.435.367.83 0 .38-.13.646-.39.804-.265.154-.747.232-1.452.232h-.57V9.08h.615z"></path></svg></a></li>
-</ul>
-</div>
-<aside id="rp_wrap" class="post_item mb_L">
-<div class="item_title fw8 mb_S">Related posts</div>
-<div class="post_list_box"><ul class="post_list_ul m0" style="list-style:none;">
-<li class="pl_item relative mb10 mb_M"><a href="/pickout/chartedin-itunes-hiphop-chart/" class="f_box w100 opa7"><div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%20300'%3E%3C/svg%3E" class="scale_13 trans_10" width="169" height="300" alt="Hip Hop Chart #34!" title="Hip Hop Chart #34!" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?fit=169%2C300&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?fit=169%2C300&#038;ssl=1" class="scale_13 trans_10" width="169" height="300" alt="Hip Hop Chart #34!" title="Hip Hop Chart #34!"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">Hip Hop Chart #34!</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/web3/samurai-switch/" class="f_box w100 opa7"><div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20480'%3E%3C/svg%3E" class="scale_13 trans_10" width="640" height="480" alt="[NFT] &#8211; Samurai Switch" title="[NFT] &#8211; Samurai Switch" data-lazy-src="http://tubm.tokyo/wp-content/uploads/2022/12/Artwork-2000x2000-1.jpg"><noscript><img src="http://tubm.tokyo/wp-content/uploads/2022/12/Artwork-2000x2000-1.jpg" class="scale_13 trans_10" width="640" height="480" alt="[NFT] &#8211; Samurai Switch" title="[NFT] &#8211; Samurai Switch"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">[NFT] &#8211; Samurai Switch</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/pickout/dubble-up-charted/" class="f_box w100 opa7"><div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%20300'%3E%3C/svg%3E" class="scale_13 trans_10" width="169" height="300" alt="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!" title="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?fit=169%2C300&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?fit=169%2C300&#038;ssl=1" class="scale_13 trans_10" width="169" height="300" alt="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!" title="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/recommended/2592/" class="f_box w100 opa7"><div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E" class="scale_13 trans_10" width="300" height="169" alt="Visages &#8211; Lunar Eclipse Feat. Strategy" title="Visages &#8211; Lunar Eclipse Feat. Strategy" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Screen-Shot-2022-12-27-at-0.14.08.png?fit=300%2C169&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Screen-Shot-2022-12-27-at-0.14.08.png?fit=300%2C169&#038;ssl=1" class="scale_13 trans_10" width="300" height="169" alt="Visages &#8211; Lunar Eclipse Feat. Strategy" title="Visages &#8211; Lunar Eclipse Feat. Strategy"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">Visages &#8211; Lunar Eclipse Feat. Strategy</div></div></a></li>
-<li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/options-txt-list/" class="f_box w100 opa7"><div class="post_list_thum fit_box_img_wrap">
-<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20165'%3E%3C/svg%3E" class="scale_13 trans_10" width="300" height="165" alt="List of Options.txt settings for Ableton Live ver.11 (all list)" title="List of Options.txt settings for Ableton Live ver.11 (all list)" data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1"><noscript><img src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1" class="scale_13 trans_10" width="300" height="165" alt="List of Options.txt settings for Ableton Live ver.11 (all list)" title="List of Options.txt settings for Ableton Live ver.11 (all list)"></noscript>
-</div>
-<div class="pl_title f_box f_col jc_c" style="width:100%;"><div class="line_clamp lc2 of_h">List of Options.txt settings for Ableton Live ver.11 (all list)</div></div></a></li>
-</ul></div>
-</aside>
-</main>
-</div>
-<footer id="site_f">
-<div class="no_bg">
-<div class="wrap_frame fw_con f_box jc_sb f_wrap f_col100">
-<div class="f_widget_L"></div>
-<div class="f_widget_C"></div>
-<div class="f_widget_R"></div>
-</div>
-<a class="to_top non_hover tap_no" href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
-</div>
-<div class="credit_wrap">
-<div class="wrap_frame credit f_box f_col100 jc_c ai_c">
-<div class="copyright_left">
-<div class="copyright_info f_box jc_c f_wrap jc_fs011">
-<div class="dn"></div>	</div>
-<div class="copyright_wordpress f_box f_wrap jc_fs011">
-<div class="dn">Powered by <a href="https://wordpress.org/">WordPress</a>
-</div>
-<div class="dn">Theme by <a href="https://dev.back2nature.jp/en/simple-days/">Simple Days</a>
-</div>
-<div class="dn"></div>	</div>
-</div>
-<div class="copyright_right">
-<div class="description f_box jc_c f_wrap jc_fe011">Real Tokyo Underground Hip-Hop Label</div>	<div class="copyright f_wrap f_box jc_c jc_fe011">
-&copy;2024&nbsp; <a href="/">Tokyo Underground Beatz Massive</a>	</div>
-</div>
-</div>
-</div>
-</footer>
-<!-- Freesoul Deactivate Plugins has disabled 11 plugins on this page. -->
-<script type="text/javascript">document.addEventListener("DOMContentLoaded", function () {
+                            /*関連記事を削除*/
+                            #rp_wrap {
+                                display: none;
+                            }
+                        </style>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </header>
+    <div id="main_wrap" class="wrap_frame m_con jc_c001">
+        <main id="post-3304"
+            class="contents post_content shadow_box single_post_content post-3304 release type-release status-publish has-post-thumbnail record_label-tubm genre-dub genre-future-jungle">
+            <nav class="post_item mb_L">
+                <ol id="breadcrumb" class="breadcrumb">
+                    <li>
+                        <i class="fa fa-home" aria-hidden="true"></i> <a href="/"><span
+                                class="breadcrumb_home">Home</span></a>
+                    </li> &raquo; <li>
+                        <i class="fa fa-folder-open-o" aria-hidden="true"></i> <a><span class="">Release</span></a>
+                    </li> &raquo; <li>
+                        <i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="current">My Road</span>
+                    </li>
+                </ol>
+            </nav><!-- .breadcrumbs -->
+            <div class="post_item mb_L">
+                <h1 class="post_title">My Road</h1>
+            </div>
+            <div class="post_dates post_item f_box ai_c f_wrap mb_L fs14 jc_fe">
+                <div><span class="post_date"><i class="fa fa-clock-o" aria-hidden="true"></i> 2023-10-27</span></div>
+            </div>
+            <div class="post_author post_item mb_L ta_r">
+                <i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;<a href="/author/tubm/">tubm</a>
+            </div>
+            <article id="post_body" class="post_body clearfix post_item mb_L" itemprop="articleBody">
+                <div class="release_detail" id="lg_content_release">
+                    <div class="header_release">
+                        <div class="artwork">
+                            <a
+                                href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/10/myroad_artwork.jpg?resize=924%2C924&ssl=1"><img
+                                    decoding="async"
+                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                                    alt="My Road Artwork" title="My Road Artwork"
+                                    data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/10/myroad_artwork.jpg?resize=500%2C500&ssl=1"><noscript><img
+                                        decoding="async"
+                                        src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/10/myroad_artwork.jpg?resize=500%2C500&ssl=1"
+                                        loading="lazy" alt="My Road Artwork" title="My Road Artwork"></noscript></a>
+                            <div class="sub_artwork_details">
+                                <span class="catalog_number">Single</span><span class="release_date">2023-10-30</span>
+                            </div>
+                        </div>
+                        <div class="release_links">
+                            <script>var itunes_affiliate_token = '1001l38Eo';</script>
+                            <div id="releaselinks">
+                                <div class="linkTop spotify"><a
+                                        data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_spotify.svg"
+                                        class="rocket-lazyload"
+                                        href="https://open.spotify.com/track/6i7qQIZ8YqU1KXlTMvBT2N" target="blank"
+                                        data-service="spotify" title="Listen on Spotify" rel="nofollow">Listen on
+                                        Spotify</a></div>
+                                <div class="linkTop applemusic"><a
+                                        data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_applemusic.svg"
+                                        class="rocket-lazyload"
+                                        href="https://music.apple.com/album/my-road/1712954127?i=1712954129&app=music"
+                                        target="blank" data-service="applemusic" title="Listen on Apple Music"
+                                        rel="nofollow">Listen on Apple Music</a></div>
+                                <div class="linkTop itunes"><a
+                                        data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_itunes.svg"
+                                        class="rocket-lazyload"
+                                        href="https://music.apple.com/album/my-road-single/1712954127?ls=1&app=itunes&app=itunes"
+                                        target="blank" data-service="itunes" title="Download from iTunes"
+                                        rel="nofollow">Download from iTunes</a></div>
+                                <div class="linkTop youtube"><a
+                                        data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_youtube.svg"
+                                        class="rocket-lazyload" href="https://youtu.be/wffdrzQ79ic" target="blank"
+                                        data-service="youtube" title="Watch on YouTube" rel="nofollow">Watch on
+                                        YouTube</a></div>
+                                <div class="linkTop deezer"><a
+                                        data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_deezer.svg"
+                                        class="rocket-lazyload" href="https://www.deezer.com/album/502780251"
+                                        target="blank" data-service="deezer" title="Listen on Deezer"
+                                        rel="nofollow">Listen on Deezer</a></div>
+                                <div class="linkTop amazon_custom"><a
+                                        data-bg="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/ico_amazon.png?resize=125%2C40&#038;ssl=1"
+                                        class="rocket-lazyload"
+                                        href="https://music.amazon.co.jp/albums/B0CLHM78BZ?marketplaceId=A1VC38T7YXB528&musicTerritory=JP&ref=dm_sh_KmRs3EPrkjKrT55X6xGLFXgJj&trackAsin=B0CLHKF1HX"
+                                        target="blank" data-service="amazon_custom" title="Listen on Amazon"
+                                        rel="nofollow">Listen on Amazon</a></div>
+                                <div class="linkTop napster"><a
+                                        data-bg="/wp-content/plugins/label-grid-tools/public/images/ico_napster.svg"
+                                        class="rocket-lazyload" href="https://play.napster.com/track/tra.791608041"
+                                        target="blank" data-service="napster" title="Download from Napster"
+                                        rel="nofollow">Download from Napster</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="right_col">
+                        <div class="artists">
+                            <div class="titleartist">Features:</div>
+                            <div class="release_data totrel3"><a href="/artist/ragga-g/">
+                                    <div class="image_release">
+                                        <img decoding="async"
+                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                                            alt="RAGGA-G"
+                                            data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Ragga-G-Profile-Pic.jpg?resize=80%2C80&ssl=1"><noscript><img
+                                                decoding="async"
+                                                src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Ragga-G-Profile-Pic.jpg?resize=80%2C80&ssl=1"
+                                                loading="lazy" alt="RAGGA-G"></noscript>
+                                    </div>
+                                    <div class="title_release">RAGGA-G</div>
+                                </a></div>
+                            <div class="release_data totrel3"><a href="/artist/pazoodog/">
+                                    <div class="image_release">
+                                        <img decoding="async"
+                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                                            alt="PAZOODOG"
+                                            data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/09/PAZOODOG-Profile-Pic.jpg?resize=80%2C80&ssl=1"><noscript><img
+                                                decoding="async"
+                                                src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/09/PAZOODOG-Profile-Pic.jpg?resize=80%2C80&ssl=1"
+                                                loading="lazy" alt="PAZOODOG"></noscript>
+                                    </div>
+                                    <div class="title_release">PAZOODOG</div>
+                                </a></div>
+                            <div class="release_data totrel3"><a href="/artist/hummingbird/">
+                                    <div class="image_release">
+                                        <img decoding="async"
+                                            src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                                            alt="Hummingbird"
+                                            data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/4566.jpg?resize=80%2C80&ssl=1"><noscript><img
+                                                decoding="async"
+                                                src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/4566.jpg?resize=80%2C80&ssl=1"
+                                                loading="lazy" alt="Hummingbird"></noscript>
+                                    </div>
+                                    <div class="title_release">Hummingbird</div>
+                                </a></div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <div class="post_category post_item mb_L f_box f_wrap ai_c">
+                <i class="fa fa-folder-open-o mr10" aria-hidden="true"></i>
+            </div>
+            <div id="social_share" class="social_share_list post_item mb_L">
+                <div class="item_title fw8 mb_S">Share this :)</div>
+                <ul class="sns_link_icon f_box f_wrap sns_opacity sns_share_icon jc_fs m0 p0" style="list-style:none;">
+                    <li><a href="https://reddit.com/submit?url=/release/my-road/&#038;title=My%20Road" target="_blank"
+                            rel="noopener noreferrer"
+                            class="sns_reddit sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no"
+                            title="Reddit"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="sns_icon_1"
+                                    d="M2.204 14.049c-.06.276-.091.56-.091.847 0 3.443 4.402 6.249 9.814 6.249 5.41 0 9.812-2.804 9.812-6.249 0-.274-.029-.546-.082-.809l-.015-.032c-.021-.055-.029-.11-.029-.165-.302-1.175-1.117-2.241-2.296-3.103-.045-.016-.088-.039-.126-.07-.026-.02-.045-.042-.067-.064-1.792-1.234-4.356-2.008-7.196-2.008-2.815 0-5.354.759-7.146 1.971-.014.018-.029.033-.049.049-.039.033-.084.06-.13.075-1.206.862-2.042 1.937-2.354 3.123 0 .058-.014.114-.037.171l-.008.015zm9.773 5.441c-1.794 0-3.057-.389-3.863-1.197-.173-.174-.173-.457 0-.632.176-.165.46-.165.635 0 .63.629 1.685.943 3.228.943 1.542 0 2.591-.3 3.219-.929.165-.164.45-.164.629 0 .165.18.165.465 0 .645-.809.808-2.065 1.198-3.862 1.198l.014-.028zm-3.606-7.573c-.914 0-1.677.765-1.677 1.677 0 .91.763 1.65 1.677 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm7.233 0c-.914 0-1.678.765-1.678 1.677 0 .91.764 1.65 1.678 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm4.548-1.595c1.037.833 1.8 1.821 2.189 2.904.45-.336.719-.864.719-1.449 0-1.002-.815-1.816-1.818-1.816-.399 0-.778.129-1.09.363v-.002zM2.711 9.963c-1.003 0-1.817.816-1.817 1.818 0 .543.239 1.048.644 1.389.401-1.079 1.172-2.053 2.213-2.876-.302-.21-.663-.329-1.039-.329v-.002zm9.217 12.079c-5.906 0-10.709-3.205-10.709-7.142 0-.275.023-.544.068-.809C.494 13.598 0 12.729 0 11.777c0-1.496 1.227-2.713 2.725-2.713.674 0 1.303.246 1.797.682 1.856-1.191 4.357-1.941 7.112-1.992l1.812-5.524.404.095s.016 0 .016.002l4.223.993c.344-.798 1.138-1.36 2.065-1.36 1.229 0 2.231 1.004 2.231 2.234 0 1.232-1.003 2.234-2.231 2.234s-2.23-1.004-2.23-2.23l-3.851-.912-1.467 4.477c2.65.105 5.047.854 6.844 2.021.494-.464 1.144-.719 1.833-.719 1.498 0 2.718 1.213 2.718 2.711 0 .987-.54 1.886-1.378 2.365.029.255.059.494.059.749-.015 3.938-4.806 7.143-10.72 7.143l-.034.009zm8.179-19.187c-.74 0-1.34.599-1.34 1.338 0 .738.6 1.34 1.34 1.34.732 0 1.33-.6 1.33-1.334 0-.733-.598-1.332-1.347-1.332l.017-.012z">
+                                </path>
+                            </svg></a></li>
+                    <li><a href="https://x.com/share?url=/release/my-road/&#038;text=My%20Road" target="_blank"
+                            rel="noopener noreferrer"
+                            class="sns_twitter sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no"
+                            title="Twitter"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="sns_icon_2"
+                                    d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z">
+                                </path>
+                            </svg></a></li>
+                    <li><a href="https://lineit.line.me/share/ui?url=/release/my-road/" target="_blank"
+                            rel="noopener noreferrer"
+                            class="sns_line sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no"
+                            title="Line"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="sns_icon_3"
+                                    d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314">
+                                </path>
+                            </svg></a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=/release/my-road/" target="_blank"
+                            rel="noopener noreferrer"
+                            class="sns_facebook sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no"
+                            title="Facebook"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="sns_icon_4"
+                                    d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z">
+                                </path>
+                            </svg></a></li>
+                    <li><a href="https://b.hatena.ne.jp/add?mode=confirm&#038;url=/release/my-road/&#038;title=My%20Road"
+                            target="_blank" rel="noopener noreferrer"
+                            class="sns_hatenabookmark sns_icon_base f_box ai_c jc_c icon_character non_hover flow_box tap_no"
+                            title="Hatena"><svg class="svg-icon" width="32" height="24" viewbox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="sns_icon_5"
+                                    d="M20.47 0C22.42 0 24 1.58 24 3.53v16.94c0 1.95-1.58 3.53-3.53 3.53H3.53C1.58 24 0 22.42 0 20.47V3.53C0 1.58 1.58 0 3.53 0h16.94zm-3.705 14.47c-.78 0-1.41.63-1.41 1.41s.63 1.414 1.41 1.414 1.41-.645 1.41-1.425-.63-1.41-1.41-1.41zM8.61 17.247c1.2 0 2.056-.042 2.58-.12.526-.084.976-.222 1.32-.412.45-.232.78-.564 1.02-.99s.36-.915.36-1.48c0-.78-.21-1.403-.63-1.87-.42-.48-.99-.734-1.74-.794.66-.18 1.156-.45 1.456-.81.315-.344.465-.824.465-1.424 0-.48-.103-.885-.3-1.26-.21-.36-.493-.645-.883-.87-.345-.195-.735-.315-1.215-.405-.464-.074-1.29-.12-2.474-.12H5.654v10.486H8.61zm.736-4.185c.705 0 1.185.088 1.44.262.27.18.39.495.39.93 0 .405-.135.69-.42.855-.27.18-.765.254-1.44.254H8.31v-2.297h1.05zm8.656.706v-7.06h-2.46v7.06H18zM8.925 9.08c.71 0 1.185.08 1.432.24.245.16.367.435.367.83 0 .38-.13.646-.39.804-.265.154-.747.232-1.452.232h-.57V9.08h.615z">
+                                </path>
+                            </svg></a></li>
+                </ul>
+            </div>
+            <aside id="rp_wrap" class="post_item mb_L">
+                <div class="item_title fw8 mb_S">Related posts</div>
+                <div class="post_list_box">
+                    <ul class="post_list_ul m0" style="list-style:none;">
+                        <li class="pl_item relative mb10 mb_M"><a href="/pickout/chartedin-itunes-hiphop-chart/"
+                                class="f_box w100 opa7">
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%20300'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="169" height="300" alt="Hip Hop Chart #34!"
+                                        title="Hip Hop Chart #34!"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?fit=169%2C300&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?fit=169%2C300&#038;ssl=1"
+                                            class="scale_13 trans_10" width="169" height="300" alt="Hip Hop Chart #34!"
+                                            title="Hip Hop Chart #34!"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">Hip Hop Chart #34!</div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/web3/samurai-switch/" class="f_box w100 opa7">
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20480'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="640" height="480"
+                                        alt="[NFT] &#8211; Samurai Switch" title="[NFT] &#8211; Samurai Switch"
+                                        data-lazy-src="/assets/images/Artwork-2000x2000-1.jpg"><noscript><img
+                                            src="/assets/images/Artwork-2000x2000-1.jpg" class="scale_13 trans_10"
+                                            width="640" height="480" alt="[NFT] &#8211; Samurai Switch"
+                                            title="[NFT] &#8211; Samurai Switch"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">[NFT] &#8211; Samurai Switch</div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/pickout/dubble-up-charted/"
+                                class="f_box w100 opa7">
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20169%20300'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="169" height="300"
+                                        alt="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!"
+                                        title="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?fit=169%2C300&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?fit=169%2C300&#038;ssl=1"
+                                            class="scale_13 trans_10" width="169" height="300"
+                                            alt="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!"
+                                            title="DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!
+                                    </div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/recommended/2592/" class="f_box w100 opa7">
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20169'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="300" height="169"
+                                        alt="Visages &#8211; Lunar Eclipse Feat. Strategy"
+                                        title="Visages &#8211; Lunar Eclipse Feat. Strategy"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Screen-Shot-2022-12-27-at-0.14.08.png?fit=300%2C169&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/12/Screen-Shot-2022-12-27-at-0.14.08.png?fit=300%2C169&#038;ssl=1"
+                                            class="scale_13 trans_10" width="300" height="169"
+                                            alt="Visages &#8211; Lunar Eclipse Feat. Strategy"
+                                            title="Visages &#8211; Lunar Eclipse Feat. Strategy"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">Visages &#8211; Lunar Eclipse Feat. Strategy</div>
+                                </div>
+                            </a></li>
+                        <li class="pl_item relative mb10 mb_M"><a href="/mixingmastering/options-txt-list/"
+                                class="f_box w100 opa7">
+                                <div class="post_list_thum fit_box_img_wrap">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20165'%3E%3C/svg%3E"
+                                        class="scale_13 trans_10" width="300" height="165"
+                                        alt="List of Options.txt settings for Ableton Live ver.11 (all list)"
+                                        title="List of Options.txt settings for Ableton Live ver.11 (all list)"
+                                        data-lazy-src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1"><noscript><img
+                                            src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Screen-Shot-2023-02-27-at-19.04.14.png?fit=300%2C165&#038;ssl=1"
+                                            class="scale_13 trans_10" width="300" height="165"
+                                            alt="List of Options.txt settings for Ableton Live ver.11 (all list)"
+                                            title="List of Options.txt settings for Ableton Live ver.11 (all list)"></noscript>
+                                </div>
+                                <div class="pl_title f_box f_col jc_c" style="width:100%;">
+                                    <div class="line_clamp lc2 of_h">List of Options.txt settings for Ableton Live
+                                        ver.11 (all list)</div>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </aside>
+        </main>
+    </div>
+    <footer id="site_f">
+        <div class="no_bg">
+            <div class="wrap_frame fw_con f_box jc_sb f_wrap f_col100">
+                <div class="f_widget_L"></div>
+                <div class="f_widget_C"></div>
+                <div class="f_widget_R"></div>
+            </div>
+            <a class="to_top non_hover tap_no" href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        </div>
+        <div class="credit_wrap">
+            <div class="wrap_frame credit f_box f_col100 jc_c ai_c">
+                <div class="copyright_left">
+                    <div class="copyright_info f_box jc_c f_wrap jc_fs011">
+                        <div class="dn"></div>
+                    </div>
+                    <div class="copyright_wordpress f_box f_wrap jc_fs011">
+                        <div class="dn">Powered by <a href="https://wordpress.org/">WordPress</a>
+                        </div>
+                        <div class="dn">Theme by <a href="https://dev.back2nature.jp/en/simple-days/">Simple Days</a>
+                        </div>
+                        <div class="dn"></div>
+                    </div>
+                </div>
+                <div class="copyright_right">
+                    <div class="description f_box jc_c f_wrap jc_fe011">Real Tokyo Underground Hip-Hop Label</div>
+                    <div class="copyright f_wrap f_box jc_c jc_fe011">
+                        &copy;2024&nbsp; <a href="/">Tokyo Underground Beatz Massive</a> </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Freesoul Deactivate Plugins has disabled 11 plugins on this page. -->
+    <script type="text/javascript">document.addEventListener("DOMContentLoaded", function () {
             // セレクタで要素を取得
             var nextHeadings = document.querySelectorAll("div.next_heading");
 
@@ -270,33 +492,55 @@ html body div.mob-menu-header-holder.mobmenu:nth-child(14) {
                 element.innerHTML = element.textContent;
             });
         });</script>
-<div class="mobmenu-overlay"></div>
-<div class="mob-menu-header-holder mobmenu" data-menu-display="mob-menu-slideout-over" data-autoclose-submenus="1" data-open-icon="down-open" data-close-icon="up-open">
-<div class="mobmenul-container"><a href="#" class="mobmenu-left-bt mobmenu-trigger-action" data-panel-target="mobmenu-left-panel" aria-label="Left Menu Button"><i class="mob-icon-menu mob-menu-icon"></i><i class="mob-icon-cancel-1 mob-cancel-button"></i></a></div>
-<div class="mobmenur-container"></div>
-</div>
-<div class="mobmenu-left-alignment mobmenu-panel mobmenu-left-panel  ">
-<a href="#" class="mobmenu-left-bt" aria-label="Left Menu Button"><i class="mob-icon-cancel-1 mob-cancel-button"></i></a>
-<div class="mobmenu-content">
-<div class="menu-main-menu-container"><ul id="mobmenuleft" class="wp-mobile-menu" role="menubar" aria-label="Main navigation for mobile devices">
-<li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-324"><a href="/" role="menuitem" class="">Home</a></li>
-<li role="none" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-332"><a href="/blog/" role="menuitem" class="">Blog</a></li>
-<li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a href="/tunes/" role="menuitem" class="">Releases</a></li>
-<li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a href="/contact/" role="menuitem" class="">Contact</a></li>
-</ul></div>
-</div>
-<div class="mob-menu-left-bg-holder"></div>
-</div>
-<script id="mcc_line_bot_script-js-extra">var mcc_line_bot_script_vars = {"MY_PLUGIN_PATH":"\/wp-content\/plugins\/Me_Cool_Custom_Line_Bot\/","welcome_message":"Yo!","chat_button_text":"TUBM BOT","too_many_requests_message":"Too many requests. Please try again in 1 hour."};</script>
-<script src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/dummy.js?ver=1.0" id="mcc_line_bot_script-js"></script>
-<script src="/wp-content/plugins/Me_Cool_YTPlaylist/js/me_cool_ytplaylist.js" id="me_cool_ytplaylist_js-js"></script>
-<script src="/wp-content/plugins/label-grid-tools/public/js/json2.min.js?ver=1.3.58" id="labelgrid-tools-json2-js"></script>
-<script src="/wp-content/plugins/label-grid-tools/public/js/handlebars.min.js?ver=1.3.58" id="labelgrid-tools-handlebars-js"></script>
-<script src="/wp-content/plugins/label-grid-tools/vendor/bower-asset/moment/moment.js?ver=1.3.58" id="labelgrid-tools-moment-js"></script>
+    <div class="mobmenu-overlay"></div>
+    <div class="mob-menu-header-holder mobmenu" data-menu-display="mob-menu-slideout-over" data-autoclose-submenus="1"
+        data-open-icon="down-open" data-close-icon="up-open">
+        <div class="mobmenul-container"><a href="#" class="mobmenu-left-bt mobmenu-trigger-action"
+                data-panel-target="mobmenu-left-panel" aria-label="Left Menu Button"><i
+                    class="mob-icon-menu mob-menu-icon"></i><i class="mob-icon-cancel-1 mob-cancel-button"></i></a>
+        </div>
+        <div class="mobmenur-container"></div>
+    </div>
+    <div class="mobmenu-left-alignment mobmenu-panel mobmenu-left-panel  ">
+        <a href="#" class="mobmenu-left-bt" aria-label="Left Menu Button"><i
+                class="mob-icon-cancel-1 mob-cancel-button"></i></a>
+        <div class="mobmenu-content">
+            <div class="menu-main-menu-container">
+                <ul id="mobmenuleft" class="wp-mobile-menu" role="menubar"
+                    aria-label="Main navigation for mobile devices">
+                    <li role="none"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-324"><a
+                            href="/" role="menuitem" class="">Home</a></li>
+                    <li role="none"
+                        class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-332">
+                        <a href="/blog/" role="menuitem" class="">Blog</a>
+                    </li>
+                    <li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a
+                            href="/tunes/" role="menuitem" class="">Releases</a></li>
+                    <li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a
+                            href="/contact/" role="menuitem" class="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mob-menu-left-bg-holder"></div>
+    </div>
+    <script
+        id="mcc_line_bot_script-js-extra">var mcc_line_bot_script_vars = { "MY_PLUGIN_PATH": "\/wp-content\/plugins\/Me_Cool_Custom_Line_Bot\/", "welcome_message": "Yo!", "chat_button_text": "TUBM BOT", "too_many_requests_message": "Too many requests. Please try again in 1 hour." };</script>
+    <script src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/dummy.js?ver=1.0" id="mcc_line_bot_script-js"></script>
+    <script src="/wp-content/plugins/Me_Cool_YTPlaylist/js/me_cool_ytplaylist.js"
+        id="me_cool_ytplaylist_js-js"></script>
+    <script src="/wp-content/plugins/label-grid-tools/public/js/json2.min.js?ver=1.3.58"
+        id="labelgrid-tools-json2-js"></script>
+    <script src="/wp-content/plugins/label-grid-tools/public/js/handlebars.min.js?ver=1.3.58"
+        id="labelgrid-tools-handlebars-js"></script>
+    <script src="/wp-content/plugins/label-grid-tools/vendor/bower-asset/moment/moment.js?ver=1.3.58"
+        id="labelgrid-tools-moment-js"></script>
 
     <script data-no-minify="1" async src="/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script>
     <script>function lazyLoadThumb(e, alt) { var t = '<img loading="lazy" src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360">', a = '<button class="play" aria-label="play Youtube video"><\/button>'; t = t.replace('alt=""', 'alt="' + alt + '"'); return t.replace("ID", e) + a } function lazyLoadYoutubeIframe() { var e = document.createElement("iframe"), t = "ID?autoplay=1"; t += 0 === this.parentNode.dataset.query.length ? '' : '&' + this.parentNode.dataset.query; e.setAttribute("src", t.replace("ID", this.parentNode.dataset.src)), e.setAttribute("frameborder", "0"), e.setAttribute("allowfullscreen", "1"), e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"), this.parentNode.parentNode.replaceChild(e, this.parentNode) } document.addEventListener("DOMContentLoaded", function () { var e, t, p, a = document.getElementsByClassName("rll-youtube-player"); for (t = 0; t < a.length; t++)e = document.createElement("div"), e.setAttribute("data-id", a[t].dataset.id), e.setAttribute("data-query", a[t].dataset.query), e.setAttribute("data-src", a[t].dataset.src), e.innerHTML = lazyLoadThumb(a[t].dataset.id, a[t].dataset.alt), a[t].appendChild(e), p = e.querySelector('.play'), p.onclick = lazyLoadYoutubeIframe });</script>
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>    <script type="module" src="/static/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script type="module" src="/static/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    </body>
+</body>
+
 </html>
