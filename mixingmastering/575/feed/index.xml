@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: 音階と周波数	</title>
+	<atom:link href="/mixingmastering/575/feed/" rel="self" type="application/rss+xml" />
+	<link>/mixingmastering/575/</link>
+	<description>Real Tokyo Underground Hip-Hop Label</description>
+	<lastBuildDate>Wed, 03 Aug 2022 06:05:14 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<item>
+		<title>
+		By: スペクトラムアナライザ見ればノート（音程）は分かる - Tokyo Underground Beatz Massive		</title>
+		<link>/mixingmastering/575/#comment-5</link>
+
+		<dc:creator><![CDATA[スペクトラムアナライザ見ればノート（音程）は分かる - Tokyo Underground Beatz Massive]]></dc:creator>
+		<pubDate>Tue, 23 Nov 2021 15:13:46 +0000</pubDate>
+		<guid isPermaLink="false">/?p=575#comment-5</guid>
+
+					<description><![CDATA[[&#8230;]  音階と周波数それぞれの音程を周波数で表したチャートです。自分の楽器&#8230;  [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;]  音階と周波数それぞれの音程を周波数で表したチャートです。自分の楽器&#8230;  [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: コンプレッサーはEQの前？後ろ？ - Tokyo Underground Beatz Massive		</title>
+		<link>/mixingmastering/575/#comment-4</link>
+
+		<dc:creator><![CDATA[コンプレッサーはEQの前？後ろ？ - Tokyo Underground Beatz Massive]]></dc:creator>
+		<pubDate>Mon, 22 Nov 2021 05:08:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=575#comment-4</guid>
+
+					<description><![CDATA[[&#8230;] ところで、何故２弦の５フレットのGだと98Hzなの？って思った人はこちらの記事に各ノート（音程）を周波数で表したテーブルを作っておいたのでEQ処理やミックス処理に役立ててもらえれば嬉しいです。 またはFabfilter Pro-Q3やVoxengo Span（無料）を使ってスペクトラムアナライザーから周波数=ノートを特定する事も可能です。 [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] ところで、何故２弦の５フレットのGだと98Hzなの？って思った人はこちらの記事に各ノート（音程）を周波数で表したテーブルを作っておいたのでEQ処理やミックス処理に役立ててもらえれば嬉しいです。 またはFabfilter Pro-Q3やVoxengo Span（無料）を使ってスペクトラムアナライザーから周波数=ノートを特定する事も可能です。 [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

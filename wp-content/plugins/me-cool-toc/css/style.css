@@ -1,0 +1,8 @@
+#me_cool_toc ol li a {
+    text-decoration: none !important;
+}
+
+#me_cool_toc {
+    background-color: transparent;
+    border: none;
+}

@@ -1,0 +1,57 @@
+#social_share .sns_icon_base {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-decoration: none;
+    padding: 4px;
+}
+
+#social_share .sns_icon_1 {
+    fill: #FF4500;
+}
+
+#social_share .sns_icon_2 {
+    fill: #1DA1F2;
+}
+
+#social_share .sns_icon_3 {
+    fill: #00C300;
+}
+
+#social_share .sns_icon_4 {
+    fill: #1877f2;
+}
+
+#social_share .sns_icon_5 {
+    fill: #00A4DE;
+}
+
+#ya_social_links-3 .sns_icon_base {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-decoration: none;
+    padding: 4px;
+}
+
+#ya_social_links-3 .sns_icon_1 {
+    fill: url(#instagram);
+}
+
+#ya_social_links-3 .sns_icon_2 {
+    fill: #FF0000;
+}
+
+#ya_social_links-3 .sns_icon_3 {
+    fill: #FF3300;
+}
+
+#ya_social_links-3 .sns_icon_4 {
+    fill: #1DA1F2;
+}
+
+#ya_social_links-3 .sns_icon_5 {
+    fill: #1877f2;
+}

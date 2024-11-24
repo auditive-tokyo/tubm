@@ -1,0 +1,9 @@
+/* Theme */
+@import 'theme/simple_days_style-inline-css.css';
+@import 'theme/simple_days_plus-inline-css.css';
+@import 'theme/custom-background-css.css';
+@import 'plugins/social-links.css';
+@import 'plugins/social-share.css';
+/* @import 'theme/simple_days_keyframes-inline-css.css' */
+
+/* Plugins */

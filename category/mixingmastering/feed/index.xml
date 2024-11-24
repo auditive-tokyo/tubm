@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Mixing&amp;Mastering  |  Tokyo Underground Beatz Massive</title>
+	<atom:link href="/category/mixingmastering/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Real Tokyo Underground Hip-Hop Label</description>
+	<lastBuildDate>Wed, 20 Sep 2023 04:14:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+
+<image>
+	<url>https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=32%2C32&#038;ssl=1</url>
+	<title>Mixing&amp;Mastering  |  Tokyo Underground Beatz Massive</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>List of Options.txt settings for Ableton Live ver.11 (all list)</title>
+		<link>/mixingmastering/options-txt-list/</link>
+					<comments>/mixingmastering/options-txt-list/#comments</comments>
+		
+		<dc:creator><![CDATA[KillA808]]></dc:creator>
+		<pubDate>Tue, 28 Feb 2023 09:55:45 +0000</pubDate>
+				<category><![CDATA[Mixing&Mastering]]></category>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535</guid>
+
+					<description><![CDATA[As the title suggests, this is a list of all the features that can be set in Ableton LIve 11&#8217;s Option.txt file.Whether you are newbie or are already a heavy user, it might help you live more comfortable producer life! About Options.txt What is Options.txt? It is a text file that allows you to add [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img data-recalc-dims="1" height="471" width="856" decoding="async" class="wp-block-cover__image-background wp-image-3536" alt="" src="https://i0.wp.com/tubm.tokyo/wp-content/uploads/2023/02/Screen-Shot-2023-02-27-at-19.04.14-1024x564.png?resize=856%2C471" data-object-fit="cover"/><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
+<p class="has-text-align-center has-vivid-green-cyan-color has-text-color has-large-font-size"><strong>Customize Live to your preference! </strong></p>
+</div></div>
+
+
+
+<p>As the title suggests, this is a list of all the features that can be set in Ableton LIve 11&#8217;s Option.txt file.<br>Whether you are newbie or are already a heavy user, it might help you live more comfortable producer life!</p>
+
+
+
+<h2 id="toc_1" class="wp-block-heading">About Options.txt</h2>
+
+
+
+<p>What is Options.txt? It is a text file that allows you to add experimental, unsupported features to Live.<br>For example, one of the most commonly used line (and I use it myself) is: </p>
+
+
+
+<p>-ShowDeviceSlots=1</p>
+
+
+
+<p>This enables you to see what plugin you are inserting to what channel, and its on/off status in Session View (explained in below). </p>
+
+
+
+<p>Here is how to do it:</p>
+
+
+
+<p>Using a text editor, create a new plain text file and name it &#8220;Options.txt&#8221;. In the file, put the above line. It should look like this.</p>
+
+
+<p><img data-recalc-dims="1" fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-3538" src="https://i0.wp.com/tubm.tokyo/wp-content/uploads/2023/02/Screen-Shot-2023-02-27-at-20.42.29.png?resize=767%2C539" alt="" width="767" height="539"></p>
+
+
+<p>Move the created file to the folder &#8220;Preferences&#8221; in the following location (where &#8220;x.x.x&#8221; in the following path is the version number of Live you are currently using. e.g., &#8220;11.1&#8221;</p>
+
+
+
+<p><strong>Windows</strong></p>
+
+
+
+<p>\Users\[username]\AppData\Roaming\Ableton\Live x.x.x\Preferences\</p>
+
+
+
+<p><strong>macOS</strong></p>
+
+
+
+<p>/Users/[username]/Library/Preferences/Ableton/Live x.x.x/</p>
+
+
+
+<p>Place the text file you created in the location and open Live, you will be able to see plugins&#8217; status (on/off) for each channel in Session View. Like this. </p>
+
+
+<p><a href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Abelton-ShowDeviceSlots.png"><img data-recalc-dims="1" decoding="async" class="aligncenter size-large wp-image-3189" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Abelton-ShowDeviceSlots.png?resize=856%2C471" alt="" width="856" height="471" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Abelton-ShowDeviceSlots.png?resize=1024%2C564&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Abelton-ShowDeviceSlots.png?resize=300%2C165&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Abelton-ShowDeviceSlots.png?resize=768%2C423&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Abelton-ShowDeviceSlots.png?resize=1536%2C846&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Abelton-ShowDeviceSlots.png?resize=600%2C330&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/Abelton-ShowDeviceSlots.png?w=1678&amp;ssl=1 1678w" sizes="(max-width: 856px) 100vw, 856px" /></a></p>
+
+
+<h2 id="toc_2" class="wp-block-heading">Where I got the full list</h2>
+
+
+
+<p>I was curious about other features, so I got the list from <a href="https://github.com/ibekso/medium/blob/main/article_ressources/options_txt/lists/options_available_live_11.txt" target="_blank" data-type="URL" data-id="https://github.com/ibekso/medium/blob/main/article_ressources/options_txt/lists/options_available_live_11.txt" rel="noreferrer noopener">Github</a>.</p>
+
+
+
+<p>However, this does not explain the function and value settings, so I asked questions on ChatGPT to find out the function and value settings (being honest, it is impossible to search everything one by one). The results are summarized in the list below.</p>
+
+
+
+<p class="has-pale-pink-color has-text-color"><strong>*Note) The list might contain incorrect values. The sheer volume of the data makes it impossible for me to check everything. Some of the lines are new to me and the AI is not perfect at this stage. If you actually implement, please be sure to check the value settings by yourself and use at your own risk (these are unsupported features). <br>If you find any mistakes in this list, please let me know in the comments section or <a href="/contact/" data-type="page" data-id="360" target="_blank" rel="noreferrer noopener">contact form</a>.</strong></p>
+
+
+
+<p>There are 102 in total. Use them if you think some of them are useful! Have a wicked producer life!</p>
+
+
+
+<h2 id="toc_3" class="wp-block-heading">All Lists and their Functions and Value Ranges and Default Values</h2>
+
+
+
+<p>-AcceptanceTestsIgnoreAssertions: When enabled, this option disables certain assertions in Ableton Live&#8217;s acceptance tests, which can help when debugging issues. The default value is false.</p>
+
+
+
+<p>-AcceptanceTestsPort: This option sets the port number used by Ableton Live&#8217;s acceptance tests. The default value is 16720, and the value range is 1-65535.</p>
+
+
+
+<p>-AdditionalLatencyForPlaythrough: This option adds a specified amount of additional latency to Ableton Live&#8217;s playthrough channel. The default value is 0, and the value range is -1000-1000.</p>
+
+
+
+<p>-AnimatedScrollBarAlphaDelta: This option sets the speed of the alpha transition for animated scroll bars in Ableton Live. The default value is 0.08, and the value range is 0.0-1.0.</p>
+
+
+
+<p>-AnimatedScrollBarVisibleTime: This option sets the time in seconds that animated scroll bars are visible in Ableton Live. The default value is 1.5, and the value range is 0.0-10.0.</p>
+
+
+
+<p>-AsioDisableMultiClient: When enabled, this option disables multiple clients in ASIO drivers in Ableton Live, which can improve stability. The default value is false.</p>
+
+
+
+<p>-AsioNoClockSource: When enabled, this option disables the clock source selection in ASIO drivers in Ableton Live. The default value is false.</p>
+
+
+
+<p>-AsioNoSampleRateCheck: When enabled, this option disables the sample rate check in ASIO drivers in Ableton Live. The default value is false.</p>
+
+
+
+<p>-AsioNoSetSampleRate: When enabled, this option disables the sample rate setting in ASIO drivers in Ableton Live. The default value is false.</p>
+
+
+
+<p>-AsioSupportProcessNow: When enabled, this option enables &#8220;Process Now&#8221; mode for ASIO drivers in Ableton Live, which can improve performance. The default value is false.</p>
+
+
+
+<p>-AudioQuantizeFixedWarpMarker: When enabled, this option allows you to quantize an audio clip to a specific warp marker, rather than the nearest transient. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-AutoAdjustMacroMappingRange: When enabled, this option automatically adjusts the range of macro knobs in Ableton Live based on the currently selected device, so that the full range of the knob is used for the device&#8217;s parameter. The default value is true, and the value range is true or false.</p>
+
+
+
+<p>-AutoShowPythonShellOnError: When enabled, this option automatically opens the Python shell in Ableton Live if an error occurs in a Python script. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-BuiltinLessons: When enabled, this option adds a set of built-in lessons to Ableton Live. The default value is true, and the value range is true or false.</p>
+
+
+
+<p>-ChallengeMethod: This option specifies the method used to challenge an Ableton Live user&#8217;s authorization. The default value is 1, and the value range is 0-2.</p>
+
+
+
+<p>-CheckAllLanguageFiles: When enabled, this option causes Ableton Live to check all language files for errors. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-ClipFireWillContinueSong: When enabled, this option allows clips to continue playing even after they are launched using the &#8220;fire&#8221; button in Ableton Live. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-ControlSurfaceDisplayUpdateRate: This option sets the update rate of control surface displays in Ableton Live, in milliseconds. The default value is 45, and the value range is 1-100.</p>
+
+
+
+<p>-DebugKeys: When enabled, this option enables various debugging features in Ableton Live, such as displaying MIDI messages and control surface events. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-DecodeDirectShowMediaFiles: When enabled, this option allows Ableton Live to decode DirectShow media files, such as AVI and WMV files. The default value is true, and the value range is true or false.</p>
+
+
+
+<p>-DevicesLegacyLive5: When enabled, this option enables compatibility mode for Ableton Live 5 devices. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-DisableAutoBugReporting: When enabled, this option disables automatic bug reporting in Ableton Live. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-DisableFileRefMapping: When enabled, this option disables file reference mapping in Ableton Live. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-DontAskForAdminRights: When enabled, this option prevents Ableton Live from prompting the user for admin rights. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-DontRetriggerSessionClips: When enabled, this option prevents session clips from retriggering when they are stopped and then started again. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-DontStoreCompoundPaths: When enabled, this option prevents Ableton Live from storing compound paths. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-DrawRandomBackground: When enabled, this option causes Ableton Live to draw a random background on startup. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-DriveEngineTiming: When enabled, this option allows Ableton Live&#8217;s engine to use the timing information from the audio interface driver. The default value is true, and the value range is true or false.</p>
+
+
+
+<p>-DrumPadSelectionDelay: When set, this option adds a delay in milliseconds to the selection of a Drum Pad in Ableton Live. The default value is 0, and the value range is 0 to 1000.</p>
+
+
+
+<p>-DumpUsfLibOutput: When enabled, this option enables output dumping from UsfLib. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-EditorDontSnapOnMarkers: When enabled, this option disables the snapping of notes and clips to markers in the Arrangement View of Ableton Live. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-EditorMagneticWidth: This option sets the width of the magnetic area around notes in the editor. When the cursor is within this area, the notes will snap to the grid. The default value is 4, and the value range is 0 to 100.</p>
+
+
+
+<p>-EditorNoteResizeSnapsOnGridOnly: When enabled, this option restricts the resizing of notes in Ableton Live&#8217;s MIDI Editor to the grid lines, and not anywhere in between. The default value is true, and the value range is true or false.</p>
+
+
+
+<p>-EditorResnapRangeFactor: This option controls the range of notes and clips affected by the resnap feature in Ableton Live&#8217;s Arrangement View. The default value is 1.25, and the value range is between 1.0 and 2.0.</p>
+
+
+
+<p>-EditorResnapTimeoutOnMouseUp: This option sets the duration in milliseconds that the editor waits after the mouse button is released before resnapping the notes. The default value is 200, and the value range is 0 to 1000.</p>
+
+
+
+<p>-EditorSnapTimeout: This option sets the duration in milliseconds that the editor waits after a snap operation before allowing the next snap operation. The default value is 50, and the value range is 0 to 500.</p>
+
+
+
+<p>-EnableArmOnSelection: When enabled, this option automatically arms a track for recording when it is selected in Ableton Live&#8217;s Arrangement View. The default value is true, and the value range is true or false.</p>
+
+
+
+<p>-EnableHotSwapOnSelection: When enabled, this option allows devices to be swapped in the middle of playback. The default value is true, and the value range is true or false.</p>
+
+
+
+<p>-EventRecorderTempDir: This option sets the directory used for storing temporary files generated by the Event Recorder. The default value is the system&#8217;s temporary directory, and the value range is any valid directory path.</p>
+
+
+
+<p>-Halion3BugWorkaround: When enabled, this option applies a workaround for a known bug in Halion 3. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-HotKeyForCaptureAndInsertScene: This option sets the keyboard shortcut used to capture and insert a scene in the Arrangement View. The default value is Shift+Ctrl+C, and the value range is any valid keyboard shortcut.</p>
+
+
+
+<p>-HotKeyForKitPad: This option sets the keyboard shortcut used to open the Kit Pad in the Drum Rack. The default value is Shift+Ctrl+K, and the value range is any valid keyboard shortcut.</p>
+
+
+
+<p>-IgnoreTemplateSet: When enabled, this option prevents Live from automatically loading the template set when a new Live Set is created. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-ImpulseIgnoreOmega: When enabled, this option prevents Impulse from responding to note-offs for the Omega preset. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-KeepUnresolvedRelativeRoutings: When enabled, this option prevents Live from resolving relative paths for routing. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-LayoutCheckFrequency: This option sets the frequency in milliseconds at which Live checks for changes to the layout of the computer screen. The default value is 1000, and the value range is 100 to 10000.</p>
+
+
+
+<p>-LogFolderConfigErrors: When enabled, this option logs configuration errors related to folder locations. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-LogPseudoMidiOutDataSizeSent: When enabled, this option logs the size of the data sent through MIDI output. The default value is false, and the value range is true or false.</p>
+
+
+
+<p>-LogRemoteScriptCapabilityInfo: This option logs information about the capabilities of remote scripts. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-LogTimeConversionVariation: This option logs information about time conversion variations in Live. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-LoopJumpContinuationActivationWindowSizeMs: This option sets the size of the activation window for the loop jump continuation feature in milliseconds. Default value: 500. Value range: Any positive integer.</p>
+
+
+
+<p>-LoopJumpContinuationWindowSizeMs: This option sets the size of the window for the loop jump continuation feature in milliseconds. Default value: 1000. Value range: Any positive integer.</p>
+
+
+
+<p>-MaxAudioThreads: This option sets the maximum number of audio processing threads. Default value: -1 (system dependent). Value range: -1 or any positive integer.</p>
+
+
+
+<p>-MaxChainViewsToCache: This option sets the maximum number of chain views to cache. Default value: 16. Value range: Any positive integer.</p>
+
+
+
+<p>-MemoryBasedUndo: This option sets whether to use memory-based undo. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-MemoryLeaksFile: This option sets the file path for memory leak information. Default value: None. Value range: Any valid file path.</p>
+
+
+
+<p>-MidiClockSlave: This option sets whether to slave Live to external MIDI clock. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-MidiEventThinning: This option sets the amount of thinning applied to incoming MIDI events. Default value: 0. Value range: 0-4.</p>
+
+
+
+<p>-NoMidiEventFiltering: This option disables MIDI event filtering. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-NoMidiFromReWire: This option disables MIDI input from ReWire clients. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-NoMidiMonitorLatencyCompensation: This option disables latency compensation for MIDI monitoring. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-NoMidiServer: This option disables the MIDI server. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-NoSCurves: This option disables S-curve crossfades. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-NoVstGesturesRequired: This option disables VST gestures. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-NoVstStartupScan: This option disables VST startup scan. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-RemoveFolderWithSingleClick: This option sets whether to remove a folder with a single click. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-ReWireChannels: This option sets the number of ReWire channels. Default value: 64. Value range: Any positive integer.</p>
+
+
+
+<p>-ReWireLogic: This option sets the ReWire logic type. Default value: 0. Value range: 0-3.</p>
+
+
+
+<p>-ReWireSonar: This option sets whether to enable ReWire for Sonar. Default value: False. Value range: True/False.</p>
+
+
+
+<p>-SafetyAreaAroundMarkers: This option sets the size of the safety area around markers. Default value: 10. Value range: Any positive integer.</p>
+
+
+
+<p>-SampleTimeOverflowScale: This option sets the scaling factor used to calculate the overflow of sample time. Default value: 1.0. Value range: Any positive decimal number.</p>
+
+
+
+<p>-SelectNoAudioAsDefault: This option determines whether or not the &#8220;No Audio&#8221; option is selected by default when creating a new audio track. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-SendSPPInArrangerLoops: This option enables or disables the sending of SPP (Song Position Pointer) messages when looping in the Arrangement View. Default value: True. Value range: True or False.</p>
+
+
+
+<p>-SetAssertMode: This option determines how the program handles assertion failures. Default value: &#8220;default&#8221;. Value range: &#8220;default&#8221;, &#8220;ignore&#8221;, &#8220;debug&#8221;, or &#8220;release&#8221;.</p>
+
+
+
+<p>-SharedMemStoragePath: This option sets the path to the shared memory file used for inter-process communication. Default value: &#8220;default&#8221;. Value range: A valid file path.</p>
+
+
+
+<p>-ShowBackToArrangementOnMasterTrack: This option determines whether the &#8220;Back to Arrangement&#8221; button is shown on the Master track. Default value: True. Value range: True or False.</p>
+
+
+
+<p>-ShowChunkLoadTime: This option determines whether the time it takes to load a Live Set is displayed in the Info View. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-ShowDeviceSlots: This option determines whether the device slots in Live&#8217;s mixer are shown. Default value: True. Value range: True or False.</p>
+
+
+
+<p>-ShowFullVersionInTitle: This option determines whether the full version number is displayed in the title bar. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-StackTraces: This option determines whether stack traces are printed to the console when an error occurs. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-SuppressCheckSynchronousInvariant: This option disables the synchronous check for certain operations. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-TempoFineControlRange: This option sets the fine control range for tempo adjustment. Default value: 0.02. Value range: Any positive decimal number.</p>
+
+
+
+<p>-Trace: This option enables or disables tracing of events in the application. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-UnitTestsAssertOnFailure: This option determines whether the program will assert on a failed unit test. Default value: True. Value range: True or False.</p>
+
+
+
+<p>-UnitTestsDontCleanup: This option determines whether the program will clean up after running unit tests. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-UnitTestsLetDummyTestPass: This option determines whether the program will pass dummy unit tests. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-UnitTestsQuitAfter: This option determines whether the program will quit after running unit tests. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-UnitTestsReportFormat: This option sets the format of the unit test report. Default value: &#8220;plain&#8221;. Value range: &#8220;plain&#8221;, &#8220;xml&#8221;, or &#8220;json&#8221;.</p>
+
+
+
+<p>-UnitTestsRunDefaultOff: This option determines whether the program will run unit tests that are set to default off. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-UnitTestsTraces: This option determines whether unit test traces will be printed to the console. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-UpdateTest: This option determines whether to update the test files or not. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-UseDebugPrefs: This option determines whether to use the debug preferences or not. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-UseFileSystemCacheForReading: This option enables or disables the use of a file system cache for reading files. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-UseFileSystemCacheForWriting: This option enables or disables the use of a file system cache for writing files. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-UseOwnGeneratedMidiTimeStamps: This option determines whether to use own-generated MIDI time stamps. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-VstNoLocalDir: This option disables the use of a local directory for VST plugins. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-VstNoScanSkip: This option disables the skipping of already scanned VST plugins. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-WipeoutProtectionAccidentWindowSizeMs: This option sets the accident window size for Wipeout Protection. Default value: 1000. Value range: Any positive integer.</p>
+
+
+
+<p>-WipeoutProtectionActivationWindowSizeMs: This option sets the activation window size for Wipeout Protection. Default value: 2000. Value range: Any positive integer.</p>
+
+
+
+<p>-WipeoutProtectionDecisionWindowSizeMs: This option sets the decision window size for Wipeout Protection. Default value: 3000. Value range: Any positive integer.</p>
+
+
+
+<p>-WriteLanguageCommentFile: This option enables or disables the writing of a comment file for languages. Default value: False. Value range: True or False.</p>
+
+
+
+<p>-_PluginAutoPopulateThreshold: This option sets the threshold for automatic population of plugin lists. Default value: 50. Value range: Any positive integer.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mixingmastering/options-txt-list/feed/</wfw:commentRss>
+			<slash:comments>13</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3175</post-id>	</item>
+		<item>
+		<title>(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can freeze &#8217;em!)</title>
+		<link>/mixingmastering/freeze-aux/</link>
+					<comments>/mixingmastering/freeze-aux/#comments</comments>
+		
+		<dc:creator><![CDATA[KillA808]]></dc:creator>
+		<pubDate>Wed, 27 Jul 2022 13:26:20 +0000</pubDate>
+				<category><![CDATA[Mixing&Mastering]]></category>
+		<guid isPermaLink="false">/?p=1986</guid>
+
+					<description><![CDATA[PC performance has significantly improved these days, leading many to mix everything natively. However, even though you are running pretty high spec PCs, you&#8217;ll find some cases that you wish you had more CPU/RAM, especially during Subgroup Mixing. You can freeze Audio and Instrument tracks, but unfortunately, you can&#8217;t freeze AUX/Group tracks. I thought it [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>Plugin used in this article</div></div><div class="p_m_detail p_m_text" style=""></p>
+<p><a href="https://www.meldaproduction.com/MChannelMatrix" target="_blank" rel="noopener">https://www.meldaproduction.com/MChannelMatrix</a></p>
+<p></div></div></div><br />
+PC performance has significantly improved these days, leading many to mix everything natively. However, even though you are running pretty high spec PCs, you&#8217;ll find some cases that you wish you had more CPU/RAM, especially during Subgroup Mixing.</p>
+<p>You can freeze Audio and Instrument tracks, but unfortunately, you can&#8217;t freeze AUX/Group tracks. I thought it would be convenient if this were possible, so after some searching, I found a way to do it ^^.</p>
+<p>This time, I introduce how to freeze freeze AUX/Group tracks on respectively Apple Logic and Ableton Live. Pro Tools already has a feature to freeze AUX tracks, so it may not be necessary for that DAW. However, I believe this can be applied to any other DAWs as well, although I&#8217;ve only teste on Logic and Ableton.</p>
+<h2 id="toc_1">Required Plugins</h2>
+<p>All you need is a free plugin called <a href="https://www.meldaproduction.com/MChannelMatrix">MChannelMatrix</a>. It&#8217;s a highly useful utility plugin that allows you flexible routing. And the best part is, it&#8217;s free. This is what it looks like.</p>
+<p><img data-recalc-dims="1" decoding="async" class="alignnone size-full wp-image-1990" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-18.16.02.png?resize=689%2C403&#038;ssl=1" alt="" width="689" height="403" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-18.16.02.png?w=689&amp;ssl=1 689w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-18.16.02.png?resize=300%2C175&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-18.16.02.png?resize=600%2C351&amp;ssl=1 600w" sizes="(max-width: 689px) 100vw, 689px" /></p>
+<h2 id="toc_2">Why should you freeze AUX/Group tracks?</h2>
+<p>Here is the session I created this time.<br />
+&lt;Screenshot 1&gt;<br />
+<a href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.37.00.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-full wp-image-1997" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.37.00.png?resize=856%2C467&#038;ssl=1" alt="" width="856" height="467" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.37.00.png?w=1695&amp;ssl=1 1695w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.37.00.png?resize=300%2C163&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.37.00.png?resize=1024%2C558&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.37.00.png?resize=768%2C419&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.37.00.png?resize=1536%2C837&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.37.00.png?resize=600%2C327&amp;ssl=1 600w" sizes="(max-width: 856px) 100vw, 856px" /></a></p>
+<p>As you can see, I&#8217;ve simply grouped the Kick, Snare, and Hats into an AUX track to create a drum bus. The track labeled &#8220;Drum Buss (AUX1)&#8221; at the bottom is the AUX track I&#8217;ve consolidated as the drum bus. I&#8217;ve inserted Waves&#8217; TG12345 into this &#8220;Drum Buss (AUX1).&#8221; It&#8217;s a great channel strip, but it could be quite heavy on CPU/RAM usage.</p>
+<p>As you can see from the CPU/HD meter in the top right corner of the screenshot, the CPU/RAM usage has significantly increased just by using TG12345. If this continues to increase by adding more busses such as Bass Bus and Melody Bus, so on&#8230;, it could lead to CPU overload.<br />
+Other channel strips, like &#8220;Lindell 80&#8221; which has oversampling features, offer great sound quality but are also quite heavy on resources as well.</p>
+<p>So the purpose of this article is to show you how to freeze this AUX track in order to save the strain on CPU/RAM resources.</p>
+<p>Originally, Logic and Ableton Live do not have a feature to freeze AUX/Group tracks. However, by using the aforementioned MChannelMatrix, it is in fact possible to freeze them.</p>
+<p>Additionally, by applying this technique, it&#8217;s also possible to freeze send reverbs. I highly recommend trying this out, especially for those who like to use a variety of different reverbs.</p>
+<p>For those using Ableton Live, please skip to <a href="#heading2_4">section below</a>.</p>
+<p>For those who are lazy to read whole article, <a href="#heading2_5">here</a> is the summary of this article!</p>
+<h2 id="toc_3">Setup in Logic</h2>
+<p>&lt;Screenshot 2&gt;<br />
+<a href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.50.23.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-full wp-image-2003" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.50.23.png?resize=856%2C466&#038;ssl=1" alt="" width="856" height="466" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.50.23.png?w=1696&amp;ssl=1 1696w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.50.23.png?resize=300%2C163&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.50.23.png?resize=1024%2C558&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.50.23.png?resize=768%2C418&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.50.23.png?resize=1536%2C837&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-26-at-21.50.23.png?resize=600%2C327&amp;ssl=1 600w" sizes="(max-width: 856px) 100vw, 856px" /></a></p>
+<p>Firstly, from the state shown in &lt;Screenshot 1&gt;, I&#8217;ve added an audio track called &#8220;Freeze Track&#8221; at the very bottom. I&#8217;ve inserted &#8220;MChannelMatrix&#8221; into this new audio track &#8220;Freeze Track.&#8221;</p>
+<h3 id="toc_4">MChannelMatrix Setting</h3>
+<ol>
+<li>As shown in &lt;Screenshot 2&gt;, set the &#8220;SIDE-CHAIN&#8221; section of MChannelMatrix (indicated by the pink circle in &lt;Screenshot 2&gt;). It should be set to 1=1(left), 2=2(right).</li>
+<li>Next, set the input source of MChannelMatrix (indicated by the green circle in &lt;Screenshot 2&gt;) to &#8220;Bus 1.&#8221; This is because &#8220;Drum Buss (AUX1)&#8221; is routed into &#8220;Bus 1&#8221; (In Logic, this is automatically set up this way, so unless you&#8217;ve changed the settings, &#8220;Bus 1 = AUX 1&#8221;).</li>
+</ol>
+<h3 id="toc_5">Channel Routing Settings</h3>
+<p>Set the Output of &#8220;Drum Buss (AUX1)&#8221; to &#8220;No Output&#8221; (indicated by the light blue circle in &lt;Screenshot 2&gt;). Since the sound will come out from the &#8220;Freeze Track&#8221; channel where MChannelMatrix is inserted, you should set the output of this &#8220;Drum Buss (AUX1)&#8221; to &#8220;No Output&#8221; to cut it off. If you don&#8217;t, sound will come out from both, resulting in a blast of noise, so be careful.</p>
+<h3 id="toc_6">Create a Region for Freezing</h3>
+<p>Now, the sound from &#8220;Drum Buss (AUX1)&#8221; should be coming out from &#8220;Freeze Track,&#8221; but you can&#8217;t freeze it yet because there is no region in &#8220;Freeze Track.&#8221; So, I&#8217;ve inserted a MIDI region into the audio track for the time being. It looks something like this in &lt;Screenshot 3&gt;.<br />
+&lt;Screenshot 3&gt;<br />
+<a href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-3.23.27.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-full wp-image-2013" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-3.23.27.png?resize=856%2C460&#038;ssl=1" alt="" width="856" height="460" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-3.23.27.png?w=1903&amp;ssl=1 1903w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-3.23.27.png?resize=300%2C161&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-3.23.27.png?resize=1024%2C550&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-3.23.27.png?resize=768%2C412&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-3.23.27.png?resize=1536%2C825&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-3.23.27.png?resize=600%2C322&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-3.23.27.png?w=1712 1712w" sizes="(max-width: 856px) 100vw, 856px" /></a></p>
+<p>The red circle on &#8220;Freeze Track&#8221; indicates the inserted MIDI region. The content of the region is quite simple; as shown by the light blue circle, I&#8217;ve just extended a C3 note from the beginning to the end of the region.</p>
+<p>You might be wondering, &#8220;A MIDI region in an audio track?&#8221; But having this region allows you to freeze the track.</p>
+<h3 id="toc_7">Freeze it bro! Freeze!</h3>
+<p>&lt;Screenshot 4&gt;<br />
+<a href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-10.36.46.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-full wp-image-2020" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-10.36.46.png?resize=856%2C435&#038;ssl=1" alt="" width="856" height="435" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-10.36.46.png?w=1793&amp;ssl=1 1793w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-10.36.46.png?resize=300%2C152&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-10.36.46.png?resize=1024%2C520&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-10.36.46.png?resize=768%2C390&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-10.36.46.png?resize=1536%2C780&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-10.36.46.png?resize=600%2C305&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-10.36.46.png?w=1712 1712w" sizes="(max-width: 856px) 100vw, 856px" /></a></p>
+<ol>
+<li>Click the area indicated by the red circle in &lt;Screenshot 4&gt; to freeze the track.</li>
+<li>Turn off the TG12345 inserted in &#8220;Drum Buss (AUX1)&#8221; (indicated by the pink circle in &lt;Screenshot 4&gt;).</li>
+</ol>
+<p>Now, the &#8220;Freeze Track&#8221; has been frozen. You&#8217;ll likely notice a significant reduction in CPU/RAM usage since TG12345 has been turned off (indicated by the green circle in &lt;Screenshot 4&gt;).<br />
+At this point, the output will only be from &#8220;Freeze Track,&#8221; so if you have effects on tracks which has output to &#8220;Freeze Track&#8221;, you should turn them all off as well.</p>
+<p>In &lt;Screenshot 4&gt;, I&#8217;ve lowered the fader of &#8220;Drum Buss (AUX1)&#8221; all the way down to make it clear that the sound is only coming from &#8220;Freeze Track.&#8221; However, since the Output has been set to &#8220;No Output&#8221; as mentioned above, there&#8217;s actually no need to lower the fader (fader doesn&#8217;t do anything in this case).</p>
+<p>That concludes the setup process for Logic.</p>
+<p>If you need to edit again, simply unfreeze and turn on the effects in the AUX track. Once you&#8217;re done editing, re-freeze and turn off the effects in the AUX track.</p>
+<p>Next is the setup process for Ableton Live.</p>
+<h2 id="toc_8">Setup in Ableton Live</h2>
+<p>&lt;Screenshot 5&gt;<br />
+<a href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-Ableton-Session.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-full wp-image-2026" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-Ableton-Session.png?resize=856%2C456&#038;ssl=1" alt="" width="856" height="456" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-Ableton-Session.png?w=1735&amp;ssl=1 1735w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-Ableton-Session.png?resize=300%2C160&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-Ableton-Session.png?resize=1024%2C545&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-Ableton-Session.png?resize=768%2C409&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-Ableton-Session.png?resize=1536%2C818&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-Ableton-Session.png?resize=600%2C320&amp;ssl=1 600w" sizes="(max-width: 856px) 100vw, 856px" /></a></p>
+<p>In this session, I&#8217;ve grouped five bass tracks to create a &#8220;Bass Buss.&#8221; The effects inserted into &#8220;Bass Buss&#8221; are Sonalksis EQ, Lindell 80, and Fabfilter Pro-L.</p>
+<p>To be honest, the CPU load from &#8220;Sonalksis EQ&#8221; and &#8220;Fabfilter Pro-L (without oversampling)&#8221; is minimal. In this case, the &#8220;Lindell 80&#8221; is what&#8217;s putting a strain on the CPU (indicated by the light blue circle in &lt;Screenshot 5&gt;).</p>
+<p>&#8220;Lindell 80&#8221; is set to x2 oversampling by default, so even on a relatively fast computer, inserting it into more than 10 tracks could create a significant load on the CPU.</p>
+<p>That is why, we will freeze the group track &#8220;Bass Buss&#8221; in this article.</p>
+<h3 id="toc_4">MChannelMatrix Setting</h3>
+<p>&lt;Screenshot 6&gt;<br />
+<a href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-17.54.33.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-full wp-image-2032" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-17.54.33.png?resize=856%2C456&#038;ssl=1" alt="" width="856" height="456" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-17.54.33.png?w=1858&amp;ssl=1 1858w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-17.54.33.png?resize=300%2C160&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-17.54.33.png?resize=1024%2C545&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-17.54.33.png?resize=768%2C409&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-17.54.33.png?resize=1536%2C818&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-17.54.33.png?resize=600%2C319&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-17.54.33.png?w=1712 1712w" sizes="(max-width: 856px) 100vw, 856px" /></a></p>
+<ol>
+<li>Create a MIDI track. Make sure to create it outside of the &#8220;Bass Buss&#8221; group.</li>
+<li>In this example, I&#8217;ve named this MIDI track &#8220;Bass Freeze&#8221; (indicated by the red circle in &lt;Screenshot 6&gt;).</li>
+<li>Set the &#8220;SIDE-CHAIN&#8221; section of MChannelMatrix in &lt;Screenshot 6&gt; (indicated by the pink circle) as shown in the diagram: 1=1(left), 2=2(right).</li>
+<li>Next, set the input source for &#8220;Sidechain&#8221; (indicated by the green circle in &lt;Screenshot 6&gt;) to &#8220;Bass Buss.&#8221;</li>
+<li>Finally, turn off the output of &#8220;Bass Buss&#8221; (indicated by the yellow circle in &lt;Screenshot 6&gt;). If you don&#8217;t, sound will come from both &#8220;Bass Buss&#8221; and &#8220;Bass Freeze,&#8221; resulting in a blast of sound. Don&#8217;t forget to turn it off.</li>
+</ol>
+<p>That&#8217;s it. Routing is done. Currently, the sound processed by the effects in &#8220;Bass Buss&#8221; is set output to &#8220;Bass Freeze&#8221; via MChannelMatrix.<br />
+However, as there is no MIDI clip at the moment, you can&#8217;t freeze it just yet. So, the next step is to create a MIDI clip.</p>
+<h3 id="toc_10">Create a MIDI Clip for Freezing</h3>
+<p>&lt;Screenshot 7&gt;<br />
+<a href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.01.46.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-full wp-image-2034" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.01.46.png?resize=856%2C477&#038;ssl=1" alt="" width="856" height="477" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.01.46.png?w=1972&amp;ssl=1 1972w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.01.46.png?resize=300%2C167&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.01.46.png?resize=1024%2C571&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.01.46.png?resize=768%2C428&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.01.46.png?resize=1536%2C857&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.01.46.png?resize=600%2C335&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.01.46.png?w=1712 1712w" sizes="(max-width: 856px) 100vw, 856px" /></a></p>
+<p>I&#8217;ve created a MIDI clip in &#8220;Bass Freeze&#8221; (indicated by the light blue circle in &lt;Screenshot 7&gt;). Inside the clip, I&#8217;ve simply extended a C3 note from the beginning to the end.<br />
+As a side note and a handy trick, if you place a C3 note at the beginning and press the &#8220;Legato&#8221; button (indicated by the green circle in &lt;Screenshot 7&gt;), it will automatically extend the note&#8217;s length to the end of the MIDI clip for you. Quite convenient.</p>
+<h3 id="toc_11">Freeze it baby! Freeze it!</h3>
+<p>&lt;Screenshot 8&gt;<br />
+<a href="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.22.33.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-full wp-image-2036" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.22.33.png?resize=856%2C477&#038;ssl=1" alt="" width="856" height="477" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.22.33.png?w=1972&amp;ssl=1 1972w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.22.33.png?resize=300%2C167&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.22.33.png?resize=1024%2C571&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.22.33.png?resize=768%2C428&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.22.33.png?resize=1536%2C857&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.22.33.png?resize=600%2C335&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/07/Screen-Shot-2022-07-27-at-19.22.33.png?w=1712 1712w" sizes="(max-width: 856px) 100vw, 856px" /></a></p>
+<ol>
+<li>Freeze the &#8220;Bass Freeze&#8221; track.</li>
+<li>Turn off the effects inserted in &#8220;Bass Buss&#8221; (indicated by the red circle in &lt;Screenshot 8&gt;).</li>
+<li>Just to reconfirm, make sure that the output of &#8220;Bass Buss&#8221; is turned off (indicated by the pink circle in &lt;Screenshot 8&gt;).</li>
+</ol>
+<p>At this point, the sound from &#8220;Bass Buss&#8221; has been frozen in &#8220;Bass Freeze.&#8221; You should notice that the CPU/RAM previously used by &#8220;Bass Buss&#8221; has now been freed up (indicated by the green circle in &lt;Screenshot 8&gt;).</p>
+<p>If further editing is needed, unfreeze the track and turn the effects back on for the Group track.<br />
+Once you&#8217;re done editing, freeze the track again and turn off the effects on the Group track.</p>
+<h2 id="toc_12">For those who are too lazy to read the whole thing, here&#8217;s a summary!</h2>
+<p>I&#8217;d like to summarize how to freeze AUX/Group tracks in Apple Logic and Ableton Live in bullet points!</p>
+<h3 id="toc_13">How to freeze AUX tracks in Apple Logic</h3>
+<ol>
+<li>Install MChannelMatrix.</li>
+<li>Create an Audio track right below the AUX track you want to freeze.</li>
+<li>Insert MChannelMatrix into the Audio track created in step 2.</li>
+<li>Set the SIDE-CHAIN in MChannelMatrix to 1=1(left), 2=2(right).</li>
+<li>Set the Side Chain input source in MChannelMatrix to the AUX track you want to freeze.</li>
+<li>Set the Output of the AUX track you want to freeze to &#8220;No Output.&#8221;</li>
+<li>Create a MIDI region in the Audio track created in step 2.</li>
+<li>Draw a single C3 note from the beginning to the end in the MIDI region created in step 7.</li>
+<li>By doing step 8, you&#8217;ll be able to freeze the Audio track created in step 2, so go ahead and freeze it.</li>
+<li>Once the freeze is complete, turn off the effects on the AUX track.</li>
+</ol>
+<p>This has freed up the CPU/RAM that was being used by the AUX track.</p>
+<p>If further editing is needed, unfreeze and turn on the effects on the AUX track. Once the editing is complete, freeze it again and turn off the effects on the AUX track.</p>
+<h3 id="toc_14">How to freeze Group Tracks in Ableton Live</h3>
+<ol>
+<li>Install MChannelMatrix.</li>
+<li>Create a MIDI track below the Group track you want to freeze (outside of the Group, not within).</li>
+<li>Insert MChannelMatrix into the MIDI track created in step 2.</li>
+<li>Set the SIDE-CHAIN in MChannelMatrix to 1=1(left), 2=2(right).</li>
+<li>Set the Side Chain input source in MChannelMatrix to the Group track you want to freeze.</li>
+<li>Turn off the output of the Group track you want to freeze.</li>
+<li>Create a MIDI clip in the MIDI track created in step 2.</li>
+<li>Draw a single C3 note from the beginning to the end in the MIDI clip created in step 7.</li>
+<li>By doing step 8, you&#8217;ll be able to freeze the MIDI track created in step 2, so go ahead and freeze it.</li>
+<li>Once the freeze is complete, turn off the effects on the Group track.</li>
+</ol>
+<p>This has freed up the CPU/RAM that was being used by the Group track.</p>
+<p>If further editing is needed, unfreeze and turn on the effects on the Group track. Once the editing is complete, freeze it again and turn off the effects on the Group track.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mixingmastering/freeze-aux/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1986</post-id>	</item>
+		<item>
+		<title>実は繊細なMIX時にも使えるプラグイン「Rift Filter Lite」</title>
+		<link>/mixingmastering/rift-filter-lite/</link>
+					<comments>/mixingmastering/rift-filter-lite/#respond</comments>
+		
+		<dc:creator><![CDATA[KillA808]]></dc:creator>
+		<pubDate>Tue, 22 Feb 2022 15:15:28 +0000</pubDate>
+				<category><![CDATA[Mixing&Mastering]]></category>
+		<guid isPermaLink="false">/?p=1358</guid>
+
+					<description><![CDATA[凄い使えるプラグインあったので紹介したいなぁと思って勝手に紹介したいと思います。 ちょっと前まで無料だったんですが、今は29ドルとかで売られてますね。 基本的にはモーフモーフしてくれるモーフィングフィルターです。 「モーフモーフってなんだよﾀﾋねよ！」って思った方も居ると思いますのでパラメーター見れるサイズでスクショ貼ります。 このMorphって言うパラメーターが面白いんですが、多分フィルターの種類毎にFilter Shapeの動きがアサインされてます。設定したCut-offとResonanceのパラメーターを基準としてフィルターの形を変えていきます。Morphタイプ、Peakingタイプ、Haromonicタイプである程度のパターンはあるように思いますが、まだ自分は使いこなせてないのでもうちょい勉強します &#62;&#60; メーカーの宣伝通りかなり柔軟なフィルターでMIDIインプットでカットオフ値を弄れたりピッチスナップと言ってカットオフ値をスケール内に入れたり、ハーモニクスのコントロールまで考えられてて便利です。 フィルターも24種類あって（中には使い所あるのかな？ってのもあるんですが）とにかく面白いです。 やはりメーカーがよく紹介するのは派手な使い方ですよね。宣伝し易いですしね。オフィシャルから使い方動画も出してるので是非見てください（から見れます）。 この動画では二つのRift Filter Liteを立上げてマクロを使って二つ種類のフィルターのMorphをインバースコントロールする、と言うような事をやってます。これだけでもかなり派手な音になりますね。 &#8230;&#8230;.。 もうなんか宣伝記事になっちゃいましたが、今回本当に紹介したかった部分は、「実はこのプラグイン繊細なミックス時にも使えるじゃん！」って思ったので、こんな使い方もあるよ〜って感じの記事を書くつもりでした。 真ん中にStereo Spreadのノブがあるんですが、これがとても良い感じにステレオ感出してくれます。 左右でオフセットを作る事で聴感的な広がりを感じます。Morphと組み合わせると動きも加わってかなり良い感じになります。 繊細な感じから派手な感じまで表現できます。 PadやRhodesや色んなシンセサウンドなど使い所はかなりあると思うのですが、今回面白そうなのでベースにかけてみました ^^ 少し歪ませてる808の音でやってみました。150hz以下はモノラルにしておきたいので帯域を別けて、150hz以上のみにRift Filter Liteを使っています。 Spreadを少し広げて、Notch系のフィルターでモーフィングしてみたらベースに広がりと動きが出た気がしなくもないです。 結果は以下の通りです。YouTubeでご確認ください〜。 ＊低音の方なのでヘッドホンかまたは低域までちゃんと聴こえるモニター推奨です。]]></description>
+										<content:encoded><![CDATA[<p>凄い使えるプラグインあったので紹介したいなぁと思って勝手に紹介したいと思います。 ちょっと前まで無料だったんですが、今は29ドルとかで売られてますね。</p>
+<p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>この記事に出てくるプラグイン</div></div><div class="p_m_detail p_m_text" style=""></p>
+<p><a href="https://www.minimal.audio/products/rift-filter-lite" target="_blank" rel="noopener">https://www.minimal.audio/products/rift-filter-lite</a></p>
+<p></div></div></div></p>
+<p>基本的にはモーフモーフしてくれるモーフィングフィルターです。 「モーフモーフってなんだよﾀﾋねよ！」って思った方も居ると思いますのでパラメーター見れるサイズでスクショ貼ります。</p>
+<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="alignnone size-medium wp-image-1379" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/02/Screen-Shot-2022-02-23-at-2.28.43-300x275.png?resize=300%2C275&#038;ssl=1" alt="" width="300" height="275" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/02/Screen-Shot-2022-02-23-at-2.28.43.png?resize=300%2C275&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/02/Screen-Shot-2022-02-23-at-2.28.43.png?resize=600%2C549&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2022/02/Screen-Shot-2022-02-23-at-2.28.43.png?w=748&amp;ssl=1 748w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>このMorphって言うパラメーターが面白いんですが、多分フィルターの種類毎にFilter Shapeの動きがアサインされてます。設定したCut-offとResonanceのパラメーターを基準としてフィルターの形を変えていきます。Morphタイプ、Peakingタイプ、Haromonicタイプである程度のパターンはあるように思いますが、まだ自分は使いこなせてないのでもうちょい勉強します &gt;&lt;</p>
+<p>メーカーの宣伝通りかなり柔軟なフィルターでMIDIインプットでカットオフ値を弄れたりピッチスナップと言ってカットオフ値をスケール内に入れたり、ハーモニクスのコントロールまで考えられてて便利です。 フィルターも24種類あって（中には使い所あるのかな？ってのもあるんですが）とにかく面白いです。</p>
+<p>やはりメーカーがよく紹介するのは派手な使い方ですよね。宣伝し易いですしね。オフィシャルから使い方動画も出してるので是非見てください（<a id="673d169c47aea" rel="wp-video-lightbox" href="https://www.youtube.com/watch?v=S5j9EqnI4no&#038;width=640&#038;height=480" title="">こちら</a>    <script>
+    /* <![CDATA[ */
+    jQuery(document).ready(function($){
+        $(function(){
+            var width = $(window).innerWidth();
+            var setwidth = parseFloat(640);
+            var ratio = parseFloat(0.75);
+            var height = parseFloat(480);
+            var link = 'https://www.youtube.com/watch?v=S5j9EqnI4no&amp;width=640&amp;height=480';
+            if(width < setwidth)
+            {
+                height = Math.floor(width * 0.75);
+                //console.log("device width "+width+", set width "+640+", ratio "+0.75+", new height "+ height);
+                var new_url = wpvl_paramReplace('width', link, width);
+                var new_url = wpvl_paramReplace('height', new_url, height);
+                $("a#673d169c47aea").attr('href', new_url);
+                //console.log(new_url);
+            }
+        });
+    });
+    /* ]]&gt; */
+    </script>から見れます）。</p>
+<p>この動画では二つのRift Filter Liteを立上げてマクロを使って二つ種類のフィルターのMorphをインバースコントロールする、と言うような事をやってます。これだけでもかなり派手な音になりますね。</p>
+<p>&#8230;&#8230;.。</p>
+<p>もうなんか宣伝記事になっちゃいましたが、今回本当に紹介したかった部分は、「実はこのプラグイン繊細なミックス時にも使えるじゃん！」って思ったので、こんな使い方もあるよ〜って感じの記事を書くつもりでした。</p>
+<p>真ん中にStereo Spreadのノブがあるんですが、これがとても良い感じにステレオ感出してくれます。 左右でオフセットを作る事で聴感的な広がりを感じます。Morphと組み合わせると動きも加わってかなり良い感じになります。 繊細な感じから派手な感じまで表現できます。</p>
+<p>PadやRhodesや色んなシンセサウンドなど使い所はかなりあると思うのですが、今回面白そうなのでベースにかけてみました ^^</p>
+<p>少し歪ませてる808の音でやってみました。150hz以下はモノラルにしておきたいので帯域を別けて、150hz以上のみにRift Filter Liteを使っています。</p>
+<p>Spreadを少し広げて、Notch系のフィルターでモーフィングしてみたらベースに広がりと動きが出た気がしなくもないです。</p>
+<p>結果は以下の通りです。YouTubeでご確認ください〜。<br />
+＊低音の方なのでヘッドホンかまたは低域までちゃんと聴こえるモニター推奨です。</p>
+<p><iframe loading="lazy" title="da lofi sh!t" width="856" height="642" src="https://www.youtube.com/embed/N7ZSfRvMK1Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mixingmastering/rift-filter-lite/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1358</post-id>	</item>
+		<item>
+		<title>スペクトラムアナライザ見ればノート（音程）は分かる</title>
+		<link>/mixingmastering/check-note-with-spectrum-analyzer/</link>
+					<comments>/mixingmastering/check-note-with-spectrum-analyzer/#comments</comments>
+		
+		<dc:creator><![CDATA[KillA808]]></dc:creator>
+		<pubDate>Tue, 23 Nov 2021 15:13:42 +0000</pubDate>
+				<category><![CDATA[Mixing&Mastering]]></category>
+		<guid isPermaLink="false">/?p=623</guid>
+
+					<description><![CDATA[この記事ではスペクトラムアナライザの結果を視覚的にノート（音程）に変換してくれる便利なプラグインを紹介します。 結構知ってる人も多いと思うので特別な知識でも何でもない記事ですが、前の記事の補足的要素の記事です。 因みにですが今回紹介するプラグインはFabfilter Pro-Q3です。 有名なEQですし知ってる人も多いと思います。なので結構使ってる人は知ってると思いますが、これ周波数をノートで表してくれる機能が付いてるんですよね。 今回はベース３種類（筆者はベース音好き）を使ってどの様にPro-Q3のアナライザーが反応するかを見ていきたいと思います。因みにですが、Voxengo Span（これはアナライザーですね）は無料で同じ様な機能が付いてるらしいです（筆者は使った事ないので記事にはしませんが）。 まずはサイン波の低音で見てみましょう。 サイン波は倍音など含まない純粋なトーンなので分かり易いですね。低音のAは55Hzになっています。またスペクトラムの下にはピアノの鍵盤で音程が表示されてて非常に分かり易いですね。 次はちょっと複雑にReese系のベースでやってみました。 これはSawなど倍音を多く含む音で、ノイズなども色々混ざった音なので帯域が上の方まで行っていて聴いた感じはちょっと複雑ですが、アナライザーではちゃんと一番下のノートはA（110Hz）になってますね。 最後は実際にベースを弾いた時の音です。 これはオクターブ上（２弦３フレット）のFの音です。これも一番下で出っ張ってる音の周波数を見ると約87Hzになっているのでしっかり分析されてますね（当たり前の事ですが）。 知っていればたまには役に立つ まぁぶっちゃけこれを知ってても使い所はそこまで多くはないんですけどね、、。筆者の場合はミキシングのお仕事のご依頼を頂いた時になぜか使う必要があった為使った感じです（理由は全く記憶にございません）。]]></description>
+										<content:encoded><![CDATA[<p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>この記事に出てくるプラグイン</div></div><div class="p_m_detail p_m_text" style=""></p>
+<p><a href="https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in" target="_blank" rel="noopener">https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in</a></p>
+<p><a href="https://splice.com/plugins/1022-span-vst-au-by-voxengo" target="_blank" rel="noopener">https://splice.com/plugins/1022-span-vst-au-by-voxengo</a></p>
+<p></div></div></div></p>
+<p>この記事ではスペクトラムアナライザの結果を視覚的にノート（音程）に変換してくれる便利なプラグインを紹介します。 結構知ってる人も多いと思うので特別な知識でも何でもない記事ですが、<a href="/mixingmastering/575/">前の記事</a>の補足的要素の記事です。</p>
+<p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>前の記事</div></div><div class="p_m_detail p_m_text" style=""></p>
+<p><a href="/mixingmastering/575/">/mixingmastering/575/</a></p>
+<p></div></div></div></p>
+<p>因みにですが今回紹介するプラグインはFabfilter Pro-Q3です。 有名なEQですし知ってる人も多いと思います。なので結構使ってる人は知ってると思いますが、これ周波数をノートで表してくれる機能が付いてるんですよね。 今回はベース３種類（筆者はベース音好き）を使ってどの様にPro-Q3のアナライザーが反応するかを見ていきたいと思います。因みにですが、Voxengo Span（これはアナライザーですね）は無料で同じ様な機能が付いてるらしいです（筆者は使った事ないので記事にはしませんが）。</p>
+<h2 id="toc_1">まずはサイン波の低音で見てみましょう。</h2>
+<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-large wp-image-628" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.52.11-1024x652.png?resize=856%2C545&#038;ssl=1" alt="" width="856" height="545" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.52.11.png?resize=1024%2C652&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.52.11.png?resize=600%2C382&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.52.11.png?resize=300%2C191&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.52.11.png?resize=768%2C489&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.52.11.png?resize=1536%2C977&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.52.11.png?w=1452&amp;ssl=1 1452w" sizes="(max-width: 856px) 100vw, 856px" /> サイン波は倍音など含まない純粋なトーンなので分かり易いですね。低音のAは55Hzになっています。またスペクトラムの下にはピアノの鍵盤で音程が表示されてて非常に分かり易いですね。</p>
+<h2 id="toc_2">次はちょっと複雑にReese系のベースでやってみました。</h2>
+<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-large wp-image-633" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.46.38-1024x652.png?resize=856%2C545&#038;ssl=1" alt="" width="856" height="545" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.46.38.png?resize=1024%2C652&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.46.38.png?resize=600%2C382&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.46.38.png?resize=300%2C191&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.46.38.png?resize=768%2C489&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.46.38.png?resize=1536%2C977&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-16.46.38.png?w=1452&amp;ssl=1 1452w" sizes="(max-width: 856px) 100vw, 856px" /> これはSawなど倍音を多く含む音で、ノイズなども色々混ざった音なので帯域が上の方まで行っていて聴いた感じはちょっと複雑ですが、アナライザーではちゃんと一番下のノートはA（110Hz）になってますね。</p>
+<h2 id="toc_3">最後は実際にベースを弾いた時の音です。</h2>
+<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-large wp-image-634" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-21.44.56-1024x652.png?resize=856%2C545&#038;ssl=1" alt="" width="856" height="545" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-21.44.56.png?resize=1024%2C652&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-21.44.56.png?resize=600%2C382&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-21.44.56.png?resize=300%2C191&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-21.44.56.png?resize=768%2C489&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-21.44.56.png?resize=1536%2C977&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-23-at-21.44.56.png?w=1452&amp;ssl=1 1452w" sizes="(max-width: 856px) 100vw, 856px" /></p>
+<p>これはオクターブ上（２弦３フレット）のFの音です。これも一番下で出っ張ってる音の周波数を見ると約87Hzになっているのでしっかり分析されてますね（当たり前の事ですが）。</p>
+<h2 id="toc_4">知っていればたまには役に立つ</h2>
+<p>まぁぶっちゃけこれを知ってても使い所はそこまで多くはないんですけどね、、。筆者の場合はミキシングのお仕事のご依頼を頂いた時になぜか使う必要があった為使った感じです（理由は全く記憶にございません）。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mixingmastering/check-note-with-spectrum-analyzer/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">623</post-id>	</item>
+		<item>
+		<title>音階と周波数</title>
+		<link>/mixingmastering/575/</link>
+					<comments>/mixingmastering/575/#comments</comments>
+		
+		<dc:creator><![CDATA[KillA808]]></dc:creator>
+		<pubDate>Mon, 22 Nov 2021 04:21:11 +0000</pubDate>
+				<category><![CDATA[Mixing&Mastering]]></category>
+		<guid isPermaLink="false">/?p=575</guid>
+
+					<description><![CDATA[下にスクロールするとそれぞれの音程を周波数で表したチャートがあります。自分の楽器の音域、声の声域を認識できるし、ミキシングエンジニアとしてもミックスする際に使う場面も（稀に）あります。 これを見ればスペクトラムアナライザからある程度音程を把握する事ができます。 チャート見るのメンドイって人は分かり易いプラグインもあるので次の記事で紹介します。 平均律ノート毎の周波数（A440）]]></description>
+										<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-large wp-image-576" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b-1024x383.jpg?resize=856%2C320&#038;ssl=1" alt="" width="856" height="320" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=1024%2C383&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=600%2C225&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=300%2C112&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=768%2C287&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=1536%2C575&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=2048%2C766&amp;ssl=1 2048w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?w=1712 1712w" sizes="(max-width: 856px) 100vw, 856px" /></p>
+<p>下にスクロールするとそれぞれの音程を周波数で表したチャートがあります。自分の楽器の音域、声の声域を認識できるし、ミキシングエンジニアとしてもミックスする際に使う場面も（稀に）あります。</p>
+<p>これを見ればスペクトラムアナライザからある程度音程を把握する事ができます。<br />
+チャート見るのメンドイって人は分かり易いプラグインもあるので<a href="/mixingmastering/plugins/check-note-with-spectrum-analyzer/">次の記事</a>で紹介します。</p>
+<p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>次の記事</div></div><div class="p_m_detail p_m_text" style=""></p>
+<p><a href="/mixingmastering/plugins/check-note-with-spectrum-analyzer/">/mixingmastering/plugins/check-note-with-spectrum-analyzer/</a></p>
+<p></div></div></div></p>
+<p>平均律ノート毎の周波数（A440）</p>
+<p><img data-recalc-dims="1" loading="lazy" decoding="async" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?resize=856%2C592&#038;ssl=1" alt="" width="856" height="592" class="alignnone size-full wp-image-2071" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?w=1026&amp;ssl=1 1026w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?resize=300%2C207&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?resize=1024%2C708&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?resize=768%2C531&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?resize=600%2C415&amp;ssl=1 600w" sizes="(max-width: 856px) 100vw, 856px" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mixingmastering/575/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">575</post-id>	</item>
+		<item>
+		<title>コンプレッサーはEQの前？後ろ？</title>
+		<link>/mixingmastering/521/</link>
+					<comments>/mixingmastering/521/#respond</comments>
+		
+		<dc:creator><![CDATA[KillA808]]></dc:creator>
+		<pubDate>Mon, 22 Nov 2021 01:38:21 +0000</pubDate>
+				<category><![CDATA[Mixing&Mastering]]></category>
+		<guid isPermaLink="false">/?p=521</guid>
+
+					<description><![CDATA[楽曲をミックスしてる時、EQはコンプの前？後ろ？って気になった事ありませんか？自分は気になった事ありました。 ミックスを教えている生徒さんやミックスを依頼されたお客様からも何度か聞かれた事もあります。 なので気になるのかな？と思ったのでブログに纏めてみました。 まぁ誰に聞いても帰ってくる言葉はほぼほぼ同じです 「曲や素材によるんですよね〜」とか「ケースバイケース」とかまぁぶっちゃけその通りで、そもそもミキシングに正解は無く『結果が良ければ何でも良い』というのがミキシングです。 しかしそれじゃこのブログ意味ないじゃん！ﾀﾋね！ってツッコまれそうなので、このブログでは考察と共にある程度の『答え』を出してみたいと思います。 トラッキング（各トラックへの処理）でよく使われるのはコンプをEQの前に挿す方 とりあえずスタンダードな感じでそうしよ、って感じで決める人もいるんじゃないかな、と思います。でもそれには理由も幾つかありますね。 1. その方が作業量が少なくて済む可能性が高い（かな？） 「EQ→コンプ」の場合と「コンプ→EQ」のロジック的な違いは、先にコンプをかけて設定すればスレッショルドを通るシグナルが決定されます。つまりその辺りのパラメーターは（一度決めれば）固定で良くなります。 先にEQを通す場合は、カットやブーストが出力する信号の値を変化させるので、 『EQを弄ればスレッショルドを通る信号が変化＝スレッショルドも再調整する必要がある（かもしれない）』って事になります。つまりコンプを先にしておけば後からEQを弄ってもコンプの調整をし直す必要が無く楽ですね、となります。 2. コンプでアタックとかの調整できるよね 例えばKickを例にしてみましょう。Kickって実は低い方から高い方の周波数レンジをカバーしている楽器なんですが、ここではザックリとトランジェントが2kHz~8kHzとして、Bodyというか「バン！」とか「ドン！」とか表現されるファンダメンタルとなる部分の音を50Hz~150Hzとします。 これにアタック感やパンチを加えるのはコンプレッサーの値を正しく設定すれば可能です。なので『コンプを先に通して設定→足りない分をEQで補う』という使い方もアリだと思います。 他楽器、ベースやギターでも同じ事が言えますね。 3. コンプレッサーは周波数特性を変える 特にコンプを強くかけた特に顕著ですがハイやローエンドが減衰するのは良くあります。この場合もEQをコンプレッサーの後にする事により、例えば『コンプレッサーで減衰した帯域をEQで調整する』といった使い方ができます。 大きな問題を解決する場合はEQが先の方が良い ここでは例としてスタジオで録音されたベースをミキシングしているとしましょう。そんで何故か２弦の５フレットのGだけヤケに音が大きい（ネックが曲がって共振してる、とか単にそのベーシストが下手だとか色々な原因があると思いますが）等の場合は帯域を狭くしたEQで98Hzをカットしてからコンプに通した方が良いです。 コンプを先にかけても、そのやけにうるさい一音の部分でコンプがかかり過ぎて音が潰されちゃったりとか幾つかの問題が想定できます。なので『先にEQでその部分を解決してからコンプをかける』方がよりEvenで綺麗にコンプかかるんじゃないかな、と思います。 他の楽器やボーカルでも同じ様に、何故か特定の帯域だけがうるさいと思う様な場合はEQで問題点をある程度解決してからコンプレッサーかけるのが良いでしょう。 Mix BusやSub Group等ではコンプが最後 もうこれは自分の感覚で書いちゃいますが、コンプ最後に持ってきた方が楽器同士の分離感が上手く出る様な気がします。 あとはよく言われる&#8221;glue&#8221;（統一感とかそういう意味ですかね、、）されてる感じが出るっていうのはあるような気がしなくもないですね、、、。楽曲の中で一番音量レベルが大きいダイナミクス系の楽器であるKickやSnareがトリガーになってちょっとしたドライブ感が出るって感じでしょうか？リズム的な意味でタイトになる気がします。 でも結局はケースバイケース いろいろ書きましたが結局は「ケースバイケースですよね〜」って事で締めくくろうかと思います爆 因みにこれを書いてる筆者的にはあまり拘りはなく『EQで不要な帯域があればカット（特に低域はハイパス結構使います）したりレゾナンスもカットしたり、たまにエグいEQかけたりとかも→コンプでアタック感出したり叩いたり揃えたり→EQで最終調整』って事もやりますし、深く考えず自由にやってます。 結局のところ『結果が良ければ何でも良い』んです。（ハイこのブログの意味無くなりました〜）]]></description>
+										<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-large wp-image-527" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40-1024x800.png?resize=856%2C669&#038;ssl=1" alt="" width="856" height="669" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=1024%2C800&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=600%2C469&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=300%2C234&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=768%2C600&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=1536%2C1199&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?w=1183&amp;ssl=1 1183w" sizes="(max-width: 856px) 100vw, 856px" /></p>
+<p>楽曲をミックスしてる時、EQはコンプの前？後ろ？って気になった事ありませんか？自分は気になった事ありました。<br />
+ミックスを教えている生徒さんやミックスを依頼されたお客様からも何度か聞かれた事もあります。</p>
+<p>なので気になるのかな？と思ったのでブログに纏めてみました。</p>
+<h2 id="toc_1">まぁ誰に聞いても帰ってくる言葉はほぼほぼ同じです</h2>
+<p>「曲や素材によるんですよね〜」とか「ケースバイケース」とかまぁぶっちゃけその通りで、そもそもミキシングに正解は無く『結果が良ければ何でも良い』というのがミキシングです。</p>
+<p>しかし<strong>それじゃこのブログ意味ないじゃん！ﾀﾋね！</strong>ってツッコまれそうなので、このブログでは考察と共にある程度の『答え』を出してみたいと思います。</p>
+<h2 id="toc_2">トラッキング（各トラックへの処理）でよく使われるのはコンプをEQの前に挿す方</h2>
+<p>とりあえずスタンダードな感じでそうしよ、って感じで決める人もいるんじゃないかな、と思います。でもそれには理由も幾つかありますね。</p>
+<h3 id="toc_3">1. その方が作業量が少なくて済む可能性が高い（かな？）</h3>
+<p>「EQ→コンプ」の場合と「コンプ→EQ」のロジック的な違いは、先にコンプをかけて設定すればスレッショルドを通るシグナルが決定されます。つまりその辺りのパラメーターは（一度決めれば）固定で良くなります。</p>
+<p>先にEQを通す場合は、カットやブーストが出力する信号の値を変化させるので、 <strong>『EQを弄ればスレッショルドを通る信号が変化＝スレッショルドも再調整する必要がある（かもしれない）』</strong>って事になります。つまり<strong>コンプを先にしておけば後からEQを弄ってもコンプの調整をし直す必要が無く楽ですね</strong>、となります。</p>
+<h3 id="toc_4">2. コンプでアタックとかの調整できるよね</h3>
+<p>例えばKickを例にしてみましょう。Kickって実は低い方から高い方の周波数レンジをカバーしている楽器なんですが、ここではザックリとトランジェントが2kHz~8kHzとして、Bodyというか「バン！」とか「ドン！」とか表現されるファンダメンタルとなる部分の音を50Hz~150Hzとします。 これにアタック感やパンチを加えるのはコンプレッサーの値を正しく設定すれば可能です。なので『コンプを先に通して設定→足りない分をEQで補う』という使い方もアリだと思います。 <br />
+他楽器、ベースやギターでも同じ事が言えますね。</p>
+<h3 id="toc_5">3. コンプレッサーは周波数特性を変える</h3>
+<p>特にコンプを強くかけた特に顕著ですがハイやローエンドが減衰するのは良くあります。この場合もEQをコンプレッサーの後にする事により、例えば『コンプレッサーで減衰した帯域をEQで調整する』といった使い方ができます。</p>
+<h2 id="toc_6">大きな問題を解決する場合はEQが先の方が良い</h2>
+<p>ここでは例としてスタジオで録音されたベースをミキシングしているとしましょう。そんで何故か２弦の５フレットのGだけヤケに音が大きい（ネックが曲がって共振してる、とか単にそのベーシストが下手だとか色々な原因があると思いますが）等の場合は帯域を狭くしたEQで98Hzをカットしてからコンプに通した方が良いです。<br />
+コンプを先にかけても、そのやけにうるさい一音の部分でコンプがかかり過ぎて音が潰されちゃったりとか幾つかの問題が想定できます。なので『先にEQでその部分を解決してからコンプをかける』方がよりEvenで綺麗にコンプかかるんじゃないかな、と思います。</p>
+<p>他の楽器やボーカルでも同じ様に、何故か特定の帯域だけがうるさいと思う様な場合はEQで問題点をある程度解決してからコンプレッサーかけるのが良いでしょう。</p>
+<p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>ところで、何故２弦の５フレットのGだと98Hzなの？</div></div><div class="p_m_detail p_m_text" style=""><br />
+って思った人は<a href="/mixingmastering/575/">こちらの記事</a>に各ノート（音程）を周波数で表したテーブルを作っておいたのでEQ処理やミックス処理に役立ててもらえれば嬉しいです。またはFabfilter Pro-Q3やVoxengo Span（無料）を使って<a href="/mixingmastering/plugins/check-note-with-spectrum-analyzer/">スペクトラムアナライザーから周波数=ノートを特定する</a>事も可能です。</p>
+<p><a href="/mixingmastering/575/">/mixingmastering/575/</a></p>
+<p><a href="/mixingmastering/plugins/check-note-with-spectrum-analyzer/">/mixingmastering/plugins/check-note-with-spectrum-analyzer/</a></p>
+<p></div></div></div></p>
+<h2 id="toc_7">Mix BusやSub Group等ではコンプが最後</h2>
+<p>もうこれは自分の感覚で書いちゃいますが、コンプ最後に持ってきた方が楽器同士の分離感が上手く出る様な気がします。 <br />
+あとはよく言われる&#8221;glue&#8221;（統一感とかそういう意味ですかね、、）されてる感じが出るっていうのはあるような気がしなくもないですね、、、。楽曲の中で一番音量レベルが大きいダイナミクス系の楽器であるKickやSnareがトリガーになってちょっとしたドライブ感が出るって感じでしょうか？リズム的な意味でタイトになる気がします。</p>
+<h2 id="toc_8">でも結局はケースバイケース</h2>
+<p>いろいろ書きましたが結局は「ケースバイケースですよね〜」って事で締めくくろうかと思います爆</p>
+<p>因みにこれを書いてる筆者的にはあまり拘りはなく『EQで不要な帯域があればカット（特に低域はハイパス結構使います）したりレゾナンスもカットしたり、たまにエグいEQかけたりとかも→コンプでアタック感出したり叩いたり揃えたり→EQで最終調整』って事もやりますし、深く考えず自由にやってます。<br />
+結局のところ『結果が良ければ何でも良い』んです。（ハイこのブログの意味無くなりました〜）</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mixingmastering/521/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">521</post-id>	</item>
+		<item>
+		<title>Loudness Normalizationとは???</title>
+		<link>/mixingmastering/463/</link>
+					<comments>/mixingmastering/463/#respond</comments>
+		
+		<dc:creator><![CDATA[KillA808]]></dc:creator>
+		<pubDate>Sat, 23 Oct 2021 15:14:10 +0000</pubDate>
+				<category><![CDATA[Mixing&Mastering]]></category>
+		<guid isPermaLink="false">/?p=463</guid>
+
+					<description><![CDATA[エンジニアやってるとクライアント様から『SpotifyやYouTube向けのマスタリングは可能ですか？』と言った質問を頂く事があります。 興味深いのでブログ記事にする事にしました。 結論から言えば可能です（需要が多いならサービスとして売ろうかと思ってます、お気軽にご連絡ください）。 可能ですが幾つか考えて欲しい点もあります。 そもそもストリーミング配信に最適化されたマスタリングとは？ 本題に入る前にストリーミング配信に最適化とはどう言う意味かを簡単に説明します。 エンジニアの仕事に造詣の深くないアーティスト／ミュージシャンやビートメーカー等の方々にも理解していただきたい為、専門用語は避けてザックリ説明すると現在の音楽ストリーミングサービス、SpotifyやApple Music、YouTube等はラウドネスノーマライゼーションと言って聴感上の音量感を一定にする為LUFSと言う単位を使ってラウドネスの値をそれぞれの基準に揃えています。 一部Spotifyでは別な規格を用いていますが、それでも将来的には同じ方向に進むとアナウンスされています。 ラウドネスノーマライゼーション（自動音量調整） 自動音量調整は一視聴者にとって良い事です。 CDやMP3プレーヤーなどで音楽を聴く時に経験された方も多いと思いますが『静かめのスタンダードジャズを聴いていて、次のハードロックになったら爆音だった』等経験者も多いかと思います。 この二つのジャンルを同じ音圧で調整する事は無い為、当たり前の事なんですが普通にリスニングを楽しみたい人から見ればいちいちボリューム調整をする必要が無くなる為ノーマライズ（音量感の均一化）してくれるのは楽ですよね。 音圧競争の終わり？ これにより音圧競争に終止符を打つ日がいずれ来ると予想されます。これも簡単に説明すると音圧を詰め込まなくても同じ音量感にノーマライズされる為よりダイナミックレンジが広く聴いていて疲れない様にマスタリングした方が良い時代になってきたと言う事です。 例えばYouTubeでは -14LUFS(int)と言う値にノーマライズされますが、それを波形で説明するとこうなります。 波形を見ると分かりやすい 波形１- これは俗に言う『音圧高め』の曲の波形です。 波形２- これをYouTubeにアップロードして再生すると再生時にノーマライズされ、この様に再生されます。単純にボリュームが落とされた感じですね。 波形３- どうせボリュームが落とされるのであれば、この方が良いじゃないかと。波形２も波形３も同じく-14LUFSのラウドネス値になりますが波形だけ見ても波形３の方がダイナミックレンジが広く、より呼吸できる感じがしますよね？ 実際に聴いても同じ音量感ですが波形３の方が長時間聴いても疲れない筈です。 ストリーミング配信用にマスタリングを依頼する前に考えて欲しい事 さて本題ですが。 良い事尽くめに見えるこのノーマライズですが、まだまだ完璧ではありません。むしろ完璧からは程遠いです。 まず一番の問題として各プラットフォームの規格が統一してない事です。これに関しては割とマジで 規格統一してからやれや (ﾟДﾟ)ｺﾞﾙｧ! &#8230;.. って思っちゃいましたね。 SpotifyやらApple Musicはノーマライズの入切を自分で設定出来ちゃう上にブラウザーで聴いた時とアプリで聴いた時でも入切が変わってしまうという仕様の統一の無さ、、。 これで想像できる人はできると思いますが、重要な人に自分の楽曲を聴かせる為のプラットフォームとしてはキチンと出来上がっていないと言えます。 人の耳は音圧が高いモノをより良い音と認識（勘違い）してしまいがちなんです（特にラウドネスに関して詳しくない人は）。 結論として そこで自分はこの依頼・質問が来た時には大体の場合この様に答えます。 『貴方の好きな音圧でマスタリングすべきです。』 もっと正確に言えば『貴方がターゲットとする音圧でマスタリングすべきです。』 正直CDはともかくダウンロード販売の需要が消える事は無いと思いますし（少なくとも現状では）。 -14LUFSとかFxxkだぜ、って思う人も多いかと思います。 しかし仮に貴方の客層がストリーミングメインで、Spotifyを聴いてくれる人が多いとか客層をすでに把握している場合はそのプラットフォームに合わせたマスタリングをしても良いのかな、とは思います。 最後に ごちゃごちゃ色々書いちゃいましたが、ぶっちゃけると自分が曲作って配信する場合はノリノリで音圧決めて「歪んでなきゃいいや」位の軽い感じでやっております。 世の中そんなもんです。 いや、流石に仕事でご依頼頂いた場合は丁寧に説明した上でラウドネス値など決めてますよ。]]></description>
+										<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-full wp-image-464" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?resize=630%2C354&#038;ssl=1" alt="" width="630" height="354" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?w=630&amp;ssl=1 630w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?resize=600%2C337&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 630px) 100vw, 630px" /></p>
+<p>エンジニアやってるとクライアント様から『SpotifyやYouTube向けのマスタリングは可能ですか？』と言った質問を頂く事があります。 興味深いのでブログ記事にする事にしました。</p>
+<p>結論から言えば可能です（需要が多いならサービスとして売ろうかと思ってます、お気軽にご連絡ください）。 可能ですが幾つか考えて欲しい点もあります。</p>
+<h2 id="toc_1">そもそもストリーミング配信に最適化されたマスタリングとは？</h2>
+<p>本題に入る前にストリーミング配信に最適化とはどう言う意味かを簡単に説明します。<br />
+エンジニアの仕事に造詣の深くないアーティスト／ミュージシャンやビートメーカー等の方々にも理解していただきたい為、専門用語は避けてザックリ説明すると現在の音楽ストリーミングサービス、SpotifyやApple Music、YouTube等はラウドネスノーマライゼーションと言って聴感上の音量感を一定にする為LUFSと言う単位を使ってラウドネスの値をそれぞれの基準に揃えています。<br />
+一部Spotifyでは別な規格を用いていますが、それでも将来的には同じ方向に進むとアナウンスされています。</p>
+<h2 id="toc_2">ラウドネスノーマライゼーション（自動音量調整）</h2>
+<p>自動音量調整は一視聴者にとって良い事です。<br />
+CDやMP3プレーヤーなどで音楽を聴く時に経験された方も多いと思いますが『静かめのスタンダードジャズを聴いていて、次のハードロックになったら爆音だった』等経験者も多いかと思います。<br />
+この二つのジャンルを同じ音圧で調整する事は無い為、当たり前の事なんですが普通にリスニングを楽しみたい人から見ればいちいちボリューム調整をする必要が無くなる為ノーマライズ（音量感の均一化）してくれるのは楽ですよね。</p>
+<h2 id="toc_3">音圧競争の終わり？</h2>
+<p>これにより音圧競争に終止符を打つ日がいずれ来ると予想されます。これも簡単に説明すると音圧を詰め込まなくても同じ音量感にノーマライズされる為よりダイナミックレンジが広く聴いていて疲れない様にマスタリングした方が良い時代になってきたと言う事です。<br />
+例えばYouTubeでは -14LUFS(int)と言う値にノーマライズされますが、それを波形で説明するとこうなります。</p>
+<h2 id="toc_4">波形を見ると分かりやすい</h2>
+<p>波形１- これは俗に言う『音圧高め』の曲の波形です。<br />
+<img data-recalc-dims="1" loading="lazy" decoding="async" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.08.44-1024x819.jpg?resize=856%2C685&#038;ssl=1" alt="" width="856" height="685" class="aligncenter size-large wp-image-467" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.08.44.jpg?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.08.44.jpg?resize=600%2C480&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.08.44.jpg?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.08.44.jpg?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.08.44.jpg?w=1052&amp;ssl=1 1052w" sizes="(max-width: 856px) 100vw, 856px" /><br />
+波形２- これをYouTubeにアップロードして再生すると再生時にノーマライズされ、この様に再生されます。単純にボリュームが落とされた感じですね。<br />
+<img data-recalc-dims="1" loading="lazy" decoding="async" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.14.40-1024x819.jpg?resize=856%2C685&#038;ssl=1" alt="" width="856" height="685" class="aligncenter size-large wp-image-468" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.14.40.jpg?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.14.40.jpg?resize=600%2C480&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.14.40.jpg?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.14.40.jpg?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-22.14.40.jpg?w=1052&amp;ssl=1 1052w" sizes="(max-width: 856px) 100vw, 856px" /><br />
+波形３- どうせボリュームが落とされるのであれば、この方が良いじゃないかと。波形２も波形３も同じく-14LUFSのラウドネス値になりますが波形だけ見ても波形３の方がダイナミックレンジが広く、より呼吸できる感じがしますよね？<br />
+<img data-recalc-dims="1" loading="lazy" decoding="async" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-04-29-at-21.18.51-1024x819.jpg?resize=856%2C685&#038;ssl=1" alt="" width="856" height="685" class="aligncenter size-large wp-image-469" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-04-29-at-21.18.51.jpg?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-04-29-at-21.18.51.jpg?resize=600%2C480&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-04-29-at-21.18.51.jpg?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-04-29-at-21.18.51.jpg?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-04-29-at-21.18.51.jpg?w=1052&amp;ssl=1 1052w" sizes="(max-width: 856px) 100vw, 856px" /><br />
+実際に聴いても同じ音量感ですが波形３の方が長時間聴いても疲れない筈です。</p>
+<h2 id="toc_5">ストリーミング配信用にマスタリングを依頼する前に考えて欲しい事</h2>
+<p>さて本題ですが。</br><br />
+良い事尽くめに見えるこのノーマライズですが、まだまだ完璧ではありません。むしろ完璧からは程遠いです。</p>
+<p>まず一番の問題として各プラットフォームの規格が統一してない事です。これに関しては割とマジで<br />
+規格統一してからやれや (ﾟДﾟ)ｺﾞﾙｧ!<br />
+&#8230;..<br />
+って思っちゃいましたね。</p>
+<p>SpotifyやらApple Musicはノーマライズの入切を自分で設定出来ちゃう上にブラウザーで聴いた時とアプリで聴いた時でも入切が変わってしまうという仕様の統一の無さ、、。<br />
+これで想像できる人はできると思いますが、重要な人に自分の楽曲を聴かせる為のプラットフォームとしてはキチンと出来上がっていないと言えます。<br />
+人の耳は音圧が高いモノをより良い音と認識（勘違い）してしまいがちなんです（特にラウドネスに関して詳しくない人は）。</p>
+<h2 id="toc_6">結論として</h2>
+<p>そこで自分はこの依頼・質問が来た時には大体の場合この様に答えます。<br />
+『貴方の好きな音圧でマスタリングすべきです。』<br />
+もっと正確に言えば『貴方がターゲットとする音圧でマスタリングすべきです。』</p>
+<p>正直CDはともかくダウンロード販売の需要が消える事は無いと思いますし（少なくとも現状では）。<br />
+-14LUFSとかFxxkだぜ、って思う人も多いかと思います。<br />
+しかし仮に貴方の客層がストリーミングメインで、Spotifyを聴いてくれる人が多いとか客層をすでに把握している場合はそのプラットフォームに合わせたマスタリングをしても良いのかな、とは思います。</p>
+<h2 id="toc_7">最後に</h2>
+<p>ごちゃごちゃ色々書いちゃいましたが、ぶっちゃけると自分が曲作って配信する場合はノリノリで音圧決めて「歪んでなきゃいいや」位の軽い感じでやっております。<br />
+世の中そんなもんです。</p>
+<p>いや、流石に仕事でご依頼頂いた場合は丁寧に説明した上でラウドネス値など決めてますよ。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/mixingmastering/463/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">463</post-id>	</item>
+	</channel>
+</rss>

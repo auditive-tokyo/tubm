@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Trap  |  Tokyo Underground Beatz Massive</title>
+	<atom:link href="/genre/trap/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Real Tokyo Underground Hip-Hop Label</description>
+	<lastBuildDate>Fri, 12 Jul 2024 18:57:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+
+<image>
+	<url>https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=32%2C32&#038;ssl=1</url>
+	<title>Trap  |  Tokyo Underground Beatz Massive</title>
+	<link></link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Follow Wi Now</title>
+		<link>/release/follow-wi-now/</link>
+		
+		<dc:creator><![CDATA[tubm]]></dc:creator>
+		<pubDate>Fri, 29 Sep 2023 12:24:34 +0000</pubDate>
+				<guid isPermaLink="false">https://tubm.tokyo/?post_type=release&#038;p=3881</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3298</post-id>	</item>
+		<item>
+		<title>Scent of Dreams</title>
+		<link>/release/scent-of-dreams/</link>
+		
+		<dc:creator><![CDATA[tubm]]></dc:creator>
+		<pubDate>Sun, 06 Aug 2023 12:55:26 +0000</pubDate>
+				<guid isPermaLink="false">https://tubm.tokyo/?post_type=release&#038;p=3808</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3281</post-id>	</item>
+		<item>
+		<title>TAX</title>
+		<link>/release/tax/</link>
+		
+		<dc:creator><![CDATA[tubm]]></dc:creator>
+		<pubDate>Mon, 05 Jun 2023 13:18:37 +0000</pubDate>
+				<guid isPermaLink="false">https://tubm.tokyo/?post_type=release&#038;p=3760</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3264</post-id>	</item>
+		<item>
+		<title>Night on Earth</title>
+		<link>/release/night-on-earth/</link>
+		
+		<dc:creator><![CDATA[tubm]]></dc:creator>
+		<pubDate>Wed, 04 Aug 2021 13:57:14 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=release#038;p=200</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">200</post-id>	</item>
+		<item>
+		<title>PAZOODOG 2020 EP</title>
+		<link>/release/pazoodog2020ep/</link>
+		
+		<dc:creator><![CDATA[tubm]]></dc:creator>
+		<pubDate>Sun, 20 Jun 2021 13:08:06 +0000</pubDate>
+				<guid isPermaLink="false">/?post_type=release#038;p=167</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">167</post-id>	</item>
+	</channel>
+</rss>

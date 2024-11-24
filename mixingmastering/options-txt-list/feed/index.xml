@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: List of Options.txt settings for Ableton Live ver.11 (all list)	</title>
+	<atom:link href="/mixingmastering/options-txt-list/feed/" rel="self" type="application/rss+xml" />
+	<link>/mixingmastering/options-txt-list/</link>
+	<description>Real Tokyo Underground Hip-Hop Label</description>
+	<lastBuildDate>Tue, 12 Mar 2024 07:26:16 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<item>
+		<title>
+		By: Keraj		</title>
+		<link>/mixingmastering/options-txt-list/#comment-38</link>
+
+		<dc:creator><![CDATA[Keraj]]></dc:creator>
+		<pubDate>Tue, 12 Mar 2024 07:26:16 +0000</pubDate>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535#comment-38</guid>
+
+					<description><![CDATA[There is one more: -_EnsureKeyMessagesForPlugins
+
+It saved my life]]></description>
+			<content:encoded><![CDATA[<p>There is one more: -_EnsureKeyMessagesForPlugins</p>
+<p>It saved my life</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Dr. NO		</title>
+		<link>/mixingmastering/options-txt-list/#comment-37</link>
+
+		<dc:creator><![CDATA[Dr. NO]]></dc:creator>
+		<pubDate>Sun, 11 Feb 2024 19:06:30 +0000</pubDate>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535#comment-37</guid>
+
+					<description><![CDATA[Ok cool but this font and background are fucking mad to read.]]></description>
+			<content:encoded><![CDATA[<p>Ok cool but this font and background are fucking mad to read.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Moonmagnet		</title>
+		<link>/mixingmastering/options-txt-list/#comment-34</link>
+
+		<dc:creator><![CDATA[Moonmagnet]]></dc:creator>
+		<pubDate>Wed, 15 Nov 2023 22:00:48 +0000</pubDate>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535#comment-34</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/mixingmastering/options-txt-list/#comment-31&quot;&gt;tubm&lt;/a&gt;.
+
+Thanks! I’ll take a look at it. Do you know of any sites that offer these channel routing user templates for max4live routing?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/mixingmastering/options-txt-list/#comment-31">tubm</a>.</p>
+<p>Thanks! I’ll take a look at it. Do you know of any sites that offer these channel routing user templates for max4live routing?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: FrenchieBaguette		</title>
+		<link>/mixingmastering/options-txt-list/#comment-33</link>
+
+		<dc:creator><![CDATA[FrenchieBaguette]]></dc:creator>
+		<pubDate>Mon, 09 Oct 2023 11:56:38 +0000</pubDate>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535#comment-33</guid>
+
+					<description><![CDATA[Theses don&#039;t add more buffer sadly]]></description>
+			<content:encoded><![CDATA[<p>Theses don&#8217;t add more buffer sadly</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: tubm		</title>
+		<link>/mixingmastering/options-txt-list/#comment-32</link>
+
+		<dc:creator><![CDATA[tubm]]></dc:creator>
+		<pubDate>Mon, 09 Oct 2023 06:10:35 +0000</pubDate>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535#comment-32</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/mixingmastering/options-txt-list/#comment-30&quot;&gt;FrenchieBaguette&lt;/a&gt;.
+
+The &quot;AdditionalLatencyForPlaythrough&quot; option is designed to add additional latency to Ableton Live&#039;s playthrough channel. 
+Unfortunately, there is no official documentation that clarifies whether this option also impacts the buffer size.
+
+If you&#039;ve tried it and didn&#039;t notice any changes, it might be overwritten by other settings.
+
+How about using External Audio Effect or Track Delay parameters, instead of options.txt?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/mixingmastering/options-txt-list/#comment-30">FrenchieBaguette</a>.</p>
+<p>The &#8220;AdditionalLatencyForPlaythrough&#8221; option is designed to add additional latency to Ableton Live&#8217;s playthrough channel.<br />
+Unfortunately, there is no official documentation that clarifies whether this option also impacts the buffer size.</p>
+<p>If you&#8217;ve tried it and didn&#8217;t notice any changes, it might be overwritten by other settings.</p>
+<p>How about using External Audio Effect or Track Delay parameters, instead of options.txt?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: tubm		</title>
+		<link>/mixingmastering/options-txt-list/#comment-31</link>
+
+		<dc:creator><![CDATA[tubm]]></dc:creator>
+		<pubDate>Mon, 09 Oct 2023 05:38:14 +0000</pubDate>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535#comment-31</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/mixingmastering/options-txt-list/#comment-29&quot;&gt;MoonMagnet&lt;/a&gt;.
+
+Sorry, I haven&#039;t been online for a while. I actually use a 2015 MacBook Pro and have never faced the problem you&#039;re describing. Instead of relying on &lt;code&gt;options.txt&lt;/code&gt;, I&#039;d try Max4Live if I were you.
+
+With Max4Live, you can create custom audio effects or routing patches that could potentially solve your multi-channel interleaving issue. You can design a patch that specifically handles the channel routing the way you want, thereby avoiding the problems you&#039;re facing on your M1 MacBook Pro.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/mixingmastering/options-txt-list/#comment-29">MoonMagnet</a>.</p>
+<p>Sorry, I haven&#8217;t been online for a while. I actually use a 2015 MacBook Pro and have never faced the problem you&#8217;re describing. Instead of relying on <code>options.txt</code>, I&#8217;d try Max4Live if I were you.</p>
+<p>With Max4Live, you can create custom audio effects or routing patches that could potentially solve your multi-channel interleaving issue. You can design a patch that specifically handles the channel routing the way you want, thereby avoiding the problems you&#8217;re facing on your M1 MacBook Pro.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: FrenchieBaguette		</title>
+		<link>/mixingmastering/options-txt-list/#comment-30</link>
+
+		<dc:creator><![CDATA[FrenchieBaguette]]></dc:creator>
+		<pubDate>Mon, 09 Oct 2023 01:32:37 +0000</pubDate>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535#comment-30</guid>
+
+					<description><![CDATA[Does the &quot;AdditionalLatencyForPlaythrough&quot; add more buffer? or just latency? Not sure? I tired it but it didn&#039;t do anything]]></description>
+			<content:encoded><![CDATA[<p>Does the &#8220;AdditionalLatencyForPlaythrough&#8221; add more buffer? or just latency? Not sure? I tired it but it didn&#8217;t do anything</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: MoonMagnet		</title>
+		<link>/mixingmastering/options-txt-list/#comment-29</link>
+
+		<dc:creator><![CDATA[MoonMagnet]]></dc:creator>
+		<pubDate>Mon, 04 Sep 2023 20:26:39 +0000</pubDate>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535#comment-29</guid>
+
+					<description><![CDATA[Hey brother just following up on which option you would recommend.]]></description>
+			<content:encoded><![CDATA[<p>Hey brother just following up on which option you would recommend.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: MoonMagnet		</title>
+		<link>/mixingmastering/options-txt-list/#comment-28</link>
+
+		<dc:creator><![CDATA[MoonMagnet]]></dc:creator>
+		<pubDate>Tue, 25 Jul 2023 15:45:28 +0000</pubDate>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535#comment-28</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/mixingmastering/options-txt-list/#comment-27&quot;&gt;tubm&lt;/a&gt;.
+
+So I tried a few of these codes but none seem to solve my issue. Here is my issue with my M1 2021 Macbook Pro - Monterey: I suspect an issue with multi channel interleaving in Ableton 11 and 10. The only current solution that solved this for me is using Dolby Renderer with Ableton and bounce as a renderer 2 channel Stereo file. If I don&#039;t use Dolby, ableton forces all channels to left and right causing harshness and phasing issue. Ive used Ableton with 2015 Macbook and never had this problem. What do you suggest I do? Maybe Max4live would help to reconstruct Abletons behavior? Its driving me mad :(]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/mixingmastering/options-txt-list/#comment-27">tubm</a>.</p>
+<p>So I tried a few of these codes but none seem to solve my issue. Here is my issue with my M1 2021 Macbook Pro &#8211; Monterey: I suspect an issue with multi channel interleaving in Ableton 11 and 10. The only current solution that solved this for me is using Dolby Renderer with Ableton and bounce as a renderer 2 channel Stereo file. If I don&#8217;t use Dolby, ableton forces all channels to left and right causing harshness and phasing issue. Ive used Ableton with 2015 Macbook and never had this problem. What do you suggest I do? Maybe Max4live would help to reconstruct Abletons behavior? Its driving me mad 🙁</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: tubm		</title>
+		<link>/mixingmastering/options-txt-list/#comment-27</link>
+
+		<dc:creator><![CDATA[tubm]]></dc:creator>
+		<pubDate>Tue, 25 Jul 2023 03:45:11 +0000</pubDate>
+		<guid isPermaLink="false">https://tubm.tokyo/?p=3535#comment-27</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/mixingmastering/options-txt-list/#comment-26&quot;&gt;MoonMagnet&lt;/a&gt;.
+
+Glad it helped! This should work for Ableton Live 10. In fact, some features were removed in Live 11, so Live 10 should have more options. You can check out the full list of options in this &lt;a href=&quot;https://github.com/ibekso/medium/blob/main/article_ressources/options_txt/lists/full_options_list.txt&quot; target=&quot;_blank&quot; rel=&quot;noopener nofollow ugc&quot;&gt;GitHub Repo&lt;/a&gt;. I personally find this repo pretty handy.
+
+As for the setting True or False, the simplest way is to use 1 or 0. 
+So, if you write 
+-DriveEngineTiming=1
+it means true, and 0 would mean false.
+
+Hope this helps!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/mixingmastering/options-txt-list/#comment-26">MoonMagnet</a>.</p>
+<p>Glad it helped! This should work for Ableton Live 10. In fact, some features were removed in Live 11, so Live 10 should have more options. You can check out the full list of options in this <a href="https://github.com/ibekso/medium/blob/main/article_ressources/options_txt/lists/full_options_list.txt" target="_blank" rel="noopener nofollow ugc">GitHub Repo</a>. I personally find this repo pretty handy.</p>
+<p>As for the setting True or False, the simplest way is to use 1 or 0.<br />
+So, if you write<br />
+-DriveEngineTiming=1<br />
+it means true, and 0 would mean false.</p>
+<p>Hope this helps!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

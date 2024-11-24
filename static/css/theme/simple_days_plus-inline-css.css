@@ -1,0 +1,73 @@
+/*テーマのレイアウト系*/
+.post_content {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.widget {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hp_contents {
+    background: none;
+}
+
+.post_card {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.archive_header {
+    background: none
+}
+
+.comment_text {
+    background: none;
+}
+
+/*TOC*/
+.toc {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*Quote Table*/
+blockquote {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*Laebel Gridページのレイアウト系*/
+#releaselinks .linkTop a {
+    display: block;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    text-transform: none;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 90px auto;
+    font-size: initial;
+    font-weight: bold;
+    line-height: 2.8em;
+}
+
+#lg_content_release.release_detail .artwork .sub_artwork_details {
+    font-size: initial;
+    text-transform: none;
+}
+
+#lg_content_release.release_detail .press_release .cont {
+    background: none;
+}
+
+.post_body .widget {
+    background: none;
+}
+
+#lg_content_release.release_detail .artwork {
+    display: inline-block;
+    pointer-events: none;
+}
+
+/*フロントエンドのブログポストのメニュークリックした時のテキストカラー*/
+.mce-menu .mce-container-body {
+    color: black;
+}

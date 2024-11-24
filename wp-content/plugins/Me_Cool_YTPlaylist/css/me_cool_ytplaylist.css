@@ -1,0 +1,91 @@
+.youtube-playlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    justify-content: center;
+}
+
+.youtube-video {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.youtube-video img {
+    width: 100%;
+    height: auto;
+}
+
+.youtube-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-popup-content {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+}
+
+.youtube-popup-content iframe {
+    width: 100%;
+    height: 450px;
+}
+
+.youtube-popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.youtube-video p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* 表示する行数 */
+    -webkit-box-orient: vertical;
+    max-width: 200px;
+    /* テキストの幅（動画の幅と合わせる） */
+}
+
+/* メディアクエリを追加してレスポンシブ対応を強化 */
+@media (max-width: 1024px) {
+    .youtube-video {
+        max-width: 33.33%;
+        /* 3列表示 */
+    }
+}
+
+@media (max-width: 768px) {
+    .youtube-video {
+        max-width: 50%;
+        /* 2列表示 */
+    }
+
+    .youtube-popup-content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .youtube-video {
+        max-width: 100%;
+        /* 1列表示 */
+    }
+
+    .youtube-popup-content {
+        width: 100%;
+    }
+}
