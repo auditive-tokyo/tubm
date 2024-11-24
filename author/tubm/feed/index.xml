@@ -1,47 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	
 	xmlns:georss="http://www.georss.org/georss"
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-	>
+>
 
-<channel>
-	<title>tubm  |  Tokyo Underground Beatz Massive</title>
-	<atom:link href="/author/tubm/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
-	<description>Real Tokyo Underground Hip-Hop Label</description>
-	<lastBuildDate>Tue, 30 May 2023 07:23:17 +0000</lastBuildDate>
-	<language>en-US</language>
-	<sy:updatePeriod>
-	hourly	</sy:updatePeriod>
-	<sy:updateFrequency>
-	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<channel>
+		<title>tubm | Tokyo Underground Beatz Massive</title>
+		<atom:link href="/author/tubm/feed/" rel="self" type="application/rss+xml" />
+		<link></link>
+		<description>Real Tokyo Underground Hip-Hop Label</description>
+		<lastBuildDate>Tue, 30 May 2023 07:23:17 +0000</lastBuildDate>
+		<language>en-US</language>
+		<sy:updatePeriod>
+			hourly </sy:updatePeriod>
+		<sy:updateFrequency>
+			1 </sy:updateFrequency>
+		<generator>https://wordpress.org/?v=6.5.5</generator>
 
-<image>
-	<url>https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=32%2C32&#038;ssl=1</url>
-	<title>tubm  |  Tokyo Underground Beatz Massive</title>
-	<link></link>
-	<width>32</width>
-	<height>32</height>
-</image> 
-	<item>
-		<title>Hip Hop Chart #34!</title>
-		<link>/pickout/chartedin-itunes-hiphop-chart/</link>
-					<comments>/pickout/chartedin-itunes-hiphop-chart/#respond</comments>
-		
-		<dc:creator><![CDATA[tubm]]></dc:creator>
-		<pubDate>Tue, 31 Jan 2023 11:40:58 +0000</pubDate>
-				<category><![CDATA[Pickout Info]]></category>
-		<guid isPermaLink="false">/uncategorized/chartedin-itunes-hiphop-chart/</guid>
+		<image>
+			<url>
+				https://i0.wp.com/tubm.tokyo/en/assets/images/TUBM-Coin-logo-scaled-1.jpg?fit=32%2C32&#038;ssl=1</url>
+			<title>tubm | Tokyo Underground Beatz Massive</title>
+			<link></link>
+			<width>32</width>
+			<height>32</height>
+		</image>
+		<item>
+			<title>Hip Hop Chart #34!</title>
+			<link>/pickout/chartedin-itunes-hiphop-chart/</link>
+			<comments>/pickout/chartedin-itunes-hiphop-chart/#respond</comments>
 
-					<description><![CDATA[*Machine translated&#8230; It&#8217;s charting on the iTunes hip hop charts I&#8217;m so happy ^^ It is doubtful that this song can be called hip-hop, but, well, once it&#8217;s in the charts, the details don&#8217;t matter Here&#8217;s a link to the song, if you&#8217;d like to check it out /release/samurai-switch/]]></description>
-										<content:encoded><![CDATA[<p><img data-recalc-dims="1" fetchpriority="high" decoding="async" class="size-large wp-image-2901 aligncenter" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?resize=309%2C550" alt="" width="309" height="550" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?resize=576%2C1024&amp;ssl=1 576w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?resize=169%2C300&amp;ssl=1 169w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?resize=600%2C1067&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?w=750&amp;ssl=1 750w" sizes="(max-width: 309px) 100vw, 309px" /></p>
+			<dc:creator><![CDATA[tubm]]></dc:creator>
+			<pubDate>Tue, 31 Jan 2023 11:40:58 +0000</pubDate>
+			<category><![CDATA[Pickout Info]]></category>
+			<guid isPermaLink="false">/uncategorized/chartedin-itunes-hiphop-chart/</guid>
+
+			<description><![CDATA[*Machine translated&#8230; It&#8217;s charting on the iTunes hip hop charts I&#8217;m so happy ^^ It is doubtful that this song can be called hip-hop, but, well, once it&#8217;s in the charts, the details don&#8217;t matter Here&#8217;s a link to the song, if you&#8217;d like to check it out /release/samurai-switch/]]></description>
+			<content:encoded><![CDATA[<p><img data-recalc-dims="1" fetchpriority="high" decoding="async" class="size-large wp-image-2901 aligncenter" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?resize=309%2C550" alt="" width="309" height="550" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?resize=576%2C1024&amp;ssl=1 576w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?resize=169%2C300&amp;ssl=1 169w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?resize=600%2C1067&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/S__1654972.jpg?w=750&amp;ssl=1 750w" sizes="(max-width: 309px) 100vw, 309px" /></p>
 
 
 <p>*Machine translated&#8230;</p>
@@ -60,24 +61,25 @@
 
 
 <p><a href="/release/samurai-switch/">/release/samurai-switch/</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>/pickout/chartedin-itunes-hiphop-chart/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2890</post-id>	</item>
-		<item>
-		<title>DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!</title>
-		<link>/pickout/dubble-up-charted/</link>
-					<comments>/pickout/dubble-up-charted/#respond</comments>
-		
-		<dc:creator><![CDATA[tubm]]></dc:creator>
-		<pubDate>Wed, 11 Jan 2023 13:46:48 +0000</pubDate>
-				<category><![CDATA[Pickout Info]]></category>
-		<guid isPermaLink="false">/uncategorized/dubble-up-charted/</guid>
 
-					<description><![CDATA[Was released today, and hits #1 on the chart! It&#8217;s been since 2021, TUBM took the number one spot on the reggae chart. That&#8217;s amazing! Hummingbird&#8217;s production, PAZOODOG&#8217;s lyrics, and the featured artist キムライオン, all have great skills. Tsutchie&#8217;s mastering is also incredible, so it&#8217;s no wonder they topped the charts! Please give it a [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p><img data-recalc-dims="1" decoding="async" class="aligncenter size-large wp-image-2791" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?resize=270%2C480" alt="" width="270" height="480" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?resize=576%2C1024&amp;ssl=1 576w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?resize=169%2C300&amp;ssl=1 169w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?resize=600%2C1067&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?w=750&amp;ssl=1 750w" sizes="(max-width: 270px) 100vw, 270px" /></p>
+			<wfw:commentRss>/pickout/chartedin-itunes-hiphop-chart/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">2890</post-id>
+		</item>
+		<item>
+			<title>DUBBLE UP hits #1 on iTunes&#8217; Reggae Chart!</title>
+			<link>/pickout/dubble-up-charted/</link>
+			<comments>/pickout/dubble-up-charted/#respond</comments>
+
+			<dc:creator><![CDATA[tubm]]></dc:creator>
+			<pubDate>Wed, 11 Jan 2023 13:46:48 +0000</pubDate>
+			<category><![CDATA[Pickout Info]]></category>
+			<guid isPermaLink="false">/uncategorized/dubble-up-charted/</guid>
+
+			<description><![CDATA[Was released today, and hits #1 on the chart! It&#8217;s been since 2021, TUBM took the number one spot on the reggae chart. That&#8217;s amazing! Hummingbird&#8217;s production, PAZOODOG&#8217;s lyrics, and the featured artist キムライオン, all have great skills. Tsutchie&#8217;s mastering is also incredible, so it&#8217;s no wonder they topped the charts! Please give it a [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p><img data-recalc-dims="1" decoding="async" class="aligncenter size-large wp-image-2791" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?resize=270%2C480" alt="" width="270" height="480" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?resize=576%2C1024&amp;ssl=1 576w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?resize=169%2C300&amp;ssl=1 169w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?resize=600%2C1067&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/01/DUBBLEUPCharted.png?w=750&amp;ssl=1 750w" sizes="(max-width: 270px) 100vw, 270px" /></p>
 
 
 <p>Was released today, and hits #1 on the chart! </p>
@@ -88,25 +90,26 @@
 
 
 <p><a href="/release/dubble-up/">/release/dubble-up/</a></p>]]></content:encoded>
-					
-					<wfw:commentRss>/pickout/dubble-up-charted/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2790</post-id>	</item>
-		<item>
-		<title>[NFT] &#8211; Samurai Switch</title>
-		<link>/web3/samurai-switch/</link>
-					<comments>/web3/samurai-switch/#respond</comments>
-		
-		<dc:creator><![CDATA[tubm]]></dc:creator>
-		<pubDate>Mon, 02 Jan 2023 19:43:32 +0000</pubDate>
-				<category><![CDATA[Our NFTs]]></category>
-		<category><![CDATA[Web3]]></category>
-		<guid isPermaLink="false">/uncategorized/samurai-switch/</guid>
 
-					<description><![CDATA[Post Updated: 8th Feb 2023 We have simplified the payout of revenue sharing. We will simply send you MATIC or JPYC to the wallet which holds NFT every month. If you already created an account at RouteNote, payout will be made by PayPal. No action needed. If you have yet to create an account at [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p><img data-recalc-dims="1" decoding="async" class="size-large aligncenter" src="https://i0.wp.com/tubm.tokyo/wp-content/uploads/2022/12/Artwork-2000x2000-1.jpg?resize=300%2C300" width="300" height="300"></p>
+			<wfw:commentRss>/pickout/dubble-up-charted/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">2790</post-id>
+		</item>
+		<item>
+			<title>[NFT] &#8211; Samurai Switch</title>
+			<link>/web3/samurai-switch/</link>
+			<comments>/web3/samurai-switch/#respond</comments>
+
+			<dc:creator><![CDATA[tubm]]></dc:creator>
+			<pubDate>Mon, 02 Jan 2023 19:43:32 +0000</pubDate>
+			<category><![CDATA[Our NFTs]]></category>
+			<category><![CDATA[Web3]]></category>
+			<guid isPermaLink="false">/uncategorized/samurai-switch/</guid>
+
+			<description><![CDATA[Post Updated: 8th Feb 2023 We have simplified the payout of revenue sharing. We will simply send you MATIC or JPYC to the wallet which holds NFT every month. If you already created an account at RouteNote, payout will be made by PayPal. No action needed. If you have yet to create an account at [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p><img data-recalc-dims="1" decoding="async" class="size-large aligncenter" src="https://i0.wp.com/tubm.tokyo/wp-content/uploads/2022/12/Artwork-2000x2000-1.jpg?resize=300%2C300" width="300" height="300"></p>
 
 
 <p>Post Updated: 8th Feb 2023</p>
@@ -206,47 +209,49 @@ We set super cheap price for 1st and 2nd. 3rd one is moderate. 4th and 5th are o
 </ul>
 <p></div></div></div>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/web3/samurai-switch/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2627</post-id>	</item>
-		<item>
-		<title>新曲がiTunesのレゲエチャート１位を獲得しました！</title>
-		<link>/pickout/433/</link>
-					<comments>/pickout/433/#respond</comments>
-		
-		<dc:creator><![CDATA[tubm]]></dc:creator>
-		<pubDate>Wed, 20 Oct 2021 05:11:38 +0000</pubDate>
-				<category><![CDATA[Pickout Info]]></category>
-		<guid isPermaLink="false">/?p=433</guid>
 
-					<description><![CDATA[RAGGA-G &#38; PAZOODOG &#8211; SOUNDTRIP（Prod. KillA808 &#38; Hayatobeatz）って曲です！現在（2021年10月20日）１位にいます！ TUBM初のiTunesチャート入りで感動です！やはりラガさんの力が大きいなと思います！ DLしてくれた方々には感謝しかありません m(_ _ )m 曲情報はこちらです。 MVできたらまた更新しようと思います！]]></description>
-										<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="size-medium wp-image-435 aligncenter" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/IMG_2585-e1634706648670-300x260.png?resize=300%2C260&#038;ssl=1" alt="" width="300" height="260" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/IMG_2585-e1634706648670.png?resize=300%2C260&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/IMG_2585-e1634706648670.png?resize=600%2C520&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/IMG_2585-e1634706648670.png?w=750&amp;ssl=1 750w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+			<wfw:commentRss>/web3/samurai-switch/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">2627</post-id>
+		</item>
+		<item>
+			<title>新曲がiTunesのレゲエチャート１位を獲得しました！</title>
+			<link>/pickout/433/</link>
+			<comments>/pickout/433/#respond</comments>
+
+			<dc:creator><![CDATA[tubm]]></dc:creator>
+			<pubDate>Wed, 20 Oct 2021 05:11:38 +0000</pubDate>
+			<category><![CDATA[Pickout Info]]></category>
+			<guid isPermaLink="false">/?p=433</guid>
+
+			<description><![CDATA[RAGGA-G &#38; PAZOODOG &#8211; SOUNDTRIP（Prod. KillA808 &#38; Hayatobeatz）って曲です！現在（2021年10月20日）１位にいます！ TUBM初のiTunesチャート入りで感動です！やはりラガさんの力が大きいなと思います！ DLしてくれた方々には感謝しかありません m(_ _ )m 曲情報はこちらです。 MVできたらまた更新しようと思います！]]></description>
+			<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="size-medium wp-image-435 aligncenter" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/IMG_2585-e1634706648670-300x260.png?resize=300%2C260&#038;ssl=1" alt="" width="300" height="260" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/IMG_2585-e1634706648670.png?resize=300%2C260&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/IMG_2585-e1634706648670.png?resize=600%2C520&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/IMG_2585-e1634706648670.png?w=750&amp;ssl=1 750w" sizes="(max-width: 300px) 100vw, 300px" /></p>
 <p>RAGGA-G &amp; PAZOODOG &#8211; SOUNDTRIP（Prod. KillA808 &amp; Hayatobeatz）って曲です！現在（2021年10月20日）１位にいます！<br />
 TUBM初のiTunesチャート入りで感動です！やはりラガさんの力が大きいなと思います！ DLしてくれた方々には感謝しかありません m(_ _ )m</p>
 <p>曲情報は<a href="/release/soundtrip/">こちら</a>です。</p>
 <p>MVできたらまた更新しようと思います！</p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/pickout/433/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">433</post-id>	</item>
-		<item>
-		<title>PAZOODOG &#8211; Night on Earthが「MUSIC TANK セレクション」チャンネルでも配信されます！</title>
-		<link>/pickout/4/</link>
-					<comments>/pickout/4/#respond</comments>
-		
-		<dc:creator><![CDATA[tubm]]></dc:creator>
-		<pubDate>Wed, 15 Sep 2021 03:28:04 +0000</pubDate>
-				<category><![CDATA[Pickout Info]]></category>
-		<guid isPermaLink="false">/?p=4</guid>
 
-					<description><![CDATA[株式会社U-NEXT MUSIC TANK運用チーム様よりメッセージを頂き、「MUSIC TANK セレクション」のチャンネルで配信される事になりました！ 〜〜〜以下転送文〜〜〜〜〜 配信開始日：9月17日（金）より順次配信 ※配信期間は4週間前後を予定しております ▼配信アプリ 「SMART USEN」 http://smart.usen.com/ ▼配信チャンネル 「MUSIC TANK セレクション」http://smart.usen.com/ch02501/ セレクションチャンネルでは、MUSIC TANKにご応募いただいた楽曲の中から選りすぐりの楽曲をまとめてお送りします。 〜〜〜〜〜〜〜 との事です！色々な新しい音楽聴けるアプリですので是非DLしてみて下さい！]]></description>
-										<content:encoded><![CDATA[
+			<wfw:commentRss>/pickout/433/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">433</post-id>
+		</item>
+		<item>
+			<title>PAZOODOG &#8211; Night on Earthが「MUSIC TANK セレクション」チャンネルでも配信されます！</title>
+			<link>/pickout/4/</link>
+			<comments>/pickout/4/#respond</comments>
+
+			<dc:creator><![CDATA[tubm]]></dc:creator>
+			<pubDate>Wed, 15 Sep 2021 03:28:04 +0000</pubDate>
+			<category><![CDATA[Pickout Info]]></category>
+			<guid isPermaLink="false">/?p=4</guid>
+
+			<description><![CDATA[株式会社U-NEXT MUSIC TANK運用チーム様よりメッセージを頂き、「MUSIC TANK セレクション」のチャンネルで配信される事になりました！ 〜〜〜以下転送文〜〜〜〜〜 配信開始日：9月17日（金）より順次配信 ※配信期間は4週間前後を予定しております ▼配信アプリ 「SMART USEN」 http://smart.usen.com/ ▼配信チャンネル 「MUSIC TANK セレクション」http://smart.usen.com/ch02501/ セレクションチャンネルでは、MUSIC TANKにご応募いただいた楽曲の中から選りすぐりの楽曲をまとめてお送りします。 〜〜〜〜〜〜〜 との事です！色々な新しい音楽聴けるアプリですので是非DLしてみて下さい！]]></description>
+			<content:encoded><![CDATA[
 <p>株式会社U-NEXT MUSIC TANK運用チーム様よりメッセージを頂き、「MUSIC TANK セレクション」のチャンネルで配信される事になりました！<br />
 <br />
 〜〜〜以下転送文〜〜〜〜〜<br />
@@ -263,11 +268,12 @@ TUBM初のiTunesチャート入りで感動です！やはりラガさんの力�
 <br />
 との事です！色々な新しい音楽聴けるアプリですので是非DLしてみて下さい！</p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/pickout/4/feed/</wfw:commentRss>
+
+			<wfw:commentRss>/pickout/4/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">4</post-id>	</item>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">4</post-id>
+		</item>
 	</channel>
 </rss>

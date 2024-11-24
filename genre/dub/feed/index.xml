@@ -1,76 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	
 	xmlns:georss="http://www.georss.org/georss"
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-	>
+>
 
-<channel>
-	<title>Dub  |  Tokyo Underground Beatz Massive</title>
-	<atom:link href="/genre/dub/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
-	<description>Real Tokyo Underground Hip-Hop Label</description>
-	<lastBuildDate>Fri, 12 Jul 2024 19:54:15 +0000</lastBuildDate>
-	<language>en-US</language>
-	<sy:updatePeriod>
-	hourly	</sy:updatePeriod>
-	<sy:updateFrequency>
-	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<channel>
+		<title>Dub | Tokyo Underground Beatz Massive</title>
+		<atom:link href="/genre/dub/feed/" rel="self" type="application/rss+xml" />
+		<link></link>
+		<description>Real Tokyo Underground Hip-Hop Label</description>
+		<lastBuildDate>Fri, 12 Jul 2024 19:54:15 +0000</lastBuildDate>
+		<language>en-US</language>
+		<sy:updatePeriod>
+			hourly </sy:updatePeriod>
+		<sy:updateFrequency>
+			1 </sy:updateFrequency>
+		<generator>https://wordpress.org/?v=6.5.5</generator>
 
-<image>
-	<url>https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=32%2C32&#038;ssl=1</url>
-	<title>Dub  |  Tokyo Underground Beatz Massive</title>
-	<link></link>
-	<width>32</width>
-	<height>32</height>
-</image> 
-	<item>
-		<title>Time Flies</title>
-		<link>/release/timeflies/</link>
-		
-		<dc:creator><![CDATA[tubm]]></dc:creator>
-		<pubDate>Fri, 12 Jul 2024 10:43:39 +0000</pubDate>
-				<guid isPermaLink="false">/release/timeflies/</guid>
-
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3407</post-id>	</item>
+		<image>
+			<url>
+				https://i0.wp.com/tubm.tokyo/en/assets/images/TUBM-Coin-logo-scaled-1.jpg?fit=32%2C32&#038;ssl=1</url>
+			<title>Dub | Tokyo Underground Beatz Massive</title>
+			<link></link>
+			<width>32</width>
+			<height>32</height>
+		</image>
 		<item>
-		<title>My Road</title>
-		<link>/release/my-road/</link>
-		
-		<dc:creator><![CDATA[tubm]]></dc:creator>
-		<pubDate>Fri, 27 Oct 2023 14:31:45 +0000</pubDate>
-				<guid isPermaLink="false">https://tubm.tokyo/?post_type=release&#038;p=3955</guid>
+			<title>Time Flies</title>
+			<link>/release/timeflies/</link>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3304</post-id>	</item>
+			<dc:creator><![CDATA[tubm]]></dc:creator>
+			<pubDate>Fri, 12 Jul 2024 10:43:39 +0000</pubDate>
+			<guid isPermaLink="false">/release/timeflies/</guid>
+
+			<description><![CDATA[]]></description>
+			<content:encoded><![CDATA[]]></content:encoded>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">3407</post-id>
+		</item>
 		<item>
-		<title>DUBBLE UP</title>
-		<link>/release/dubble-up/</link>
-		
-		<dc:creator><![CDATA[tubm]]></dc:creator>
-		<pubDate>Mon, 19 Dec 2022 11:05:10 +0000</pubDate>
-				<guid isPermaLink="false">/?post_type=release#038;p=2533</guid>
+			<title>My Road</title>
+			<link>/release/my-road/</link>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2533</post-id>	</item>
+			<dc:creator><![CDATA[tubm]]></dc:creator>
+			<pubDate>Fri, 27 Oct 2023 14:31:45 +0000</pubDate>
+			<guid isPermaLink="false">https://tubm.tokyo/?post_type=release&#038;p=3955</guid>
+
+			<description><![CDATA[]]></description>
+			<content:encoded><![CDATA[]]></content:encoded>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">3304</post-id>
+		</item>
+		<item>
+			<title>DUBBLE UP</title>
+			<link>/release/dubble-up/</link>
+
+			<dc:creator><![CDATA[tubm]]></dc:creator>
+			<pubDate>Mon, 19 Dec 2022 11:05:10 +0000</pubDate>
+			<guid isPermaLink="false">/?post_type=release#038;p=2533</guid>
+
+			<description><![CDATA[]]></description>
+			<content:encoded><![CDATA[]]></content:encoded>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">2533</post-id>
+		</item>
 	</channel>
 </rss>

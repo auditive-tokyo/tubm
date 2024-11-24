@@ -1,47 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	
 	xmlns:georss="http://www.georss.org/georss"
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-	>
+>
 
-<channel>
-	<title>KillA808  |  Tokyo Underground Beatz Massive</title>
-	<atom:link href="/author/killa808/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
-	<description>Real Tokyo Underground Hip-Hop Label</description>
-	<lastBuildDate>Wed, 20 Sep 2023 04:14:49 +0000</lastBuildDate>
-	<language>en-US</language>
-	<sy:updatePeriod>
-	hourly	</sy:updatePeriod>
-	<sy:updateFrequency>
-	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<channel>
+		<title>KillA808 | Tokyo Underground Beatz Massive</title>
+		<atom:link href="/author/killa808/feed/" rel="self" type="application/rss+xml" />
+		<link></link>
+		<description>Real Tokyo Underground Hip-Hop Label</description>
+		<lastBuildDate>Wed, 20 Sep 2023 04:14:49 +0000</lastBuildDate>
+		<language>en-US</language>
+		<sy:updatePeriod>
+			hourly </sy:updatePeriod>
+		<sy:updateFrequency>
+			1 </sy:updateFrequency>
+		<generator>https://wordpress.org/?v=6.5.5</generator>
 
-<image>
-	<url>https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2023/02/cropped-cropped-TUBM-Coin-logo-scaled-1.jpg?fit=32%2C32&#038;ssl=1</url>
-	<title>KillA808  |  Tokyo Underground Beatz Massive</title>
-	<link></link>
-	<width>32</width>
-	<height>32</height>
-</image> 
-	<item>
-		<title>List of Options.txt settings for Ableton Live ver.11 (all list)</title>
-		<link>/mixingmastering/options-txt-list/</link>
-					<comments>/mixingmastering/options-txt-list/#comments</comments>
-		
-		<dc:creator><![CDATA[KillA808]]></dc:creator>
-		<pubDate>Tue, 28 Feb 2023 09:55:45 +0000</pubDate>
-				<category><![CDATA[Mixing&Mastering]]></category>
-		<guid isPermaLink="false">https://tubm.tokyo/?p=3535</guid>
+		<image>
+			<url>
+				https://i0.wp.com/tubm.tokyo/en/assets/images/TUBM-Coin-logo-scaled-1.jpg?fit=32%2C32&#038;ssl=1</url>
+			<title>KillA808 | Tokyo Underground Beatz Massive</title>
+			<link></link>
+			<width>32</width>
+			<height>32</height>
+		</image>
+		<item>
+			<title>List of Options.txt settings for Ableton Live ver.11 (all list)</title>
+			<link>/mixingmastering/options-txt-list/</link>
+			<comments>/mixingmastering/options-txt-list/#comments</comments>
 
-					<description><![CDATA[As the title suggests, this is a list of all the features that can be set in Ableton LIve 11&#8217;s Option.txt file.Whether you are newbie or are already a heavy user, it might help you live more comfortable producer life! About Options.txt What is Options.txt? It is a text file that allows you to add [&#8230;]]]></description>
-										<content:encoded><![CDATA[
+			<dc:creator><![CDATA[KillA808]]></dc:creator>
+			<pubDate>Tue, 28 Feb 2023 09:55:45 +0000</pubDate>
+			<category><![CDATA[Mixing&Mastering]]></category>
+			<guid isPermaLink="false">https://tubm.tokyo/?p=3535</guid>
+
+			<description><![CDATA[As the title suggests, this is a list of all the features that can be set in Ableton LIve 11&#8217;s Option.txt file.Whether you are newbie or are already a heavy user, it might help you live more comfortable producer life! About Options.txt What is Options.txt? It is a text file that allows you to add [&#8230;]]]></description>
+			<content:encoded><![CDATA[
 <div class="wp-block-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img data-recalc-dims="1" height="471" width="856" decoding="async" class="wp-block-cover__image-background wp-image-3536" alt="" src="https://i0.wp.com/tubm.tokyo/wp-content/uploads/2023/02/Screen-Shot-2023-02-27-at-19.04.14-1024x564.png?resize=856%2C471" data-object-fit="cover"/><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
 <p class="has-text-align-center has-vivid-green-cyan-color has-text-color has-large-font-size"><strong>Customize Live to your preference! </strong></p>
 </div></div>
@@ -534,24 +535,25 @@
 
 <p>-_PluginAutoPopulateThreshold: This option sets the threshold for automatic population of plugin lists. Default value: 50. Value range: Any positive integer.</p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/mixingmastering/options-txt-list/feed/</wfw:commentRss>
-			<slash:comments>13</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">3175</post-id>	</item>
-		<item>
-		<title>Visages &#8211; Lunar Eclipse Feat. Strategy</title>
-		<link>/recommended/2592/</link>
-					<comments>/recommended/2592/#respond</comments>
-		
-		<dc:creator><![CDATA[KillA808]]></dc:creator>
-		<pubDate>Mon, 26 Dec 2022 15:08:22 +0000</pubDate>
-				<category><![CDATA[おすすめの楽曲]]></category>
-		<guid isPermaLink="false">/uncategorized/2592/</guid>
 
-					<description><![CDATA[この曲は友人であり尊敬するドラムンのProducerでもあるItti君にリンク送ってもらった曲ですが、ヤバ過ぎた。1985って言うレーベルは有名なんで知ってはいたのですが最近こんな事やってるとか思ってもいなかったです。 ジャンル的にはドラムンって言われるかもだけど、ヒップホップと言えばヒップホップと言えなくもない（かなり無理矢理）。 2023年はTUBMでもこんなんできたら良いなぁ、と思います。かなりレベル高過ぎるんで今の内から作って完成まで１年くらいかかりそうですがやってみるのが2023年の目標ですかね。]]></description>
-										<content:encoded><![CDATA[
+			<wfw:commentRss>/mixingmastering/options-txt-list/feed/</wfw:commentRss>
+			<slash:comments>13</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">3175</post-id>
+		</item>
+		<item>
+			<title>Visages &#8211; Lunar Eclipse Feat. Strategy</title>
+			<link>/recommended/2592/</link>
+			<comments>/recommended/2592/#respond</comments>
+
+			<dc:creator><![CDATA[KillA808]]></dc:creator>
+			<pubDate>Mon, 26 Dec 2022 15:08:22 +0000</pubDate>
+			<category><![CDATA[おすすめの楽曲]]></category>
+			<guid isPermaLink="false">/uncategorized/2592/</guid>
+
+			<description><![CDATA[この曲は友人であり尊敬するドラムンのProducerでもあるItti君にリンク送ってもらった曲ですが、ヤバ過ぎた。1985って言うレーベルは有名なんで知ってはいたのですが最近こんな事やってるとか思ってもいなかったです。 ジャンル的にはドラムンって言われるかもだけど、ヒップホップと言えばヒップホップと言えなくもない（かなり無理矢理）。 2023年はTUBMでもこんなんできたら良いなぁ、と思います。かなりレベル高過ぎるんで今の内から作って完成まで１年くらいかかりそうですがやってみるのが2023年の目標ですかね。]]></description>
+			<content:encoded><![CDATA[
 <p>この曲は友人であり尊敬するドラムンのProducerでもあるItti君にリンク送ってもらった曲ですが、ヤバ過ぎた。1985って言うレーベルは有名なんで知ってはいたのですが最近こんな事やってるとか思ってもいなかったです。</p>
 
 
@@ -568,24 +570,26 @@
 <iframe title="Visages - Lunar Eclipse Feat. Strategy" width="856" height="482" src="https://www.youtube.com/embed/_nrDyDgk3Nk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/recommended/2592/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">2614</post-id>	</item>
-		<item>
-		<title>(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can freeze &#8217;em!)</title>
-		<link>/mixingmastering/freeze-aux/</link>
-					<comments>/mixingmastering/freeze-aux/#comments</comments>
-		
-		<dc:creator><![CDATA[KillA808]]></dc:creator>
-		<pubDate>Wed, 27 Jul 2022 13:26:20 +0000</pubDate>
-				<category><![CDATA[Mixing&Mastering]]></category>
-		<guid isPermaLink="false">/?p=1986</guid>
 
-					<description><![CDATA[PC performance has significantly improved these days, leading many to mix everything natively. However, even though you are running pretty high spec PCs, you&#8217;ll find some cases that you wish you had more CPU/RAM, especially during Subgroup Mixing. You can freeze Audio and Instrument tracks, but unfortunately, you can&#8217;t freeze AUX/Group tracks. I thought it [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>Plugin used in this article</div></div><div class="p_m_detail p_m_text" style=""></p>
+			<wfw:commentRss>/recommended/2592/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">2614</post-id>
+		</item>
+		<item>
+			<title>(Hack for Apple Logic/Ableton Live) How to Freeze AUX/Group Tracks (Yes, you can
+				freeze &#8217;em!)</title>
+			<link>/mixingmastering/freeze-aux/</link>
+			<comments>/mixingmastering/freeze-aux/#comments</comments>
+
+			<dc:creator><![CDATA[KillA808]]></dc:creator>
+			<pubDate>Wed, 27 Jul 2022 13:26:20 +0000</pubDate>
+			<category><![CDATA[Mixing&Mastering]]></category>
+			<guid isPermaLink="false">/?p=1986</guid>
+
+			<description><![CDATA[PC performance has significantly improved these days, leading many to mix everything natively. However, even though you are running pretty high spec PCs, you&#8217;ll find some cases that you wish you had more CPU/RAM, especially during Subgroup Mixing. You can freeze Audio and Instrument tracks, but unfortunately, you can&#8217;t freeze AUX/Group tracks. I thought it [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>Plugin used in this article</div></div><div class="p_m_detail p_m_text" style=""></p>
 <p><a href="https://www.meldaproduction.com/MChannelMatrix" target="_blank" rel="noopener">https://www.meldaproduction.com/MChannelMatrix</a></p>
 <p></div></div></div><br />
 PC performance has significantly improved these days, leading many to mix everything natively. However, even though you are running pretty high spec PCs, you&#8217;ll find some cases that you wish you had more CPU/RAM, especially during Subgroup Mixing.</p>
@@ -704,24 +708,25 @@ Once you&#8217;re done editing, freeze the track again and turn off the effects 
 <p>This has freed up the CPU/RAM that was being used by the Group track.</p>
 <p>If further editing is needed, unfreeze and turn on the effects on the Group track. Once the editing is complete, freeze it again and turn off the effects on the Group track.</p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/mixingmastering/freeze-aux/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1986</post-id>	</item>
-		<item>
-		<title>MC Tali &#8211; Lyric On My Lip</title>
-		<link>/recommended/1966/</link>
-					<comments>/recommended/1966/#respond</comments>
-		
-		<dc:creator><![CDATA[KillA808]]></dc:creator>
-		<pubDate>Fri, 08 Jul 2022 16:51:07 +0000</pubDate>
-				<category><![CDATA[おすすめの楽曲]]></category>
-		<guid isPermaLink="false">/?p=1966</guid>
 
-					<description><![CDATA[本当たまたまなんですが久々に聴いたら大ハマり。。。 上手な女性シンガーは沢山いるけど、この人は本当別格です。 声、メロディー、ラップと完璧にハマってて、、、映像も良すぎ、、、。 結構古い作品なんですが良い作品は本当に流行とか時代関係ないすね。 それとやはりDrum&#38;Bassの第一線でやってる人達はMIXにしてもパフォーマンスにしてもスキルがハンパないです。 ドラムンベースってその全てが揃わないとやっていけないタイトな世界ですね。]]></description>
-										<content:encoded><![CDATA[<p>本当たまたまなんですが久々に聴いたら大ハマり。。。</p>
+			<wfw:commentRss>/mixingmastering/freeze-aux/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">1986</post-id>
+		</item>
+		<item>
+			<title>MC Tali &#8211; Lyric On My Lip</title>
+			<link>/recommended/1966/</link>
+			<comments>/recommended/1966/#respond</comments>
+
+			<dc:creator><![CDATA[KillA808]]></dc:creator>
+			<pubDate>Fri, 08 Jul 2022 16:51:07 +0000</pubDate>
+			<category><![CDATA[おすすめの楽曲]]></category>
+			<guid isPermaLink="false">/?p=1966</guid>
+
+			<description><![CDATA[本当たまたまなんですが久々に聴いたら大ハマり。。。 上手な女性シンガーは沢山いるけど、この人は本当別格です。 声、メロディー、ラップと完璧にハマってて、、、映像も良すぎ、、、。 結構古い作品なんですが良い作品は本当に流行とか時代関係ないすね。 それとやはりDrum&#38;Bassの第一線でやってる人達はMIXにしてもパフォーマンスにしてもスキルがハンパないです。 ドラムンベースってその全てが揃わないとやっていけないタイトな世界ですね。]]></description>
+			<content:encoded><![CDATA[<p>本当たまたまなんですが久々に聴いたら大ハマり。。。</p>
 <p>上手な女性シンガーは沢山いるけど、この人は本当別格です。<br />
 声、メロディー、ラップと完璧にハマってて、、、映像も良すぎ、、、。</p>
 <p>結構古い作品なんですが良い作品は本当に流行とか時代関係ないすね。</p>
@@ -729,24 +734,25 @@ Once you&#8217;re done editing, freeze the track again and turn off the effects 
 ドラムンベースってその全てが揃わないとやっていけないタイトな世界ですね。</p>
 <p><iframe loading="lazy" title="MC Tali - Lyric On My Lip" width="856" height="642" src="https://www.youtube.com/embed/1i4alLwDSDw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/recommended/1966/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1966</post-id>	</item>
-		<item>
-		<title>実は繊細なMIX時にも使えるプラグイン「Rift Filter Lite」</title>
-		<link>/mixingmastering/rift-filter-lite/</link>
-					<comments>/mixingmastering/rift-filter-lite/#respond</comments>
-		
-		<dc:creator><![CDATA[KillA808]]></dc:creator>
-		<pubDate>Tue, 22 Feb 2022 15:15:28 +0000</pubDate>
-				<category><![CDATA[Mixing&Mastering]]></category>
-		<guid isPermaLink="false">/?p=1358</guid>
 
-					<description><![CDATA[凄い使えるプラグインあったので紹介したいなぁと思って勝手に紹介したいと思います。 ちょっと前まで無料だったんですが、今は29ドルとかで売られてますね。 基本的にはモーフモーフしてくれるモーフィングフィルターです。 「モーフモーフってなんだよﾀﾋねよ！」って思った方も居ると思いますのでパラメーター見れるサイズでスクショ貼ります。 このMorphって言うパラメーターが面白いんですが、多分フィルターの種類毎にFilter Shapeの動きがアサインされてます。設定したCut-offとResonanceのパラメーターを基準としてフィルターの形を変えていきます。Morphタイプ、Peakingタイプ、Haromonicタイプである程度のパターンはあるように思いますが、まだ自分は使いこなせてないのでもうちょい勉強します &#62;&#60; メーカーの宣伝通りかなり柔軟なフィルターでMIDIインプットでカットオフ値を弄れたりピッチスナップと言ってカットオフ値をスケール内に入れたり、ハーモニクスのコントロールまで考えられてて便利です。 フィルターも24種類あって（中には使い所あるのかな？ってのもあるんですが）とにかく面白いです。 やはりメーカーがよく紹介するのは派手な使い方ですよね。宣伝し易いですしね。オフィシャルから使い方動画も出してるので是非見てください（から見れます）。 この動画では二つのRift Filter Liteを立上げてマクロを使って二つ種類のフィルターのMorphをインバースコントロールする、と言うような事をやってます。これだけでもかなり派手な音になりますね。 &#8230;&#8230;.。 もうなんか宣伝記事になっちゃいましたが、今回本当に紹介したかった部分は、「実はこのプラグイン繊細なミックス時にも使えるじゃん！」って思ったので、こんな使い方もあるよ〜って感じの記事を書くつもりでした。 真ん中にStereo Spreadのノブがあるんですが、これがとても良い感じにステレオ感出してくれます。 左右でオフセットを作る事で聴感的な広がりを感じます。Morphと組み合わせると動きも加わってかなり良い感じになります。 繊細な感じから派手な感じまで表現できます。 PadやRhodesや色んなシンセサウンドなど使い所はかなりあると思うのですが、今回面白そうなのでベースにかけてみました ^^ 少し歪ませてる808の音でやってみました。150hz以下はモノラルにしておきたいので帯域を別けて、150hz以上のみにRift Filter Liteを使っています。 Spreadを少し広げて、Notch系のフィルターでモーフィングしてみたらベースに広がりと動きが出た気がしなくもないです。 結果は以下の通りです。YouTubeでご確認ください〜。 ＊低音の方なのでヘッドホンかまたは低域までちゃんと聴こえるモニター推奨です。]]></description>
-										<content:encoded><![CDATA[<p>凄い使えるプラグインあったので紹介したいなぁと思って勝手に紹介したいと思います。 ちょっと前まで無料だったんですが、今は29ドルとかで売られてますね。</p>
+			<wfw:commentRss>/recommended/1966/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">1966</post-id>
+		</item>
+		<item>
+			<title>実は繊細なMIX時にも使えるプラグイン「Rift Filter Lite」</title>
+			<link>/mixingmastering/rift-filter-lite/</link>
+			<comments>/mixingmastering/rift-filter-lite/#respond</comments>
+
+			<dc:creator><![CDATA[KillA808]]></dc:creator>
+			<pubDate>Tue, 22 Feb 2022 15:15:28 +0000</pubDate>
+			<category><![CDATA[Mixing&Mastering]]></category>
+			<guid isPermaLink="false">/?p=1358</guid>
+
+			<description><![CDATA[凄い使えるプラグインあったので紹介したいなぁと思って勝手に紹介したいと思います。 ちょっと前まで無料だったんですが、今は29ドルとかで売られてますね。 基本的にはモーフモーフしてくれるモーフィングフィルターです。 「モーフモーフってなんだよﾀﾋねよ！」って思った方も居ると思いますのでパラメーター見れるサイズでスクショ貼ります。 このMorphって言うパラメーターが面白いんですが、多分フィルターの種類毎にFilter Shapeの動きがアサインされてます。設定したCut-offとResonanceのパラメーターを基準としてフィルターの形を変えていきます。Morphタイプ、Peakingタイプ、Haromonicタイプである程度のパターンはあるように思いますが、まだ自分は使いこなせてないのでもうちょい勉強します &#62;&#60; メーカーの宣伝通りかなり柔軟なフィルターでMIDIインプットでカットオフ値を弄れたりピッチスナップと言ってカットオフ値をスケール内に入れたり、ハーモニクスのコントロールまで考えられてて便利です。 フィルターも24種類あって（中には使い所あるのかな？ってのもあるんですが）とにかく面白いです。 やはりメーカーがよく紹介するのは派手な使い方ですよね。宣伝し易いですしね。オフィシャルから使い方動画も出してるので是非見てください（から見れます）。 この動画では二つのRift Filter Liteを立上げてマクロを使って二つ種類のフィルターのMorphをインバースコントロールする、と言うような事をやってます。これだけでもかなり派手な音になりますね。 &#8230;&#8230;.。 もうなんか宣伝記事になっちゃいましたが、今回本当に紹介したかった部分は、「実はこのプラグイン繊細なミックス時にも使えるじゃん！」って思ったので、こんな使い方もあるよ〜って感じの記事を書くつもりでした。 真ん中にStereo Spreadのノブがあるんですが、これがとても良い感じにステレオ感出してくれます。 左右でオフセットを作る事で聴感的な広がりを感じます。Morphと組み合わせると動きも加わってかなり良い感じになります。 繊細な感じから派手な感じまで表現できます。 PadやRhodesや色んなシンセサウンドなど使い所はかなりあると思うのですが、今回面白そうなのでベースにかけてみました ^^ 少し歪ませてる808の音でやってみました。150hz以下はモノラルにしておきたいので帯域を別けて、150hz以上のみにRift Filter Liteを使っています。 Spreadを少し広げて、Notch系のフィルターでモーフィングしてみたらベースに広がりと動きが出た気がしなくもないです。 結果は以下の通りです。YouTubeでご確認ください〜。 ＊低音の方なのでヘッドホンかまたは低域までちゃんと聴こえるモニター推奨です。]]></description>
+			<content:encoded><![CDATA[<p>凄い使えるプラグインあったので紹介したいなぁと思って勝手に紹介したいと思います。 ちょっと前まで無料だったんですが、今は29ドルとかで売られてますね。</p>
 <p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>この記事に出てくるプラグイン</div></div><div class="p_m_detail p_m_text" style=""></p>
 <p><a href="https://www.minimal.audio/products/rift-filter-lite" target="_blank" rel="noopener">https://www.minimal.audio/products/rift-filter-lite</a></p>
 <p></div></div></div></p>
@@ -787,47 +793,49 @@ Once you&#8217;re done editing, freeze the track again and turn off the effects 
 ＊低音の方なのでヘッドホンかまたは低域までちゃんと聴こえるモニター推奨です。</p>
 <p><iframe loading="lazy" title="da lofi sh!t" width="856" height="642" src="https://www.youtube.com/embed/N7ZSfRvMK1Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/mixingmastering/rift-filter-lite/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1358</post-id>	</item>
-		<item>
-		<title>Brushy One String &#124; Chicken in The Corn (Official Video)</title>
-		<link>/recommended/1112/</link>
-					<comments>/recommended/1112/#respond</comments>
-		
-		<dc:creator><![CDATA[KillA808]]></dc:creator>
-		<pubDate>Sun, 09 Jan 2022 06:52:57 +0000</pubDate>
-				<category><![CDATA[おすすめの楽曲]]></category>
-		<guid isPermaLink="false">/?p=1112</guid>
 
-					<description><![CDATA[最初見た時は衝撃受けました。弦一本でここまで表現する漢は他に居ない、って位。弦一本ですんごい音楽やってます。 自分もギターは結構ハマって弾きまくってた方ですが、弦一本でやってるこの人の表現力に完全脱帽です m(_ _)m 「Less is More」を地で行ってる人だなぁと思わされるアーティストですね、、、。「無い」からこそのクリエイティビティって絶対重要だなって思います。 まぁ細かい事は置いといて、とにかくカッコいい曲です！]]></description>
-										<content:encoded><![CDATA[<p>最初見た時は衝撃受けました。弦一本でここまで表現する漢は他に居ない、って位。弦一本ですんごい音楽やってます。</p>
+			<wfw:commentRss>/mixingmastering/rift-filter-lite/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">1358</post-id>
+		</item>
+		<item>
+			<title>Brushy One String &#124; Chicken in The Corn (Official Video)</title>
+			<link>/recommended/1112/</link>
+			<comments>/recommended/1112/#respond</comments>
+
+			<dc:creator><![CDATA[KillA808]]></dc:creator>
+			<pubDate>Sun, 09 Jan 2022 06:52:57 +0000</pubDate>
+			<category><![CDATA[おすすめの楽曲]]></category>
+			<guid isPermaLink="false">/?p=1112</guid>
+
+			<description><![CDATA[最初見た時は衝撃受けました。弦一本でここまで表現する漢は他に居ない、って位。弦一本ですんごい音楽やってます。 自分もギターは結構ハマって弾きまくってた方ですが、弦一本でやってるこの人の表現力に完全脱帽です m(_ _)m 「Less is More」を地で行ってる人だなぁと思わされるアーティストですね、、、。「無い」からこそのクリエイティビティって絶対重要だなって思います。 まぁ細かい事は置いといて、とにかくカッコいい曲です！]]></description>
+			<content:encoded><![CDATA[<p>最初見た時は衝撃受けました。弦一本でここまで表現する漢は他に居ない、って位。弦一本ですんごい音楽やってます。</p>
 <p>自分もギターは結構ハマって弾きまくってた方ですが、弦一本でやってるこの人の表現力に完全脱帽です m(_ _)m</p>
 <p>「Less is More」を地で行ってる人だなぁと思わされるアーティストですね、、、。「無い」からこそのクリエイティビティって絶対重要だなって思います。</p>
 <p>まぁ細かい事は置いといて、とにかくカッコいい曲です！</p>
 <p><iframe loading="lazy" title="Brushy One String | Chicken in The Corn (Official Video)" width="856" height="642" src="https://www.youtube.com/embed/E8H-67ILaqc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/recommended/1112/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">1112</post-id>	</item>
-		<item>
-		<title>スペクトラムアナライザ見ればノート（音程）は分かる</title>
-		<link>/mixingmastering/check-note-with-spectrum-analyzer/</link>
-					<comments>/mixingmastering/check-note-with-spectrum-analyzer/#comments</comments>
-		
-		<dc:creator><![CDATA[KillA808]]></dc:creator>
-		<pubDate>Tue, 23 Nov 2021 15:13:42 +0000</pubDate>
-				<category><![CDATA[Mixing&Mastering]]></category>
-		<guid isPermaLink="false">/?p=623</guid>
 
-					<description><![CDATA[この記事ではスペクトラムアナライザの結果を視覚的にノート（音程）に変換してくれる便利なプラグインを紹介します。 結構知ってる人も多いと思うので特別な知識でも何でもない記事ですが、前の記事の補足的要素の記事です。 因みにですが今回紹介するプラグインはFabfilter Pro-Q3です。 有名なEQですし知ってる人も多いと思います。なので結構使ってる人は知ってると思いますが、これ周波数をノートで表してくれる機能が付いてるんですよね。 今回はベース３種類（筆者はベース音好き）を使ってどの様にPro-Q3のアナライザーが反応するかを見ていきたいと思います。因みにですが、Voxengo Span（これはアナライザーですね）は無料で同じ様な機能が付いてるらしいです（筆者は使った事ないので記事にはしませんが）。 まずはサイン波の低音で見てみましょう。 サイン波は倍音など含まない純粋なトーンなので分かり易いですね。低音のAは55Hzになっています。またスペクトラムの下にはピアノの鍵盤で音程が表示されてて非常に分かり易いですね。 次はちょっと複雑にReese系のベースでやってみました。 これはSawなど倍音を多く含む音で、ノイズなども色々混ざった音なので帯域が上の方まで行っていて聴いた感じはちょっと複雑ですが、アナライザーではちゃんと一番下のノートはA（110Hz）になってますね。 最後は実際にベースを弾いた時の音です。 これはオクターブ上（２弦３フレット）のFの音です。これも一番下で出っ張ってる音の周波数を見ると約87Hzになっているのでしっかり分析されてますね（当たり前の事ですが）。 知っていればたまには役に立つ まぁぶっちゃけこれを知ってても使い所はそこまで多くはないんですけどね、、。筆者の場合はミキシングのお仕事のご依頼を頂いた時になぜか使う必要があった為使った感じです（理由は全く記憶にございません）。]]></description>
-										<content:encoded><![CDATA[<p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>この記事に出てくるプラグイン</div></div><div class="p_m_detail p_m_text" style=""></p>
+			<wfw:commentRss>/recommended/1112/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">1112</post-id>
+		</item>
+		<item>
+			<title>スペクトラムアナライザ見ればノート（音程）は分かる</title>
+			<link>/mixingmastering/check-note-with-spectrum-analyzer/</link>
+			<comments>/mixingmastering/check-note-with-spectrum-analyzer/#comments</comments>
+
+			<dc:creator><![CDATA[KillA808]]></dc:creator>
+			<pubDate>Tue, 23 Nov 2021 15:13:42 +0000</pubDate>
+			<category><![CDATA[Mixing&Mastering]]></category>
+			<guid isPermaLink="false">/?p=623</guid>
+
+			<description><![CDATA[この記事ではスペクトラムアナライザの結果を視覚的にノート（音程）に変換してくれる便利なプラグインを紹介します。 結構知ってる人も多いと思うので特別な知識でも何でもない記事ですが、前の記事の補足的要素の記事です。 因みにですが今回紹介するプラグインはFabfilter Pro-Q3です。 有名なEQですし知ってる人も多いと思います。なので結構使ってる人は知ってると思いますが、これ周波数をノートで表してくれる機能が付いてるんですよね。 今回はベース３種類（筆者はベース音好き）を使ってどの様にPro-Q3のアナライザーが反応するかを見ていきたいと思います。因みにですが、Voxengo Span（これはアナライザーですね）は無料で同じ様な機能が付いてるらしいです（筆者は使った事ないので記事にはしませんが）。 まずはサイン波の低音で見てみましょう。 サイン波は倍音など含まない純粋なトーンなので分かり易いですね。低音のAは55Hzになっています。またスペクトラムの下にはピアノの鍵盤で音程が表示されてて非常に分かり易いですね。 次はちょっと複雑にReese系のベースでやってみました。 これはSawなど倍音を多く含む音で、ノイズなども色々混ざった音なので帯域が上の方まで行っていて聴いた感じはちょっと複雑ですが、アナライザーではちゃんと一番下のノートはA（110Hz）になってますね。 最後は実際にベースを弾いた時の音です。 これはオクターブ上（２弦３フレット）のFの音です。これも一番下で出っ張ってる音の周波数を見ると約87Hzになっているのでしっかり分析されてますね（当たり前の事ですが）。 知っていればたまには役に立つ まぁぶっちゃけこれを知ってても使い所はそこまで多くはないんですけどね、、。筆者の場合はミキシングのお仕事のご依頼を頂いた時になぜか使う必要があった為使った感じです（理由は全く記憶にございません）。]]></description>
+			<content:encoded><![CDATA[<p><div class="p_m_wrap p_m_simple_icon" style="margin:64px auto;"><div class="p_m_content p_m_relative" style="border-color:#42c634;"><div class="p_m_title p_m_absolute p_m_flex p_m_ai_c p_m_jc_c" style="color:#000000;border-color:#42c634;background-color:#d8efd7;"><svg style="width:22px;height:22px;fill:#42c634;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32"><path d="M16,0C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M16,7.1c1.5,0,2.7,1.2,2.7,2.7 s-1.2,2.7-2.7,2.7s-2.7-1.2-2.7-2.7S14.5,7.1,16,7.1z M19.6,23.5c0,0.4-0.3,0.8-0.8,0.8h-5.7c-0.4,0-0.8-0.3-0.8-0.8v-1.5 c0-0.4,0.3-0.8,0.8-0.8h0.8V17h-0.8c-0.4,0-0.8-0.3-0.8-0.8v-1.5c0-0.4,0.3-0.8,0.8-0.8h4.1c0.4,0,0.8,0.3,0.8,0.8v6.5h0.8 c0.4,0,0.8,0.3,0.8,0.8V23.5z"/></svg><div>この記事に出てくるプラグイン</div></div><div class="p_m_detail p_m_text" style=""></p>
 <p><a href="https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in" target="_blank" rel="noopener">https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in</a></p>
 <p><a href="https://splice.com/plugins/1022-span-vst-au-by-voxengo" target="_blank" rel="noopener">https://splice.com/plugins/1022-span-vst-au-by-voxengo</a></p>
 <p></div></div></div></p>
@@ -846,24 +854,25 @@ Once you&#8217;re done editing, freeze the track again and turn off the effects 
 <h2 id="toc_4">知っていればたまには役に立つ</h2>
 <p>まぁぶっちゃけこれを知ってても使い所はそこまで多くはないんですけどね、、。筆者の場合はミキシングのお仕事のご依頼を頂いた時になぜか使う必要があった為使った感じです（理由は全く記憶にございません）。</p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/mixingmastering/check-note-with-spectrum-analyzer/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">623</post-id>	</item>
-		<item>
-		<title>音階と周波数</title>
-		<link>/mixingmastering/575/</link>
-					<comments>/mixingmastering/575/#comments</comments>
-		
-		<dc:creator><![CDATA[KillA808]]></dc:creator>
-		<pubDate>Mon, 22 Nov 2021 04:21:11 +0000</pubDate>
-				<category><![CDATA[Mixing&Mastering]]></category>
-		<guid isPermaLink="false">/?p=575</guid>
 
-					<description><![CDATA[下にスクロールするとそれぞれの音程を周波数で表したチャートがあります。自分の楽器の音域、声の声域を認識できるし、ミキシングエンジニアとしてもミックスする際に使う場面も（稀に）あります。 これを見ればスペクトラムアナライザからある程度音程を把握する事ができます。 チャート見るのメンドイって人は分かり易いプラグインもあるので次の記事で紹介します。 平均律ノート毎の周波数（A440）]]></description>
-										<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-large wp-image-576" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b-1024x383.jpg?resize=856%2C320&#038;ssl=1" alt="" width="856" height="320" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=1024%2C383&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=600%2C225&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=300%2C112&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=768%2C287&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=1536%2C575&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=2048%2C766&amp;ssl=1 2048w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?w=1712 1712w" sizes="(max-width: 856px) 100vw, 856px" /></p>
+			<wfw:commentRss>/mixingmastering/check-note-with-spectrum-analyzer/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">623</post-id>
+		</item>
+		<item>
+			<title>音階と周波数</title>
+			<link>/mixingmastering/575/</link>
+			<comments>/mixingmastering/575/#comments</comments>
+
+			<dc:creator><![CDATA[KillA808]]></dc:creator>
+			<pubDate>Mon, 22 Nov 2021 04:21:11 +0000</pubDate>
+			<category><![CDATA[Mixing&Mastering]]></category>
+			<guid isPermaLink="false">/?p=575</guid>
+
+			<description><![CDATA[下にスクロールするとそれぞれの音程を周波数で表したチャートがあります。自分の楽器の音域、声の声域を認識できるし、ミキシングエンジニアとしてもミックスする際に使う場面も（稀に）あります。 これを見ればスペクトラムアナライザからある程度音程を把握する事ができます。 チャート見るのメンドイって人は分かり易いプラグインもあるので次の記事で紹介します。 平均律ノート毎の周波数（A440）]]></description>
+			<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-large wp-image-576" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b-1024x383.jpg?resize=856%2C320&#038;ssl=1" alt="" width="856" height="320" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=1024%2C383&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=600%2C225&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=300%2C112&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=768%2C287&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=1536%2C575&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?resize=2048%2C766&amp;ssl=1 2048w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/3ff6f445-ebe9-45e6-aec6-bfa753bd1f4b.jpg?w=1712 1712w" sizes="(max-width: 856px) 100vw, 856px" /></p>
 <p>下にスクロールするとそれぞれの音程を周波数で表したチャートがあります。自分の楽器の音域、声の声域を認識できるし、ミキシングエンジニアとしてもミックスする際に使う場面も（稀に）あります。</p>
 <p>これを見ればスペクトラムアナライザからある程度音程を把握する事ができます。<br />
 チャート見るのメンドイって人は分かり易いプラグインもあるので<a href="/mixingmastering/plugins/check-note-with-spectrum-analyzer/">次の記事</a>で紹介します。</p>
@@ -873,24 +882,25 @@ Once you&#8217;re done editing, freeze the track again and turn off the effects 
 <p>平均律ノート毎の周波数（A440）</p>
 <p><img data-recalc-dims="1" loading="lazy" decoding="async" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?resize=856%2C592&#038;ssl=1" alt="" width="856" height="592" class="alignnone size-full wp-image-2071" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?w=1026&amp;ssl=1 1026w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?resize=300%2C207&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?resize=1024%2C708&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?resize=768%2C531&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/EQ2.png?resize=600%2C415&amp;ssl=1 600w" sizes="(max-width: 856px) 100vw, 856px" /></p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/mixingmastering/575/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">575</post-id>	</item>
-		<item>
-		<title>コンプレッサーはEQの前？後ろ？</title>
-		<link>/mixingmastering/521/</link>
-					<comments>/mixingmastering/521/#respond</comments>
-		
-		<dc:creator><![CDATA[KillA808]]></dc:creator>
-		<pubDate>Mon, 22 Nov 2021 01:38:21 +0000</pubDate>
-				<category><![CDATA[Mixing&Mastering]]></category>
-		<guid isPermaLink="false">/?p=521</guid>
 
-					<description><![CDATA[楽曲をミックスしてる時、EQはコンプの前？後ろ？って気になった事ありませんか？自分は気になった事ありました。 ミックスを教えている生徒さんやミックスを依頼されたお客様からも何度か聞かれた事もあります。 なので気になるのかな？と思ったのでブログに纏めてみました。 まぁ誰に聞いても帰ってくる言葉はほぼほぼ同じです 「曲や素材によるんですよね〜」とか「ケースバイケース」とかまぁぶっちゃけその通りで、そもそもミキシングに正解は無く『結果が良ければ何でも良い』というのがミキシングです。 しかしそれじゃこのブログ意味ないじゃん！ﾀﾋね！ってツッコまれそうなので、このブログでは考察と共にある程度の『答え』を出してみたいと思います。 トラッキング（各トラックへの処理）でよく使われるのはコンプをEQの前に挿す方 とりあえずスタンダードな感じでそうしよ、って感じで決める人もいるんじゃないかな、と思います。でもそれには理由も幾つかありますね。 1. その方が作業量が少なくて済む可能性が高い（かな？） 「EQ→コンプ」の場合と「コンプ→EQ」のロジック的な違いは、先にコンプをかけて設定すればスレッショルドを通るシグナルが決定されます。つまりその辺りのパラメーターは（一度決めれば）固定で良くなります。 先にEQを通す場合は、カットやブーストが出力する信号の値を変化させるので、 『EQを弄ればスレッショルドを通る信号が変化＝スレッショルドも再調整する必要がある（かもしれない）』って事になります。つまりコンプを先にしておけば後からEQを弄ってもコンプの調整をし直す必要が無く楽ですね、となります。 2. コンプでアタックとかの調整できるよね 例えばKickを例にしてみましょう。Kickって実は低い方から高い方の周波数レンジをカバーしている楽器なんですが、ここではザックリとトランジェントが2kHz~8kHzとして、Bodyというか「バン！」とか「ドン！」とか表現されるファンダメンタルとなる部分の音を50Hz~150Hzとします。 これにアタック感やパンチを加えるのはコンプレッサーの値を正しく設定すれば可能です。なので『コンプを先に通して設定→足りない分をEQで補う』という使い方もアリだと思います。 他楽器、ベースやギターでも同じ事が言えますね。 3. コンプレッサーは周波数特性を変える 特にコンプを強くかけた特に顕著ですがハイやローエンドが減衰するのは良くあります。この場合もEQをコンプレッサーの後にする事により、例えば『コンプレッサーで減衰した帯域をEQで調整する』といった使い方ができます。 大きな問題を解決する場合はEQが先の方が良い ここでは例としてスタジオで録音されたベースをミキシングしているとしましょう。そんで何故か２弦の５フレットのGだけヤケに音が大きい（ネックが曲がって共振してる、とか単にそのベーシストが下手だとか色々な原因があると思いますが）等の場合は帯域を狭くしたEQで98Hzをカットしてからコンプに通した方が良いです。 コンプを先にかけても、そのやけにうるさい一音の部分でコンプがかかり過ぎて音が潰されちゃったりとか幾つかの問題が想定できます。なので『先にEQでその部分を解決してからコンプをかける』方がよりEvenで綺麗にコンプかかるんじゃないかな、と思います。 他の楽器やボーカルでも同じ様に、何故か特定の帯域だけがうるさいと思う様な場合はEQで問題点をある程度解決してからコンプレッサーかけるのが良いでしょう。 Mix BusやSub Group等ではコンプが最後 もうこれは自分の感覚で書いちゃいますが、コンプ最後に持ってきた方が楽器同士の分離感が上手く出る様な気がします。 あとはよく言われる&#8221;glue&#8221;（統一感とかそういう意味ですかね、、）されてる感じが出るっていうのはあるような気がしなくもないですね、、、。楽曲の中で一番音量レベルが大きいダイナミクス系の楽器であるKickやSnareがトリガーになってちょっとしたドライブ感が出るって感じでしょうか？リズム的な意味でタイトになる気がします。 でも結局はケースバイケース いろいろ書きましたが結局は「ケースバイケースですよね〜」って事で締めくくろうかと思います爆 因みにこれを書いてる筆者的にはあまり拘りはなく『EQで不要な帯域があればカット（特に低域はハイパス結構使います）したりレゾナンスもカットしたり、たまにエグいEQかけたりとかも→コンプでアタック感出したり叩いたり揃えたり→EQで最終調整』って事もやりますし、深く考えず自由にやってます。 結局のところ『結果が良ければ何でも良い』んです。（ハイこのブログの意味無くなりました〜）]]></description>
-										<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-large wp-image-527" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40-1024x800.png?resize=856%2C669&#038;ssl=1" alt="" width="856" height="669" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=1024%2C800&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=600%2C469&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=300%2C234&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=768%2C600&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=1536%2C1199&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?w=1183&amp;ssl=1 1183w" sizes="(max-width: 856px) 100vw, 856px" /></p>
+			<wfw:commentRss>/mixingmastering/575/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">575</post-id>
+		</item>
+		<item>
+			<title>コンプレッサーはEQの前？後ろ？</title>
+			<link>/mixingmastering/521/</link>
+			<comments>/mixingmastering/521/#respond</comments>
+
+			<dc:creator><![CDATA[KillA808]]></dc:creator>
+			<pubDate>Mon, 22 Nov 2021 01:38:21 +0000</pubDate>
+			<category><![CDATA[Mixing&Mastering]]></category>
+			<guid isPermaLink="false">/?p=521</guid>
+
+			<description><![CDATA[楽曲をミックスしてる時、EQはコンプの前？後ろ？って気になった事ありませんか？自分は気になった事ありました。 ミックスを教えている生徒さんやミックスを依頼されたお客様からも何度か聞かれた事もあります。 なので気になるのかな？と思ったのでブログに纏めてみました。 まぁ誰に聞いても帰ってくる言葉はほぼほぼ同じです 「曲や素材によるんですよね〜」とか「ケースバイケース」とかまぁぶっちゃけその通りで、そもそもミキシングに正解は無く『結果が良ければ何でも良い』というのがミキシングです。 しかしそれじゃこのブログ意味ないじゃん！ﾀﾋね！ってツッコまれそうなので、このブログでは考察と共にある程度の『答え』を出してみたいと思います。 トラッキング（各トラックへの処理）でよく使われるのはコンプをEQの前に挿す方 とりあえずスタンダードな感じでそうしよ、って感じで決める人もいるんじゃないかな、と思います。でもそれには理由も幾つかありますね。 1. その方が作業量が少なくて済む可能性が高い（かな？） 「EQ→コンプ」の場合と「コンプ→EQ」のロジック的な違いは、先にコンプをかけて設定すればスレッショルドを通るシグナルが決定されます。つまりその辺りのパラメーターは（一度決めれば）固定で良くなります。 先にEQを通す場合は、カットやブーストが出力する信号の値を変化させるので、 『EQを弄ればスレッショルドを通る信号が変化＝スレッショルドも再調整する必要がある（かもしれない）』って事になります。つまりコンプを先にしておけば後からEQを弄ってもコンプの調整をし直す必要が無く楽ですね、となります。 2. コンプでアタックとかの調整できるよね 例えばKickを例にしてみましょう。Kickって実は低い方から高い方の周波数レンジをカバーしている楽器なんですが、ここではザックリとトランジェントが2kHz~8kHzとして、Bodyというか「バン！」とか「ドン！」とか表現されるファンダメンタルとなる部分の音を50Hz~150Hzとします。 これにアタック感やパンチを加えるのはコンプレッサーの値を正しく設定すれば可能です。なので『コンプを先に通して設定→足りない分をEQで補う』という使い方もアリだと思います。 他楽器、ベースやギターでも同じ事が言えますね。 3. コンプレッサーは周波数特性を変える 特にコンプを強くかけた特に顕著ですがハイやローエンドが減衰するのは良くあります。この場合もEQをコンプレッサーの後にする事により、例えば『コンプレッサーで減衰した帯域をEQで調整する』といった使い方ができます。 大きな問題を解決する場合はEQが先の方が良い ここでは例としてスタジオで録音されたベースをミキシングしているとしましょう。そんで何故か２弦の５フレットのGだけヤケに音が大きい（ネックが曲がって共振してる、とか単にそのベーシストが下手だとか色々な原因があると思いますが）等の場合は帯域を狭くしたEQで98Hzをカットしてからコンプに通した方が良いです。 コンプを先にかけても、そのやけにうるさい一音の部分でコンプがかかり過ぎて音が潰されちゃったりとか幾つかの問題が想定できます。なので『先にEQでその部分を解決してからコンプをかける』方がよりEvenで綺麗にコンプかかるんじゃないかな、と思います。 他の楽器やボーカルでも同じ様に、何故か特定の帯域だけがうるさいと思う様な場合はEQで問題点をある程度解決してからコンプレッサーかけるのが良いでしょう。 Mix BusやSub Group等ではコンプが最後 もうこれは自分の感覚で書いちゃいますが、コンプ最後に持ってきた方が楽器同士の分離感が上手く出る様な気がします。 あとはよく言われる&#8221;glue&#8221;（統一感とかそういう意味ですかね、、）されてる感じが出るっていうのはあるような気がしなくもないですね、、、。楽曲の中で一番音量レベルが大きいダイナミクス系の楽器であるKickやSnareがトリガーになってちょっとしたドライブ感が出るって感じでしょうか？リズム的な意味でタイトになる気がします。 でも結局はケースバイケース いろいろ書きましたが結局は「ケースバイケースですよね〜」って事で締めくくろうかと思います爆 因みにこれを書いてる筆者的にはあまり拘りはなく『EQで不要な帯域があればカット（特に低域はハイパス結構使います）したりレゾナンスもカットしたり、たまにエグいEQかけたりとかも→コンプでアタック感出したり叩いたり揃えたり→EQで最終調整』って事もやりますし、深く考えず自由にやってます。 結局のところ『結果が良ければ何でも良い』んです。（ハイこのブログの意味無くなりました〜）]]></description>
+			<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-large wp-image-527" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40-1024x800.png?resize=856%2C669&#038;ssl=1" alt="" width="856" height="669" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=1024%2C800&amp;ssl=1 1024w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=600%2C469&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=300%2C234&amp;ssl=1 300w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=768%2C600&amp;ssl=1 768w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?resize=1536%2C1199&amp;ssl=1 1536w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/11/Screen-Shot-2021-11-20-at-23.47.40.png?w=1183&amp;ssl=1 1183w" sizes="(max-width: 856px) 100vw, 856px" /></p>
 <p>楽曲をミックスしてる時、EQはコンプの前？後ろ？って気になった事ありませんか？自分は気になった事ありました。<br />
 ミックスを教えている生徒さんやミックスを依頼されたお客様からも何度か聞かれた事もあります。</p>
 <p>なので気になるのかな？と思ったのでブログに纏めてみました。</p>
@@ -924,24 +934,25 @@ Once you&#8217;re done editing, freeze the track again and turn off the effects 
 <p>因みにこれを書いてる筆者的にはあまり拘りはなく『EQで不要な帯域があればカット（特に低域はハイパス結構使います）したりレゾナンスもカットしたり、たまにエグいEQかけたりとかも→コンプでアタック感出したり叩いたり揃えたり→EQで最終調整』って事もやりますし、深く考えず自由にやってます。<br />
 結局のところ『結果が良ければ何でも良い』んです。（ハイこのブログの意味無くなりました〜）</p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/mixingmastering/521/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">521</post-id>	</item>
-		<item>
-		<title>Loudness Normalizationとは???</title>
-		<link>/mixingmastering/463/</link>
-					<comments>/mixingmastering/463/#respond</comments>
-		
-		<dc:creator><![CDATA[KillA808]]></dc:creator>
-		<pubDate>Sat, 23 Oct 2021 15:14:10 +0000</pubDate>
-				<category><![CDATA[Mixing&Mastering]]></category>
-		<guid isPermaLink="false">/?p=463</guid>
 
-					<description><![CDATA[エンジニアやってるとクライアント様から『SpotifyやYouTube向けのマスタリングは可能ですか？』と言った質問を頂く事があります。 興味深いのでブログ記事にする事にしました。 結論から言えば可能です（需要が多いならサービスとして売ろうかと思ってます、お気軽にご連絡ください）。 可能ですが幾つか考えて欲しい点もあります。 そもそもストリーミング配信に最適化されたマスタリングとは？ 本題に入る前にストリーミング配信に最適化とはどう言う意味かを簡単に説明します。 エンジニアの仕事に造詣の深くないアーティスト／ミュージシャンやビートメーカー等の方々にも理解していただきたい為、専門用語は避けてザックリ説明すると現在の音楽ストリーミングサービス、SpotifyやApple Music、YouTube等はラウドネスノーマライゼーションと言って聴感上の音量感を一定にする為LUFSと言う単位を使ってラウドネスの値をそれぞれの基準に揃えています。 一部Spotifyでは別な規格を用いていますが、それでも将来的には同じ方向に進むとアナウンスされています。 ラウドネスノーマライゼーション（自動音量調整） 自動音量調整は一視聴者にとって良い事です。 CDやMP3プレーヤーなどで音楽を聴く時に経験された方も多いと思いますが『静かめのスタンダードジャズを聴いていて、次のハードロックになったら爆音だった』等経験者も多いかと思います。 この二つのジャンルを同じ音圧で調整する事は無い為、当たり前の事なんですが普通にリスニングを楽しみたい人から見ればいちいちボリューム調整をする必要が無くなる為ノーマライズ（音量感の均一化）してくれるのは楽ですよね。 音圧競争の終わり？ これにより音圧競争に終止符を打つ日がいずれ来ると予想されます。これも簡単に説明すると音圧を詰め込まなくても同じ音量感にノーマライズされる為よりダイナミックレンジが広く聴いていて疲れない様にマスタリングした方が良い時代になってきたと言う事です。 例えばYouTubeでは -14LUFS(int)と言う値にノーマライズされますが、それを波形で説明するとこうなります。 波形を見ると分かりやすい 波形１- これは俗に言う『音圧高め』の曲の波形です。 波形２- これをYouTubeにアップロードして再生すると再生時にノーマライズされ、この様に再生されます。単純にボリュームが落とされた感じですね。 波形３- どうせボリュームが落とされるのであれば、この方が良いじゃないかと。波形２も波形３も同じく-14LUFSのラウドネス値になりますが波形だけ見ても波形３の方がダイナミックレンジが広く、より呼吸できる感じがしますよね？ 実際に聴いても同じ音量感ですが波形３の方が長時間聴いても疲れない筈です。 ストリーミング配信用にマスタリングを依頼する前に考えて欲しい事 さて本題ですが。 良い事尽くめに見えるこのノーマライズですが、まだまだ完璧ではありません。むしろ完璧からは程遠いです。 まず一番の問題として各プラットフォームの規格が統一してない事です。これに関しては割とマジで 規格統一してからやれや (ﾟДﾟ)ｺﾞﾙｧ! &#8230;.. って思っちゃいましたね。 SpotifyやらApple Musicはノーマライズの入切を自分で設定出来ちゃう上にブラウザーで聴いた時とアプリで聴いた時でも入切が変わってしまうという仕様の統一の無さ、、。 これで想像できる人はできると思いますが、重要な人に自分の楽曲を聴かせる為のプラットフォームとしてはキチンと出来上がっていないと言えます。 人の耳は音圧が高いモノをより良い音と認識（勘違い）してしまいがちなんです（特にラウドネスに関して詳しくない人は）。 結論として そこで自分はこの依頼・質問が来た時には大体の場合この様に答えます。 『貴方の好きな音圧でマスタリングすべきです。』 もっと正確に言えば『貴方がターゲットとする音圧でマスタリングすべきです。』 正直CDはともかくダウンロード販売の需要が消える事は無いと思いますし（少なくとも現状では）。 -14LUFSとかFxxkだぜ、って思う人も多いかと思います。 しかし仮に貴方の客層がストリーミングメインで、Spotifyを聴いてくれる人が多いとか客層をすでに把握している場合はそのプラットフォームに合わせたマスタリングをしても良いのかな、とは思います。 最後に ごちゃごちゃ色々書いちゃいましたが、ぶっちゃけると自分が曲作って配信する場合はノリノリで音圧決めて「歪んでなきゃいいや」位の軽い感じでやっております。 世の中そんなもんです。 いや、流石に仕事でご依頼頂いた場合は丁寧に説明した上でラウドネス値など決めてますよ。]]></description>
-										<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-full wp-image-464" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?resize=630%2C354&#038;ssl=1" alt="" width="630" height="354" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?w=630&amp;ssl=1 630w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?resize=600%2C337&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 630px) 100vw, 630px" /></p>
+			<wfw:commentRss>/mixingmastering/521/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">521</post-id>
+		</item>
+		<item>
+			<title>Loudness Normalizationとは???</title>
+			<link>/mixingmastering/463/</link>
+			<comments>/mixingmastering/463/#respond</comments>
+
+			<dc:creator><![CDATA[KillA808]]></dc:creator>
+			<pubDate>Sat, 23 Oct 2021 15:14:10 +0000</pubDate>
+			<category><![CDATA[Mixing&Mastering]]></category>
+			<guid isPermaLink="false">/?p=463</guid>
+
+			<description><![CDATA[エンジニアやってるとクライアント様から『SpotifyやYouTube向けのマスタリングは可能ですか？』と言った質問を頂く事があります。 興味深いのでブログ記事にする事にしました。 結論から言えば可能です（需要が多いならサービスとして売ろうかと思ってます、お気軽にご連絡ください）。 可能ですが幾つか考えて欲しい点もあります。 そもそもストリーミング配信に最適化されたマスタリングとは？ 本題に入る前にストリーミング配信に最適化とはどう言う意味かを簡単に説明します。 エンジニアの仕事に造詣の深くないアーティスト／ミュージシャンやビートメーカー等の方々にも理解していただきたい為、専門用語は避けてザックリ説明すると現在の音楽ストリーミングサービス、SpotifyやApple Music、YouTube等はラウドネスノーマライゼーションと言って聴感上の音量感を一定にする為LUFSと言う単位を使ってラウドネスの値をそれぞれの基準に揃えています。 一部Spotifyでは別な規格を用いていますが、それでも将来的には同じ方向に進むとアナウンスされています。 ラウドネスノーマライゼーション（自動音量調整） 自動音量調整は一視聴者にとって良い事です。 CDやMP3プレーヤーなどで音楽を聴く時に経験された方も多いと思いますが『静かめのスタンダードジャズを聴いていて、次のハードロックになったら爆音だった』等経験者も多いかと思います。 この二つのジャンルを同じ音圧で調整する事は無い為、当たり前の事なんですが普通にリスニングを楽しみたい人から見ればいちいちボリューム調整をする必要が無くなる為ノーマライズ（音量感の均一化）してくれるのは楽ですよね。 音圧競争の終わり？ これにより音圧競争に終止符を打つ日がいずれ来ると予想されます。これも簡単に説明すると音圧を詰め込まなくても同じ音量感にノーマライズされる為よりダイナミックレンジが広く聴いていて疲れない様にマスタリングした方が良い時代になってきたと言う事です。 例えばYouTubeでは -14LUFS(int)と言う値にノーマライズされますが、それを波形で説明するとこうなります。 波形を見ると分かりやすい 波形１- これは俗に言う『音圧高め』の曲の波形です。 波形２- これをYouTubeにアップロードして再生すると再生時にノーマライズされ、この様に再生されます。単純にボリュームが落とされた感じですね。 波形３- どうせボリュームが落とされるのであれば、この方が良いじゃないかと。波形２も波形３も同じく-14LUFSのラウドネス値になりますが波形だけ見ても波形３の方がダイナミックレンジが広く、より呼吸できる感じがしますよね？ 実際に聴いても同じ音量感ですが波形３の方が長時間聴いても疲れない筈です。 ストリーミング配信用にマスタリングを依頼する前に考えて欲しい事 さて本題ですが。 良い事尽くめに見えるこのノーマライズですが、まだまだ完璧ではありません。むしろ完璧からは程遠いです。 まず一番の問題として各プラットフォームの規格が統一してない事です。これに関しては割とマジで 規格統一してからやれや (ﾟДﾟ)ｺﾞﾙｧ! &#8230;.. って思っちゃいましたね。 SpotifyやらApple Musicはノーマライズの入切を自分で設定出来ちゃう上にブラウザーで聴いた時とアプリで聴いた時でも入切が変わってしまうという仕様の統一の無さ、、。 これで想像できる人はできると思いますが、重要な人に自分の楽曲を聴かせる為のプラットフォームとしてはキチンと出来上がっていないと言えます。 人の耳は音圧が高いモノをより良い音と認識（勘違い）してしまいがちなんです（特にラウドネスに関して詳しくない人は）。 結論として そこで自分はこの依頼・質問が来た時には大体の場合この様に答えます。 『貴方の好きな音圧でマスタリングすべきです。』 もっと正確に言えば『貴方がターゲットとする音圧でマスタリングすべきです。』 正直CDはともかくダウンロード販売の需要が消える事は無いと思いますし（少なくとも現状では）。 -14LUFSとかFxxkだぜ、って思う人も多いかと思います。 しかし仮に貴方の客層がストリーミングメインで、Spotifyを聴いてくれる人が多いとか客層をすでに把握している場合はそのプラットフォームに合わせたマスタリングをしても良いのかな、とは思います。 最後に ごちゃごちゃ色々書いちゃいましたが、ぶっちゃけると自分が曲作って配信する場合はノリノリで音圧決めて「歪んでなきゃいいや」位の軽い感じでやっております。 世の中そんなもんです。 いや、流石に仕事でご依頼頂いた場合は丁寧に説明した上でラウドネス値など決めてますよ。]]></description>
+			<content:encoded><![CDATA[<p><img data-recalc-dims="1" loading="lazy" decoding="async" class="aligncenter size-full wp-image-464" src="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?resize=630%2C354&#038;ssl=1" alt="" width="630" height="354" srcset="https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?w=630&amp;ssl=1 630w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?resize=600%2C337&amp;ssl=1 600w, https://i0.wp.com/tubm.tokyo/en/wp-content/uploads/sites/4/2021/10/Screen-Shot-2020-05-02-at-18.25.51.jpg?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 630px) 100vw, 630px" /></p>
 <p>エンジニアやってるとクライアント様から『SpotifyやYouTube向けのマスタリングは可能ですか？』と言った質問を頂く事があります。 興味深いのでブログ記事にする事にしました。</p>
 <p>結論から言えば可能です（需要が多いならサービスとして売ろうかと思ってます、お気軽にご連絡ください）。 可能ですが幾つか考えて欲しい点もあります。</p>
 <h2 id="toc_1">そもそもストリーミング配信に最適化されたマスタリングとは？</h2>
@@ -985,11 +996,12 @@ CDやMP3プレーヤーなどで音楽を聴く時に経験された方も多い
 世の中そんなもんです。</p>
 <p>いや、流石に仕事でご依頼頂いた場合は丁寧に説明した上でラウドネス値など決めてますよ。</p>
 ]]></content:encoded>
-					
-					<wfw:commentRss>/mixingmastering/463/feed/</wfw:commentRss>
+
+			<wfw:commentRss>/mixingmastering/463/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">463</post-id>	</item>
+
+
+			<post-id xmlns="com-wordpress:feed-additions:1">463</post-id>
+		</item>
 	</channel>
 </rss>
