@@ -581,10 +581,7 @@
     <script src="/static/js/label-grid-tools/handlebars.min.js"></script>
     <script data-no-minify="1" async src="/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script>
     <script>function lazyLoadThumb(e, alt) { var t = '<img loading="lazy" src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360">', a = '<button class="play" aria-label="play Youtube video"><\/button>'; t = t.replace('alt=""', 'alt="' + alt + '"'); return t.replace("ID", e) + a } function lazyLoadYoutubeIframe() { var e = document.createElement("iframe"), t = "ID?autoplay=1"; t += 0 === this.parentNode.dataset.query.length ? '' : '&' + this.parentNode.dataset.query; e.setAttribute("src", t.replace("ID", this.parentNode.dataset.src)), e.setAttribute("frameborder", "0"), e.setAttribute("allowfullscreen", "1"), e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"), this.parentNode.parentNode.replaceChild(e, this.parentNode) } document.addEventListener("DOMContentLoaded", function () { var e, t, p, a = document.getElementsByClassName("rll-youtube-player"); for (t = 0; t < a.length; t++)e = document.createElement("div"), e.setAttribute("data-id", a[t].dataset.id), e.setAttribute("data-query", a[t].dataset.query), e.setAttribute("data-src", a[t].dataset.src), e.innerHTML = lazyLoadThumb(a[t].dataset.id, a[t].dataset.alt), a[t].appendChild(e), p = e.querySelector('.play'), p.onclick = lazyLoadYoutubeIframe });</script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-    <script src="/static/js/video-lightbox/jquery.prettyPhoto.js"></script>
+    <script src="/static/js/video-lightbox/jquery.prettyPhoto.js" defer></script>
     <script type="module" src="/static/js/main.js"></script>
 </body>
 
