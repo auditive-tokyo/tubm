@@ -4,6 +4,12 @@
 @import 'theme/custom-background-css.css';
 @import 'plugins/social-links.css';
 @import 'plugins/social-share.css';
+@import 'plugins/custom-menu.css';
+@import 'plugins/mobilemenu/mobmenu.css';
+@import 'plugins/mobilemenu/mobmenu-icons.css';
+@import 'plugins/mobilemenu/dynamic-mobmenu.css';
+@import 'plugins/chatbot.css';
+@import 'plugins/ytplaylist.css'
 /* @import 'theme/simple_days_keyframes-inline-css.css' */
 
 /* Plugins */

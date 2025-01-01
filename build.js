@@ -21,11 +21,10 @@ function processDirectory(directory) {
             // HTMLファイルの内容を読み込み
             const content = fs.readFileSync(fullPath, 'utf8');
 
-            // {% include ... %} タグを削除
-            const cleanContent = content.replace(/{%\s*include\s*"_includes\/header\.njk"\s*%}/, '');
-
-            // テンプレートを適用
-            const result = nunjucks.render('header.njk') + cleanContent;
+            // {% include ... %} タグを実際のコンテンツに置換
+            const result = content
+                .replace(/{%\s*include\s*"_includes\/header\.njk"\s*%}/, nunjucks.render('header.njk'))
+                .replace(/{%\s*include\s*"_includes\/beforebodyclose\.njk"\s*%}/, nunjucks.render('beforebodyclose.njk'));
 
             // 結果を保存
             fs.writeFileSync(fullPath, result);

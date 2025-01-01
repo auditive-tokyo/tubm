@@ -1,3 +1,5 @@
+import config from './read-dotenv.js';
+
 // フォームの送信処理を別関数に分離
 async function handleSubmit(form) {
     console.log('Handling form submission');
@@ -38,7 +40,7 @@ async function handleSubmit(form) {
         console.log('Preparing to send request to API...');
 
         // API URLの確認
-        const apiUrl = 'https://your-api-gateway-url.execute-api.region.amazonaws.com/stage/contact';
+        const apiUrl = config.apiEndpoint;
         console.log('API URL:', apiUrl);
 
         // リクエストの準備

@@ -1,6 +1,5 @@
-jQuery(document).ready(function ($) {
+export function initializeLabelGridTools($) {
   "use strict";
-  const { __, _x, _n, sprintf } = wp.i18n;
 
   var loadedga = null;
   var loadedfbq = null;
@@ -9,64 +8,6 @@ jQuery(document).ready(function ($) {
   if (typeof ga === "function") loadedga = true;
   if (typeof gtag === "function") loadedgtag = true;
   if (typeof fbq === "function") loadedfbq = true;
-
-  // Fetch country code using geoplugin.net
-  fetch("/wp-json/lgt-api/v1/geolocation", {
-    method: "GET",
-    headers: {
-      "X-WP-Nonce": LabelGridTools.nonce,
-    },
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      var countryCode = data.geoplugin_countryCode;
-
-      if (typeof countryCode !== "undefined") {
-        var langCode = countryCode.toLowerCase();
-
-        function render(data) {
-          if (data) {
-            var item;
-            if (data.artistLinkUrl != null) item = data.artistLinkUrl;
-            else item = data.collectionViewUrl;
-            if (typeof itunes_affiliate_token !== "undefined")
-              item =
-                item + "&at=" + itunes_affiliate_token + "&ct=labelgridtools";
-            if ($("#releaselinks .linkTop.itunes A").attr("href")) {
-              $("#releaselinks .linkTop.itunes A").attr(
-                "href",
-                item + "&app=itunes"
-              );
-            }
-            if ($("#releaselinks .linkTop.applemusic A").attr("href")) {
-              $("#releaselinks .linkTop.applemusic A").attr(
-                "href",
-                item + "&app=music"
-              );
-            }
-          }
-        }
-
-        if ($("#releaselinks .linkTop.itunes A").attr("href")) {
-          var urname = $("#releaselinks .linkTop.itunes A")
-            .attr("href")
-            .split("/");
-          var urname_id = urname.pop().split("?");
-          var iTunesId = urname_id[0].replace("id", "");
-          iTunesLiveTile.get(iTunesId, langCode, render);
-        }
-
-        if ($("#releaselinks .linkTop.applemusic A").attr("href")) {
-          var urname = $("#releaselinks .linkTop.applemusic A")
-            .attr("href")
-            .split("/");
-          var urname_id = urname.pop().split("?");
-          var iTunesId = urname_id[0].replace("id", "");
-          iTunesLiveTile.get(iTunesId, langCode, render);
-        }
-      }
-    })
-    .catch((error) => console.error("Error fetching IP info:", error));
 
   // Analytics for links
   $("#releaselinks").on("click", ".linkTop A", function (e) {
@@ -98,7 +39,7 @@ jQuery(document).ready(function ($) {
   $("#lg_release_filter_record_label").on("change", function () {
     document.getElementById("lg_release_list_filter").submit();
   });
-});
+}
 
 function getGa(name) {
   if (typeof ga.getAll === "function") {
@@ -116,7 +57,7 @@ function getGa(name) {
 }
 
 var iTunesLiveTile = {
-  _callback: function () {},
+  _callback: function () { },
   _fullUrl: function (id, langCode) {
     var SEARCH_URL_PRE = "https://itunes.apple.com/lookup?id=";
     var SEARCH_URL_POST =

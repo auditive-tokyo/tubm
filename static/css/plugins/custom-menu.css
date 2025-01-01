@@ -1,26 +1,26 @@
-.me-cool-custom-menu {
+.custom-menu {
     display: flex;
     list-style: none;
     padding-left: 0;
 }
 
-.me-cool-custom-menu .menu-item {
+.custom-menu .menu-item {
     position: relative;
     margin-right: 20px;
 }
 
-.me-cool-custom-menu .menu-item a {
+.custom-menu .menu-item a {
     display: block;
     text-decoration: none;
     color: #0FF;
     transition: color 0.3s;
 }
 
-.me-cool-custom-menu .menu-item a:hover {
+.custom-menu .menu-item a:hover {
     color: #0FF;
 }
 
-.me-cool-custom-menu .menu-item::after {
+.custom-menu .menu-item::after {
     content: "";
     position: absolute;
     bottom: -5px;
@@ -32,6 +32,6 @@
     transition: transform 0.3s;
 }
 
-.me-cool-custom-menu .menu-item:hover::after {
+.custom-menu .menu-item:hover::after {
     transform: scaleX(1);
 }

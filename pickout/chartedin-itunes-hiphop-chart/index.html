@@ -14,12 +14,6 @@
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="stylesheet" href="/static/css/main.css">
-    <link rel="stylesheet" id="me-cool-custom-menu-css"
-        href="/wp-content/plugins/Me%20Cool%20Custom%20Menu/me-cool-custom-menu.css?ver=6.5.5" media="all">
-    <link rel="stylesheet" id="mcc_line_bot_styles-css"
-        href="/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/styles.css?ver=1.0" media="all">
-    <link rel="stylesheet" id="me_cool_ytplaylist_css-css"
-        href="/wp-content/plugins/Me_Cool_YTPlaylist/css/me_cool_ytplaylist.css?ver=6.5.5" media="all">
     <link rel="stylesheet" id="cool-tag-cloud-css"
         href="/wp-content/plugins/cool-tag-cloud/inc/cool-tag-cloud.css?ver=2.25" media="all">
     <link rel="stylesheet" id="labelgrid-tools-frontend-css"
@@ -32,32 +26,12 @@
     <link rel="stylesheet" id="rsfv-fallback-css"
         href="/wp-content/plugins/really-simple-featured-video/includes/Compatibility/Themes/Fallback/styles.css?ver=1720110287"
         media="all">
-    <link rel="stylesheet" id="mm-compiled-options-mobmenu-css"
-        href="/wp-content/uploads/sites/4/dynamic-mobmenu.css?ver=2.8.4.4-372" media="all">
     <link rel="stylesheet" id="mm-google-webfont-dosis-css"
         href="//fonts.googleapis.com/css?family=Dosis%3Ainherit%2C400&#038;subset=latin%2Clatin-ext&#038;ver=6.5.5"
         media="all">
     <link rel="stylesheet" id="mm-google-webfont-ubuntu-css"
         href="//fonts.googleapis.com/css?family=Ubuntu%3Ainherit%2C400&#038;subset=latin%2Clatin-ext&#038;ver=6.5.5"
         media="all">
-    <link rel="stylesheet" id="cssmobmenu-icons-css"
-        href="/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=6.5.5" media="all">
-    <link rel="stylesheet" id="cssmobmenu-css"
-        href="/wp-content/plugins/mobile-menu/includes/css/mobmenu.css?ver=2.8.4.4" media="all">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
-    <script src="/wp-content/plugins/wp-video-lightbox/js/jquery.prettyPhoto.js?ver=3.1.6"
-        id="jquery.prettyphoto-js"></script>
-    <script
-        id="video-lightbox-js-extra">var vlpp_vars = { "prettyPhoto_rel": "wp-video-lightbox", "animation_speed": "fast", "slideshow": "5000", "autoplay_slideshow": "false", "opacity": "0.80", "show_title": "true", "allow_resize": "true", "allow_expand": "true", "default_width": "640", "default_height": "480", "counter_separator_label": "\/", "theme": "pp_default", "horizontal_padding": "20", "hideflash": "false", "wmode": "opaque", "autoplay": "false", "modal": "false", "deeplinking": "false", "overlay_gallery": "true", "overlay_gallery_max": "30", "keyboard_shortcuts": "true", "ie6_fallback": "true" };</script>
-    <script src="/wp-content/plugins/wp-video-lightbox/js/video-lightbox.js?ver=3.1.6" id="video-lightbox-js"></script>
-    <script src="/wp-content/plugins/Me%20Cool%20Custom%20Menu/me-cool-custom-menu.js?ver=6.5.5"
-        id="me-cool-custom-menu-js"></script>
-    <script id="labelgrid-tools-frontend-js-extra">var LabelGridTools = { "nonce": "479a29fb42" };</script>
-    <script src="/wp-content/plugins/label-grid-tools/public/js/labelgrid-tools-public.js?ver=1.3.58"
-        id="labelgrid-tools-frontend-js"></script>
-    <script src="/wp-content/plugins/mobile-menu/includes/js/mobmenu.js?ver=2.8.4.4" id="mobmenujs-js"></script>
-    <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/59">
     <link rel="canonical" href="/">
     <link rel="preconnect dns-prefetch" href="//pagead2.googlesyndication.com">
     <link rel="preconnect dns-prefetch" href="//googleads.g.doubleclick.net">
@@ -69,6 +43,10 @@
     <link rel="icon" href="/assets/images/TUBM-Coin-logo-scaled-1.jpg?fit=192%2C192&#038;ssl=1" sizes="192x192">
     <link rel="apple-touch-icon" href="/assets/images/TUBM-Coin-logo-scaled-1.jpg?fit=180%2C180&#038;ssl=1">
     <meta name="msapplication-TileImage" content="/assets/images/TUBM-Coin-logo-scaled-1.jpg?fit=270%2C270&#038;ssl=1">
+    <!-- jQueryとその依存ライブラリ -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js" defer></script>
 </head>
 
 
@@ -110,11 +88,8 @@
 
 
 
-    <!-- Twitter conversion tracking event code -->
-    <script type="text/javascript">// Insert Twitter Event ID
-        twq('event', 'tw-obg3f-od2ga', {
-        });</script>
-    <!-- End Twitter conversion tracking event code --> <a class="skip-link screen-reader-text" href="#main_wrap">Skip
+
+    <a class="skip-link screen-reader-text" href="#main_wrap">Skip
         to content</a>
     <input id="t_menu" class="dn" type="checkbox">
     <header id="h_wrap" class="f_box f_col shadow_box h_sticky">
@@ -726,7 +701,6 @@
             </div>
         </div>
     </footer>
-    <!-- Freesoul Deactivate Plugins has disabled 7 plugins on this page. -->
     <script type="text/javascript">document.addEventListener("DOMContentLoaded", function () {
             // セレクタで要素を取得
             var nextHeadings = document.querySelectorAll("div.next_heading");
@@ -754,12 +728,11 @@
                 <ul id="mobmenuleft" class="wp-mobile-menu" role="menubar"
                     aria-label="Main navigation for mobile devices">
                     <li role="none"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-324"><a
-                            href="/" role="menuitem" class="">Home</a></li>
-                    <li role="none"
-                        class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-332">
-                        <a href="/blog/" role="menuitem" class="">Blog</a>
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-59 current_page_item menu-item-324">
+                        <a href="/" role="menuitem" class="">Home</a>
                     </li>
+                    <li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-332"><a
+                            href="/blog/" role="menuitem" class="">Blog</a></li>
                     <li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a
                             href="/tunes/" role="menuitem" class="">Releases</a></li>
                     <li role="none" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a
@@ -771,21 +744,17 @@
     </div>
     <script
         id="mcc_line_bot_script-js-extra">var mcc_line_bot_script_vars = { "MY_PLUGIN_PATH": "\/wp-content\/plugins\/Me_Cool_Custom_Line_Bot\/", "welcome_message": "Yo!", "chat_button_text": "TUBM BOT", "too_many_requests_message": "Too many requests. Please try again in 1 hour." };</script>
-    <script src="/wp-content/plugins/Me_Cool_Custom_Line_Bot/dummy.js?ver=1.0" id="mcc_line_bot_script-js"></script>
     <script src="/wp-content/plugins/Me_Cool_YTPlaylist/js/me_cool_ytplaylist.js"
         id="me_cool_ytplaylist_js-js"></script>
-    <script src="/wp-content/plugins/label-grid-tools/public/js/json2.min.js?ver=1.3.58"
-        id="labelgrid-tools-json2-js"></script>
-    <script src="/wp-content/plugins/label-grid-tools/public/js/handlebars.min.js?ver=1.3.58"
-        id="labelgrid-tools-handlebars-js"></script>
-    <script src="/wp-content/plugins/label-grid-tools/vendor/bower-asset/moment/moment.js?ver=1.3.58"
-        id="labelgrid-tools-moment-js"></script>
-    <script src="/wp-includes/js/comment-reply.min.js" id="comment-reply-js" async data-wp-strategy="async"></script>
+    <script src="/static/js/label-grid-tools/json2.min.js"></script>
+    <script src="/static/js/label-grid-tools/handlebars.min.js"></script>
     <script data-no-minify="1" async src="/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script>
     <script>function lazyLoadThumb(e, alt) { var t = '<img loading="lazy" src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360">', a = '<button class="play" aria-label="play Youtube video"><\/button>'; t = t.replace('alt=""', 'alt="' + alt + '"'); return t.replace("ID", e) + a } function lazyLoadYoutubeIframe() { var e = document.createElement("iframe"), t = "ID?autoplay=1"; t += 0 === this.parentNode.dataset.query.length ? '' : '&' + this.parentNode.dataset.query; e.setAttribute("src", t.replace("ID", this.parentNode.dataset.src)), e.setAttribute("frameborder", "0"), e.setAttribute("allowfullscreen", "1"), e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"), this.parentNode.parentNode.replaceChild(e, this.parentNode) } document.addEventListener("DOMContentLoaded", function () { var e, t, p, a = document.getElementsByClassName("rll-youtube-player"); for (t = 0; t < a.length; t++)e = document.createElement("div"), e.setAttribute("data-id", a[t].dataset.id), e.setAttribute("data-query", a[t].dataset.query), e.setAttribute("data-src", a[t].dataset.src), e.innerHTML = lazyLoadThumb(a[t].dataset.id, a[t].dataset.alt), a[t].appendChild(e), p = e.querySelector('.play'), p.onclick = lazyLoadYoutubeIframe });</script>
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-    <script type="module" src="/static/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/static/js/video-lightbox/jquery.prettyPhoto.js"></script>
+    <script type="module" src="/static/js/main.js"></script>
 </body>
 
 </html>

@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build.js"
+    "build": "vite build",
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "nunjucks": "^3.2.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "vite": "^6.0.6"
   }
 }
