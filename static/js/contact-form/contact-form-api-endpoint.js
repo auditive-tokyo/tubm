@@ -1,5 +1,5 @@
 const config = {
-    apiEndpoint: process.env.API_ENDPOINT
+    apiEndpoint: 'https://jnbmh1xrfb.execute-api.ap-south-1.amazonaws.com/tubm/contact'
 };
 
 // 環境変数が設定されていない場合はエラーをスロー

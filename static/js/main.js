@@ -41,12 +41,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // コンタクトフォームの初期化（URLの条件付き動的インポート）
     if (window.location.pathname === '/contact/' && document.querySelector('#contact-form')) {
-        // コンタクトフォームが存在する場合のみ読み込み試行
         try {
-            const contactFormModule = await import('./contact-form.js');
+            // パスを明示的に指定
+            const contactFormModule = await import('./contact-form/contact-form.js');
             await contactFormModule.initializeContactForm();
         } catch (error) {
-            console.warn('Contact form module not loaded:', error);
+            console.error('Contact form module load error:', error); // より詳細なエラー情報
         }
     }
 });

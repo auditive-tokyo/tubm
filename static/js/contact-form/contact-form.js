@@ -1,4 +1,4 @@
-import config from './read-dotenv.js';
+import config from './contact-form-api-endpoint.js';
 
 // フォームの送信処理を別関数に分離
 async function handleSubmit(form) {
@@ -86,7 +86,7 @@ async function handleSubmit(form) {
 }
 
 // メイン初期化関数をエクスポート
-export function initializeContactForm() {
+export async function initializeContactForm() {
     console.log('Initializing contact form...');
 
     // フォーム要素の取得
