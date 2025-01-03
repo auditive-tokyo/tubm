@@ -45,5 +45,6 @@ jobs:
              ParameterKey=AppPassword,ParameterValue=${APP_PASSWORD} \
              ParameterKey=RepositoryName,ParameterValue=${GITHUB_REPOSITORY#*/}"
         env:
+          CONTACT_FORM_API_GATEWAY_ID: ${{ secrets.CONTACT_FORM_API_GATEWAY_ID }}
           CONTACT_FORM_EMAIL: ${{ secrets.CONTACT_FORM_EMAIL }}
           APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
