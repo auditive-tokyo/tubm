@@ -130,6 +130,11 @@
             </div>
             <article id="post_body" class="post_body clearfix post_item mb_L" itemprop="articleBody">
                 <div data-test="contact-form" id="contact-form-360" class="wp-block-jetpack-contact-form-container ">
+                    <!-- ローディングインジケーター追加 -->
+                    <div id="loading-spinner" class="loading-spinner" style="display: none;">
+                        <div class="spinner"></div>
+                        <p>Sending message...</p>
+                    </div>
                     <form id="contact-form" class="contact-form commentsblock" aria-label="Contact" novalidate>
                         <div class="grunion-field-name-wrap grunion-field-wrap">
                             <label for="g360-name" class="grunion-field-label name">Name</label>
@@ -584,9 +589,10 @@
         </div>
         <div class="mob-menu-left-bg-holder"></div>
     </div>
-        <script
-    id="mcc_line_bot_script-js-extra">var mcc_line_bot_script_vars = { "MY_PLUGIN_PATH": "\/wp-content\/plugins\/Me_Cool_Custom_Line_Bot\/", "welcome_message": "Yo!", "chat_button_text": "TUBM BOT", "too_many_requests_message": "Too many requests. Please try again in 1 hour." };</script>
-    <script src="/wp-content/plugins/Me_Cool_YTPlaylist/js/me_cool_ytplaylist.js" id="me_cool_ytplaylist_js-js"></script>
+    <script
+        id="mcc_line_bot_script-js-extra">var mcc_line_bot_script_vars = { "MY_PLUGIN_PATH": "\/wp-content\/plugins\/Me_Cool_Custom_Line_Bot\/", "welcome_message": "Yo!", "chat_button_text": "TUBM BOT", "too_many_requests_message": "Too many requests. Please try again in 1 hour." };</script>
+    <script src="/wp-content/plugins/Me_Cool_YTPlaylist/js/me_cool_ytplaylist.js"
+        id="me_cool_ytplaylist_js-js"></script>
     <script src="/static/js/label-grid-tools/json2.min.js"></script>
     <script src="/static/js/label-grid-tools/handlebars.min.js"></script>
     <script data-no-minify="1" async src="/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script>

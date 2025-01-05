@@ -1,27 +1,28 @@
 import config from './contact-form-api-endpoint.js';
 
-// フォームの送信処理を別関数に分離
+// ローディング表示の制御関数
+function toggleLoading(show) {
+    const spinner = document.getElementById('loading-spinner');
+    if (spinner) {
+        spinner.style.display = show ? 'flex' : 'none';
+    }
+}
+
+// フォームの送信処理
 async function handleSubmit(form) {
     console.log('Handling form submission');
 
-    // 各フォームフィールドの取得と確認
+    // 各フォームフィールドの取得
     const nameField = document.getElementById('g360-name');
     const emailField = document.getElementById('g360-email');
     const messageField = document.getElementById('contact-form-comment-g360-message');
 
-    console.log('Form fields found:', {
-        nameField: nameField ? 'Yes' : 'No',
-        emailField: emailField ? 'Yes' : 'No',
-        messageField: messageField ? 'Yes' : 'No'
-    });
-
-    // フォームデータの取得と確認
+    // フォームデータの取得
     const formData = {
         name: nameField?.value || '',
         email: emailField?.value || '',
         message: messageField?.value || ''
     };
-    console.log('Form data collected:', formData);
 
     // バリデーション
     if (!emailField?.value) {
@@ -37,6 +38,8 @@ async function handleSubmit(form) {
     }
 
     try {
+        // ローディング表示を開始
+        toggleLoading(true);
         console.log('Preparing to send request to API...');
 
         // API URLの確認
@@ -51,7 +54,6 @@ async function handleSubmit(form) {
             },
             body: JSON.stringify(formData)
         };
-        console.log('Request options:', requestOptions);
 
         // APIリクエストの送信
         console.log('Sending request to API...');
@@ -64,6 +66,8 @@ async function handleSubmit(form) {
             const responseData = await response.json();
             console.log('Response data:', responseData);
 
+            // ローディング表示を終了
+            toggleLoading(false);
             alert('Message sent successfully!');
             form.reset();
             console.log('Form reset completed');
@@ -81,11 +85,13 @@ async function handleSubmit(form) {
             message: error.message,
             stack: error.stack
         });
+        // エラー時もローディング表示を終了
+        toggleLoading(false);
         alert('Failed to send message. Please try again later.');
     }
 }
 
-// メイン初期化関数をエクスポート
+// メイン初期化関数
 export async function initializeContactForm() {
     console.log('Initializing contact form...');
 

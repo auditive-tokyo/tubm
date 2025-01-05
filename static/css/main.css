@@ -9,5 +9,6 @@
 @import 'plugins/mobilemenu/mobmenu-icons.css';
 @import 'plugins/mobilemenu/dynamic-mobmenu.css';
 @import 'plugins/chatbot.css';
-@import 'plugins/ytplaylist.css'
+@import 'plugins/ytplaylist.css';
+@import 'new/spinner.css';
 /* @import 'theme/simple_days_keyframes-inline-css.css' */
