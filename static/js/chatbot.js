@@ -49,11 +49,18 @@ export class UserSessionManager {
 // チャットボットの管理
 export class ChatBot {
     constructor() {
-        this.appUrl = "https://backend.tubm.tokyo/";
+        this.appUrl = "https://dvzdkwtvvz57xguvanyb4wihre0hvrqy.lambda-url.ap-south-1.on.aws/";
         this.chatButtonText = $('.chat-help-text').text();
         this.welcomeMessageShown = false;
-        this.memberId = "tubm";
         this.isComposing = false;
+
+        // 設定値を直接クラスに定義
+        this.config = {
+            assetsPath: "/wp-content/plugins/Me_Cool_Custom_Line_Bot/static/",
+            welcome_message: "Yo!",
+            chat_button_text: "TUBM BOT",
+            too_many_requests_message: "Too many requests. Please try again in 1 hour."
+        };
     }
 
     initialize() {
@@ -74,7 +81,10 @@ export class ChatBot {
 
     closeChatWindow() {
         $('#chat-window').fadeOut(250);
-        $('#chat-toggle').html(`<span class="chat-help-text">${this.chatButtonText}</span><img src="${mcc_line_bot_script_vars.MY_PLUGIN_PATH}static/icons8-bot-64.png" alt="bot" />`);
+        $('#chat-toggle').html(
+            `<span class="chat-help-text">${this.chatButtonText}</span>` +
+            `<img src="${this.config.assetsPath}icons8-bot-64.png" alt="bot" />`
+        );
     }
 
     openChatWindow() {
@@ -86,19 +96,7 @@ export class ChatBot {
             this.welcomeMessageShown = true;
         }
 
-        this.sendMemberIdToBackend();
         $('textarea[name="user_message"]').focus();
-    }
-
-    sendMemberIdToBackend() {
-        $.ajax({
-            url: `${this.appUrl}/get_cognito_id`,
-            type: 'POST',
-            data: { member_id: this.memberId },
-            error: (jqXHR, textStatus, errorThrown) => {
-                console.log("Failed to send memberId to backend:", textStatus, errorThrown);
-            }
-        });
     }
 
     initializeTextArea() {
@@ -121,7 +119,7 @@ export class ChatBot {
         const typing_interval = setInterval(() => {
             typing_indicator = typing_indicator === '...' ? '.' : typing_indicator + '.';
             typing_indicator_bubble.text(typing_indicator);
-        }, 500);
+        }, 333);
 
         setTimeout(() => {
             clearInterval(typing_interval);
@@ -133,12 +131,12 @@ export class ChatBot {
 
             $('#chat-messages').animate({
                 scrollTop: $('#chat-messages').prop('scrollHeight')
-            }, 500);
-        }, 2000);
+            }, 333);
+        }, 1000);
     }
 
     showWelcomeMessage() {
-        const welcomeMessage = mcc_line_bot_script_vars.welcome_message;
+        const welcomeMessage = this.config.welcome_message;
         this.showTypingIndicator(welcomeMessage);
     }
 
@@ -163,9 +161,99 @@ export class ChatBot {
         const message = messageInput.val().trim();
 
         if (message) {
-            // メッセージの送信処理
-            console.log('Sending message:', message);
-            // ここにメッセージ送信のロジックを追加
+            // ユーザーメッセージを表示
+            const userMessageBubble = $('<div class="user-message-bubble"></div>');
+            userMessageBubble.text(message);
+            $('#chat-messages').append(userMessageBubble);
+
+            // ユーザーメッセージ表示後にスクロール
+            $('#chat-messages').animate({
+                scrollTop: $('#chat-messages').prop('scrollHeight')
+            }, 100);
+
+            // ローディングインジケーターを表示
+            const loadingBubble = $('<div class="ai-message-bubble"></div>');
+            $('#chat-messages').append(loadingBubble);
+
+            // ローディングインジケーター表示後にもスクロール
+            $('#chat-messages').animate({
+                scrollTop: $('#chat-messages').prop('scrollHeight')
+            }, 100);
+
+            let dots = '.';
+            const loadingInterval = setInterval(() => {
+                dots = dots === '...' ? '.' : dots + '.';
+                loadingBubble.text(dots);
+            }, 333);
+
+            // Lambda関数にメッセージを送信
+            $.ajax({
+                url: this.appUrl,
+                type: 'POST',
+                data: JSON.stringify({
+                    message: message,
+                    browser_id: localStorage.getItem('user_id') || Cookies.get('user_id')
+                }),
+                contentType: 'application/json',
+                success: async (response) => {
+                    // ローディングインジケーターを削除
+                    clearInterval(loadingInterval);
+                    loadingBubble.remove();
+
+                    try {
+                        const responseObj = typeof response === 'string' ? JSON.parse(response) : response;
+
+                        if (responseObj && responseObj.body) {
+                            const bodyObj = typeof responseObj.body === 'string' ?
+                                JSON.parse(responseObj.body) : responseObj.body;
+
+                            if (bodyObj.chunks) {
+                                const botResponse = $('<div class="ai-message-bubble"></div>');
+                                $('#chat-messages').append(botResponse);
+
+                                let currentMessage = '';
+                                for (let i = 0; i < bodyObj.chunks.length; i++) {
+                                    const chunk = bodyObj.chunks[i];
+                                    try {
+                                        const dataObj = JSON.parse(chunk.replace('data: ', '').replace(/\n\n$/, ''));
+                                        if (dataObj.content) {
+                                            currentMessage += dataObj.content;
+                                            botResponse.text(currentMessage);
+
+                                            $('#chat-messages').animate({
+                                                scrollTop: $('#chat-messages').prop('scrollHeight')
+                                            }, 100);
+
+                                            if (i < bodyObj.chunks.length - 1) {
+                                                await new Promise(resolve => setTimeout(resolve, 50));
+                                            }
+                                        }
+                                    } catch (e) {
+                                        console.error(`Error processing chunk ${i}:`, e);
+                                    }
+                                }
+                            }
+                        }
+                    } catch (e) {
+                        console.error('Error in response processing:', e);
+                        console.error('Error stack:', e.stack);
+                    }
+                },
+                error: (jqXHR, textStatus, errorThrown) => {
+                    // ローディングインジケーターを削除
+                    clearInterval(loadingInterval);
+                    loadingBubble.remove();
+
+                    console.error('Error details:', {
+                        status: jqXHR.status,
+                        statusText: jqXHR.statusText,
+                        responseText: jqXHR.responseText
+                    });
+                    const errorMessage = $('<div class="ai-message-bubble error"></div>');
+                    errorMessage.text('申し訳ありません。エラーが発生しました。');
+                    $('#chat-messages').append(errorMessage);
+                }
+            });
 
             // 入力フィールドをクリア
             messageInput.val('');

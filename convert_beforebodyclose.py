@@ -11,7 +11,7 @@ def process_html_file(file_path):
         return
     
     # </body>直前のスクリプトタグを{% include %}に置換
-    pattern = r'<script\s+id="mcc_line_bot_script-js-extra">.*?<script type="module" src="/static/js/main\.js"></script>\s*</body>'
+    pattern = r'<script src="/wp-content/plugins/Me_Cool_YTPlaylist/js/me_cool_ytplaylist\.js".*?<script type="module" src="/static/js/main\.js"></script>\s*</body>'
     
     if re.search(pattern, content, flags=re.DOTALL):
         new_content = re.sub(
