@@ -249,9 +249,30 @@ export class ChatBot {
                         statusText: jqXHR.statusText,
                         responseText: jqXHR.responseText
                     });
+
                     const errorMessage = $('<div class="ai-message-bubble error"></div>');
-                    errorMessage.text('申し訳ありません。エラーが発生しました。');
+
+                    // エラーレスポンスの内容を確認
+                    try {
+                        const errorResponse = JSON.parse(jqXHR.responseText);
+                        if (errorResponse && errorResponse.error) {
+                            // サーバーからのエラーメッセージを表示
+                            errorMessage.text(errorResponse.error);
+                        } else {
+                            // デフォルトのエラーメッセージ
+                            errorMessage.text('Unknown Error Occured');
+                        }
+                    } catch (e) {
+                        // JSONパースに失敗した場合はデフォルトメッセージ
+                        errorMessage.text('Unknown Error Occured');
+                    }
+
                     $('#chat-messages').append(errorMessage);
+
+                    // エラーメッセージ表示後にスクロール
+                    $('#chat-messages').animate({
+                        scrollTop: $('#chat-messages').prop('scrollHeight')
+                    }, 100);
                 }
             });
 
