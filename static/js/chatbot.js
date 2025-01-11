@@ -255,16 +255,21 @@ export class ChatBot {
                     // エラーレスポンスの内容を確認
                     try {
                         const errorResponse = JSON.parse(jqXHR.responseText);
-                        if (errorResponse && errorResponse.error) {
-                            // サーバーからのエラーメッセージを表示
-                            errorMessage.text(errorResponse.error);
+                        if (errorResponse && errorResponse.body) {
+                            // bodyも文字列なのでパース
+                            const bodyObj = JSON.parse(errorResponse.body);
+                            if (bodyObj.error) {
+                                // サーバーからのエラーメッセージを表示
+                                errorMessage.text(bodyObj.error);
+                            } else {
+                                errorMessage.text('Unknown Error Occurred');
+                            }
                         } else {
-                            // デフォルトのエラーメッセージ
-                            errorMessage.text('Unknown Error Occured');
+                            errorMessage.text('Unknown Error Occurred');
                         }
                     } catch (e) {
-                        // JSONパースに失敗した場合はデフォルトメッセージ
-                        errorMessage.text('Unknown Error Occured');
+                        console.error('Error parsing error response:', e);
+                        errorMessage.text('Unknown Error Occurred');
                     }
 
                     $('#chat-messages').append(errorMessage);
