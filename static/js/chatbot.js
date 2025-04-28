@@ -7,47 +7,23 @@ export class UserSessionManager {
 
     getUserId() {
         try {
-            // デバッグ情報を追加
-            console.log("Checking localStorage availability...");
             let userId = localStorage.getItem('user_id');
             if (!userId) {
                 userId = Math.random().toString(36).substring(2);
                 localStorage.setItem('user_id', userId);
-                console.log("Created new userId in localStorage:", userId);
-            } else {
-                console.log("Found existing userId in localStorage:", userId);
             }
             return userId;
         } catch (e) {
-            console.error("localStorage error:", e);
-            
-            // Cookiesが利用可能か確認
-            console.log("Checking if Cookies API is available:", typeof Cookies !== 'undefined');
             try {
-                if (typeof Cookies !== 'undefined') {
-                    let userId = Cookies.get('user_id');
-                    if (!userId) {
-                        userId = Math.random().toString(36).substring(2);
-                        // CookieYesと互換性を持たせるため、必須クッキーとして扱う
-                        Cookies.set('user_id', userId, { expires: 30, sameSite: 'strict' });
-                        console.log("Created new userId in Cookies:", userId);
-                    } else {
-                        console.log("Found existing userId in Cookies:", userId);
-                    }
-                    return userId;
-                } else {
-                    // フォールバックとしてセッションユーザーIDを生成
-                    let fallbackId = Math.random().toString(36).substring(2);
-                    console.log("Using fallback session ID:", fallbackId);
-                    alert('Storage permissions are restricted. Chat history will be lost when you close the browser.');
-                    return fallbackId;
+                let userId = Cookies.get('user_id');
+                if (!userId) {
+                    userId = Math.random().toString(36).substring(2);
+                    Cookies.set('user_id', userId);
                 }
+                return userId;
             } catch (e) {
-                console.error("Cookies error:", e);
-                // 最終フォールバック
-                let emergencyId = Math.random().toString(36).substring(2);
-                console.log("Using emergency ID:", emergencyId);
-                return emergencyId;
+                alert('Please enable local storage or cookies in your browser settings.');
+                return null;
             }
         }
     }
