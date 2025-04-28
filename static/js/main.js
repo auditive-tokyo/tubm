@@ -33,10 +33,20 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Layyloadの初期化
     initializeLazyLoad();
 
-    // チャットボットの初期化部分を修正
+    // チャットボットの初期化部分を修正 - js-cookieの読み込みを確認
     if (document.querySelector('#chat-window')) {
-        const chatBot = new ChatBot();
-        chatBot.initialize();
+        // js-cookieの読み込みを待機
+        const waitForCookies = () => {
+            if (typeof Cookies !== 'undefined') {
+                console.log('Cookies library loaded, initializing chatbot');
+                const chatBot = new ChatBot();
+                chatBot.initialize();
+            } else {
+                console.log('Waiting for Cookies library...');
+                setTimeout(waitForCookies, 100);
+            }
+        };
+        waitForCookies();
     }
 
     // コンタクトフォームの初期化（URLの条件付き動的インポート）
