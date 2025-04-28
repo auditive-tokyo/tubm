@@ -2,25 +2,25 @@
 export class UserSessionManager {
     constructor() {
         this.sessionId = Math.random().toString(36).substring(2);
-        this.userId = this.getUserId();
+        this.browserId = this.getbrowserId();
     }
 
-    getUserId() {
+    getbrowserId() {
         try {
-            let userId = localStorage.getItem('user_id');
-            if (!userId) {
-                userId = Math.random().toString(36).substring(2);
-                localStorage.setItem('user_id', userId);
+            let browserId = localStorage.getItem('browser_id');
+            if (!browserId) {
+                browserId = Math.random().toString(36).substring(2);
+                localStorage.setItem('browser_id', browserId);
             }
-            return userId;
+            return browserId;
         } catch (e) {
             try {
-                let userId = Cookies.get('user_id');
-                if (!userId) {
-                    userId = Math.random().toString(36).substring(2);
-                    Cookies.set('user_id', userId);
+                let browserId = Cookies.get('browser_id');
+                if (!browserId) {
+                    browserId = Math.random().toString(36).substring(2);
+                    Cookies.set('browser_id', browserId);
                 }
-                return userId;
+                return browserId;
             } catch (e) {
                 alert('Please enable local storage or cookies in your browser settings.');
                 return null;
@@ -29,8 +29,8 @@ export class UserSessionManager {
     }
 
     initializeIds() {
-        if (this.userId) {
-            document.getElementById('user_id').value = this.userId;
+        if (this.browserId) {
+            document.getElementById('browser_id').value = this.browserId;
             document.getElementById('session_id').value = this.sessionId;
             return true;
         } else {
@@ -53,6 +53,10 @@ export class ChatBot {
         this.chatButtonText = $('.chat-help-text').text();
         this.welcomeMessageShown = false;
         this.isComposing = false;
+
+        // セッション管理インスタンスを作成
+        this.sessionManager = new UserSessionManager();
+        console.log("Session manager initialized, browser_id:", this.sessionManager.browserId);
 
         // 設定値を直接クラスに定義
         this.config = {
@@ -186,13 +190,21 @@ export class ChatBot {
                 loadingBubble.text(dots);
             }, 333);
 
+            // デバッグ情報の追加
+            const storedBrowserId = localStorage.getItem('browser_id') || Cookies.get('browser_id');
+            console.log('Stored browser_id:', storedBrowserId);
+            
+            // 確実に値を持つIDを生成
+            const effectiveBrowserId = storedBrowserId || ('fallback_' + Math.random().toString(36).substring(2));
+            console.log('Using browser_id:', effectiveBrowserId);
+
             // Lambda関数にメッセージを送信
             $.ajax({
                 url: this.appUrl,
                 type: 'POST',
                 data: JSON.stringify({
                     message: message,
-                    browser_id: localStorage.getItem('user_id') || Cookies.get('user_id')
+                    browser_id: localStorage.getItem('browser_id') || Cookies.get('browser_id')
                 }),
                 contentType: 'application/json',
                 success: async (response) => {
