@@ -1,7 +1,6 @@
 // ユーザーIDとセッション管理
 export class UserSessionManager {
     constructor() {
-        this.sessionId = Math.random().toString(36).substring(2);
         this.browserId = this.getbrowserId();
     }
 
@@ -31,7 +30,6 @@ export class UserSessionManager {
     initializeIds() {
         if (this.browserId) {
             document.getElementById('browser_id').value = this.browserId;
-            document.getElementById('session_id').value = this.sessionId;
             return true;
         } else {
             this.disableForm();
@@ -56,7 +54,6 @@ export class ChatBot {
 
         // セッション管理インスタンスを作成
         this.sessionManager = new UserSessionManager();
-        console.log("Session manager initialized, browser_id:", this.sessionManager.browserId);
 
         // 設定値を直接クラスに定義
         this.config = {
@@ -192,11 +189,9 @@ export class ChatBot {
 
             // デバッグ情報の追加
             const storedBrowserId = localStorage.getItem('browser_id') || Cookies.get('browser_id');
-            console.log('Stored browser_id:', storedBrowserId);
             
             // 確実に値を持つIDを生成
             const effectiveBrowserId = storedBrowserId || ('fallback_' + Math.random().toString(36).substring(2));
-            console.log('Using browser_id:', effectiveBrowserId);
 
             // Lambda関数にメッセージを送信
             $.ajax({
