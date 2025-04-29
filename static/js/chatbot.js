@@ -47,7 +47,7 @@ export class UserSessionManager {
 // チャットボットの管理
 export class ChatBot {
     constructor() {
-        this.appUrl = "https://dvzdkwtvvz57xguvanyb4wihre0hvrqy.lambda-url.ap-south-1.on.aws/";
+        this.appUrl = "https://tvdpjxv75vbe5fp7grj7najmg40xpwyh.lambda-url.ap-south-1.on.aws/";
         this.chatButtonText = $('.chat-help-text').text();
         this.welcomeMessageShown = false;
         this.isComposing = false;
